@@ -7,7 +7,7 @@ Conocer los principales conceptos que ahondan las bases de datos y ponerlos en p
 
  ### ORGANIZACIÓN DEL MÓDULO 
  
- - [Sesión 1: Fundamentos de SQL](Sesion01/) 
+ - [Sesión 1: Fundamentos de SQL](Sesion-01/) 
  - [Sesión 2]() 
  - [Sesión 3]() 
  - [Sesión 4]() 
