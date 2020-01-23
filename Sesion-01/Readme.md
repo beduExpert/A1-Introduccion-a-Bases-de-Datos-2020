@@ -1,16 +1,24 @@
+[`Introducción a Bases de Datos`](../README.md) > `Sesión 01`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-
-## Titulo de la Sesion 
+## Fundamentos de SQL 
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Establecer la conexión a una base de datos relacional.
+- Analizar la estructura de distintas tablas en una base de datos.
+- Escribir consultas básicas que permitan obtener los campos de una tabla, ordenar y limitar los resultados.
 
-#### ORGANIZACION DE LA CLASE 
+#### ORGANIZACION DE LA CLASE
 
-- Tema que veran en el ejemplo
-
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+- Conexión a bases de datos
+	- [Ejemplo 1](Ejemplo-01)
+- Estructura de una tabla
+	- [Ejemplo 2](Ejemplo-02)
+	- [Reto 1](Reto-01)
+- Estructura básica de una consulta
+	- [Ejemplo 3](Ejemplo-03)
+	- [Reto 2](Reto-02)
+- Ordenamientos
+	- [Ejemplo 4](Ejemplo-01)
+	- [Reto 3](Reto-03)
+- [Proyecto](Proyecto)	
