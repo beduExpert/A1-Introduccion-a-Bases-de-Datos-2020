@@ -1,4 +1,4 @@
-[`Introducción a Bases de Datos`](../README.md) > `Sesión 01`
+[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 01`
 
 ## Fundamentos de SQL 
 
