@@ -15,7 +15,7 @@
 
 1. Abre MySQL Wokbench. En esta primera pantalla se muestran las conexiones que tienes configuradas o se muestra en blanco en caso de que sea la primera vez que realizas una conexión.
 
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-w1.png)
 
 2. Junto al títlo `MySQL Connections` da clic en el botón de más. Se abrirá una nueva ventana solictando los datos para realizar la conexión correspondiente. Introduce los datos necesarios para realizar la conexión. Pide al experto que te los proporcione.
 
@@ -24,18 +24,18 @@
    - **Port:** Puerto a través del cual realizaremos la conexión.
    - **Password:** Contraseña de acceso. Da clic en el botón `Store in Keychain ...` e introduce la contraseña.
    
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-w2.png)
 
 3. Presiona el botón `Test Connection` y si obtienes un mensaje como el que se muestra en la siguiente imagen, entonces los datos de la conexión son correctos y presiona el botón `Ok`. En caso contrario revisa las credenciales.
 
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-w3.png)
 
 4. Se añadirá la conexión que acabas de configurar a la pantalla inicial.
 
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-w4.png)
 
 5. Da clic sobre la conexión que se agregó a la pantalla inicial, se mostrar una ventana como la de la imagen.
 
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-w5.png)
 
 **¡Felicidades! Haz realizado tu primera conexión a una base de datos**
