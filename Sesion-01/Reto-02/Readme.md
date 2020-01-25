@@ -30,7 +30,7 @@ Usando la base de datos `cursos`, escribe consultas que permitan responder las s
    FROM Actividad
    WHERE nombre = 'Práctica 1`;
    ```
-   ![imagen](imagenes/s1-wr11.png)
+   ![imagen](imagenes/s1-wr21.png)
 
 - ¿Cuál es la liga al repositorio de la Tarea 2?
 
@@ -39,7 +39,7 @@ Usando la base de datos `cursos`, escribe consultas que permitan responder las s
    FROM Actividad
    WHERE nombre = 'Tarea 2`;
    ```
-   ![imagen](imagenes/s1-wr11.png)
+   ![imagen](imagenes/s1-wr22.png)
    
 - ¿Cuál es el horario de los grupos con clave de curso 5001?
 
@@ -48,7 +48,7 @@ Usando la base de datos `cursos`, escribe consultas que permitan responder las s
    FROM Grupo
    WHERE curso = 5001;
    ```
-   ![imagen](imagenes/s1-wr11.png) 
+   ![imagen](imagenes/s1-wr23.png) 
    
 - ¿Cuál es la fecha de inicio de los grupos con clave de curso 4001 durante el semestre 2019-1?
 
@@ -58,7 +58,7 @@ Usando la base de datos `cursos`, escribe consultas que permitan responder las s
    WHERE curso = 4001
      AND semestre = '2019-1';
    ```
-   ![imagen](imagenes/s1-wr11.png)
+   ![imagen](imagenes/s1-wr24.png)
    
 - ¿Cuál es el correo de los usuarios Karla, Adriana y Javier?
 
@@ -67,7 +67,7 @@ Usando la base de datos `cursos`, escribe consultas que permitan responder las s
    FROM Usuario
    WHERE nombre IN ('Karla', 'Adriana', 'Javier');
    ```
-   ![imagen](imagenes/s1-wr11.png)
+   ![imagen](imagenes/s1-wr25.png)
 
 </p>
 </details> 
