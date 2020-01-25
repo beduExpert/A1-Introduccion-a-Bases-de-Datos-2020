@@ -1,5 +1,5 @@
 
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Sesion-01) > `Ejemplo 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 01`
 
 ## Ejemplo 1: Conexión a bases de datos
 
