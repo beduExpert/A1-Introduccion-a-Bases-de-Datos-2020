@@ -17,7 +17,7 @@
 
 ![imagen](imagenes/s1-w1.png)
 
-2. Junto al títlo `MySQL Connections` da clic en el botón de más. Se abrirá una nueva ventana solictando los datos para realizar la conexión correspondiente. Introduce los datos necesarios para realizar la conexión. Pide al experto que te los proporcione.
+2. Junto al título `MySQL Connections` da clic en el botón de más. Se abrirá una nueva ventana solicitando los datos para realizar la conexión correspondiente. Introduce los datos necesarios para realizar la conexión. Pide al experto que te los proporcione.
 
    - **Connection Name:** Un nombre de tu preferencia para recordar a qué servidor te estás conectando.
    - **Hostname:** Dirección del servidor al cuál nos conectaremos.
@@ -34,7 +34,7 @@
 
 ![imagen](imagenes/s1-w4.png)
 
-5. Da clic sobre la conexión que se agregó a la pantalla inicial, se mostrar una ventana como la de la imagen.
+5. Da clic sobre la conexión que se agregó a la pantalla inicial, se mostrará una ventana como la de la imagen.
 
 ![imagen](imagenes/s1-w5.png)
 
