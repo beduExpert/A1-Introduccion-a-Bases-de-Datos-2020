@@ -1,27 +1,66 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 02`
 	
-## Titulo del Ejemplo 
+## Estructura de una tabla
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Consultar la estructura de algunas tablas.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. MySQL Workbench instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usando la base de datos `cursos`, elige cinco tablas y muestra la descripción de cada una. Por cada tipo de dato que encuentras llena la siguiente tabla. Usa la [Documentación de MySQL](https://dev.mysql.com/doc/refman/8.0/en/data-types.html) como referencia.
 
-<details>
+| Tipo   | Descripción |
+|---|---|
+|   |   |
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+<details><summary>Solución</summary>
+<p>
+
+Veamos la descripción de las tablas `Alumno`, `Profesor`, `Curso`, `Asistencia` y `Rubro`. Recuerda que para visualizar todas las tablas del esquema puedes usar el comando:
+
+```sql
+SHOW TABLES;
+```
+![imagen](https://picsum.photos/200/300)
+
+```sql
+DESCRIBE Alumno;
+```
+![imagen](https://picsum.photos/200/300)
+
+```sql
+DESCRIBE Profesor;
+```
+![imagen](https://picsum.photos/200/300)
+
+```sql
+DESCRIBE Curso;
+```
+![imagen](https://picsum.photos/200/300)
+
+```sql
+DESCRIBE Asistencia;
+```
+![imagen](https://picsum.photos/200/300)
+
+```sql
+DESCRIBE Rubro;
+```
+![imagen](https://picsum.photos/200/300)
+
+| Tipo        | Descripción                   |
+|-------------|-------------------------------|
+| `ìnt`       | Datos numéricos enteros       |
+| `varchar`   | Cadenas de caracteres         |
+| `timestamp` | Fechas                        |
+| `double`    | Datos numéricos con decimales |
+
+</p>
 </details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
