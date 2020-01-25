@@ -1,6 +1,4 @@
- 
-
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 01`
 	
 ## Estructura de una tabla
 
@@ -28,32 +26,32 @@ Veamos la descripción de las tablas `Alumno`, `Profesor`, `Curso`, `Asistencia`
 ```sql
 SHOW TABLES;
 ```
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-wr11.png)
 
 ```sql
 DESCRIBE Alumno;
 ```
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-wr12.png)
 
 ```sql
 DESCRIBE Profesor;
 ```
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-wr13.png)
 
 ```sql
 DESCRIBE Curso;
 ```
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-wr14.png)
 
 ```sql
 DESCRIBE Asistencia;
 ```
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-wr15.png)
 
 ```sql
 DESCRIBE Rubro;
 ```
-![imagen](https://picsum.photos/200/300)
+![imagen](imagenes/s1-wr16.png)
 
 | Tipo        | Descripción                   |
 |-------------|-------------------------------|
