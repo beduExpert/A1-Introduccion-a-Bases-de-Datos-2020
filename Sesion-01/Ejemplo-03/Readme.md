@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 03`
 
-## Ejemplo 2: Estructura básica de una consulta
+## Ejemplo 3: Estructura básica de una consulta
 
 ### OBJETIVO
 
