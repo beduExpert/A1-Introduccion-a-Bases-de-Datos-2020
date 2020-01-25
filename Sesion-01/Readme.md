@@ -19,6 +19,6 @@
 	- [Ejemplo 3](Ejemplo-03)
 	- [Reto 2](Reto-02)
 - Ordenamientos y limites
-	- [Ejemplo 4](Ejemplo-01)
+	- [Ejemplo 4](Ejemplo-04)
 	- [Reto 3](Reto-03)
 - [Proyecto](Proyecto)	
