@@ -22,7 +22,7 @@
    ORDER BY porcentaje DESC;
    ```
    
-   ![imagen](imagenes/s1-w31.png)
+   ![imagen](imagenes/s1-w41.png)
 
 2. Para ordenar de forma ascendente puede añadirse la opción `ASC` u omitirse, pues el ordenamiento por defecto es ascentende.
 
@@ -36,7 +36,7 @@
    ORDER BY porcentaje;
    ```
    
-   ![imagen](imagenes/s1-w32.png)
+   ![imagen](imagenes/s1-w42.png)
 
 3. Otra restricción es `LIMIT` que permite limitar el número de registros en una consulta. Esto es útil principalmente cuando se tienen miles de millones de registros y no se necesitan mostrar todos.
 
@@ -46,5 +46,5 @@
    LIMIT 3;
    ```
  
-   ![imagen](imagenes/s1-w33.png)
+   ![imagen](imagenes/s1-w43.png)
    
