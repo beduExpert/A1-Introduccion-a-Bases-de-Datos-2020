@@ -18,7 +18,7 @@
 - Estructura básica de una consulta
 	- [Ejemplo 3](Ejemplo-03)
 	- [Reto 2](Reto-02)
-- Ordenamientos
+- Ordenamientos y limites
 	- [Ejemplo 4](Ejemplo-01)
 	- [Reto 3](Reto-03)
 - [Proyecto](Proyecto)	
