@@ -1,27 +1,30 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 03`
 	
-## Titulo del Ejemplo 
+## Ordenamientos y Límites
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Escribir consultas que permitan responder a algunas preguntas mediante ordenamientos y límites.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. MySQL Workbench instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usando la base de datos `cursos`, escribe una consulta que permita obtener el top 5 de calificaciones del estudiante con `id_alumno = 2`.
 
-<details>
+<details><summary>Solución</summary>
+<p>
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+Para contestar a esta pregunta, basta con ordenar las calificaciones del alumno en orden descendente y limitar el número de registros a 5.
+
+   ```sql
+   SELECT calificacion
+   FROM Calificacion
+   WHERE id_alumno = 2
+   ORDER BY calificacion DESC
+   LIMIT 5;
+   ```
+</p>
 </details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
