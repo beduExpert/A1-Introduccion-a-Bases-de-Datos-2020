@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 04`
 
-## Ejemplo 4: Ordenamientos y limites
+## Ejemplo 4: Ordenamientos y límites
 
 ### OBJETIVO
 
