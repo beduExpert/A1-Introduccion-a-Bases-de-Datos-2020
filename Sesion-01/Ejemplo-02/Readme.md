@@ -30,17 +30,17 @@
    
    ![imagen](imagenes/s1we22.png)
 
-3. Las bases de datos `cursos` y `Movies` fueron creadas por nosotros, mientras que el resto de bases de datos son parte del Sistema Gestor de Bases de Datos y no las usaremos de momento.
+3. La base de datos `tienda` fue creada por nosotros, mientras que el resto de bases de datos son parte del Sistema Gestor de Bases de Datos y no las usaremos de momento.
 
-   Nos conectaremos a la base de datos `cursos`. Para hacer eso, usa el siguiente comando:
+   Nos conectaremos a la base de datos `tienda`. Para hacer eso, usa el siguiente comando:
 
    ```sql
-   USE cursos;
+   USE tienda;
    ```
  
    ![imagen](imagenes/s1we23.png)
 
-4. La tabla que se muestra abajo del editor, indica que nos hemos conectado a la base de datos `cursos`. Ahora podemos listar las bases de datos contenidas en el esquema. Para ello, usa el siguiente comando:
+4. La tabla que se muestra abajo del editor, indica que nos hemos conectado a la base de datos `tienda`. Ahora podemos listar las bases de datos contenidas en el esquema. Para ello, usa el siguiente comando:
 
    ```sql
    SHOW TABLES;
@@ -48,10 +48,10 @@
 
    ![imagen](imagenes/s1we24.png)
 
-5. Veamos, por ejemplo, cuál es la estructura de la tabla `Usuario`. Para ello usa el siguiente comando:
+5. Veamos, por ejemplo, cuál es la estructura de la tabla `empleado`. Para ello usa el siguiente comando:
 
    ```sql
-   DESCRIBE Usuario;
+   DESCRIBE empleado;
    ```
    
    Observa el nombre de los campos y el tipo de dato que tienen. Recuerda, el tipo `int` indica que el campo almacena un dato numérico, mientras que el tipo `varchar` indica que los datos son cadenas de caracteres.
