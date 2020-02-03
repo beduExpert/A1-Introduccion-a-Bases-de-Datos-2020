@@ -14,11 +14,10 @@
 
 Usando la base de datos `cursos`, escribe consultas que permitan responder las siguientes preguntas.
 
-- ¿En qué fecha se entrega la Práctica 1?
-- ¿Cuál es la liga al repositorio de la Tarea 2?
-- ¿Cuál es el horario de los grupos con clave de curso 5001?
-- ¿Cuál es la fecha de inicio de los grupos con clave de curso 4001 durante el semestre 2019-1?
-- ¿Cuál es el correo de los usuarios Karla, Adriana y Javier?
+- ¿Cuál es el nombre de los empleados con el puesto `Staff Scientist`?
+- ¿Qué empleados tienen un sueldo mayor a $10,000?
+- ¿Qué empleados tienen el puesto `Junior Executive` y tienen un sueldo mayor a $10,000?
+- ¿Qué puesto tienen los empleados con sueldo mayor a $20,000?
 
 <details><summary>Solución</summary>
 <p>
