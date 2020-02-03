@@ -18,7 +18,7 @@
 
 1. Una vez realizada la conexión al servidor de bases de datos, se tiene la siguiente pantalla dentro de Workbench. En ella se muestra un editor de texto llamado *Query 1*.
 
-   ![imagen](imagenes/s1-w21.png)
+   ![imagen](imagenes/s1ew21.png)
 
 2. En este editor, listaremos las bases de datos disponibles en el servidor. Para listar las bases de datos del servidor usamos el siguiente comando:
 
@@ -28,7 +28,7 @@
    
    Se mostrarán las siguientes bases:
    
-   ![imagen](imagenes/s1-w22.png)
+   ![imagen](imagenes/s1ew22.png)
 
 3. Las bases de datos `cursos` y `Movies` fueron creadas por nosotros, mientras que el resto de bases de datos son parte del Sistema Gestor de Bases de Datos y no las usaremos de momento.
 
@@ -38,7 +38,7 @@
    USE cursos;
    ```
  
-   ![imagen](imagenes/s1-w23.png)
+   ![imagen](imagenes/s1ew23.png)
 
 4. La tabla que se muestra abajo del editor, indica que nos hemos conectado a la base de datos `cursos`. Ahora podemos listar las bases de datos contenidas en el esquema. Para ello, usa el siguiente comando:
 
@@ -46,7 +46,7 @@
    SHOW TABLES;
    ```
 
-   ![imagen](imagenes/s1-w24.png)
+   ![imagen](imagenes/s1ew24.png)
 
 5. Veamos, por ejemplo, cuál es la estructura de la tabla `Usuario`. Para ello usa el siguiente comando:
 
@@ -56,6 +56,6 @@
    
    Observa el nombre de los campos y el tipo de dato que tienen. Recuerda, el tipo `int` indica que el campo almacena un dato numérico, mientras que el tipo `varchar` indica que los datos son cadenas de caracteres.
 
-   ![imagen](imagenes/s1-w25.png)
+   ![imagen](imagenes/s1ew25.png)
 
    La instrucción `DESCRIBE` es tu amiga. La usaremos cada que necesitamos consultar los registros de una tabla, pues nos permitirá saber qué campos tiene y su tipo.
