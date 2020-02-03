@@ -15,9 +15,9 @@
 Usando la base de datos `cursos`, escribe consultas que permitan responder las siguientes preguntas.
 
 - ¿Cuál es el nombre de los empleados con el puesto 4?
-- ¿Qué empleados tienen un sueldo mayor a $10,000?
-- ¿Qué empleados tienen el puesto 2 y tienen un sueldo mayor a $10,000?
-- ¿Qué puesto tienen los empleados con sueldo mayor a $20,000?
+- ¿Qué puestos tienen un salario mayor a $10,000?
+- ¿Qué articulos tienen un precio mayor a $1,000 y un iva mayor a 100?
+- ¿Qué ventas incluyen los artículo 135 o 963 y fueron hechas por los empleados 835 o 369?
 
 <details><summary>Solución</summary>
 <p>
