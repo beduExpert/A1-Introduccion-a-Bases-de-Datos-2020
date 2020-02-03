@@ -18,7 +18,7 @@
 
    ```sql
    SELECT *
-   FROM venta
+   FROM puesto
    ORDER BY salario DESC;
    ```
    
@@ -28,11 +28,11 @@
 
    ```sql
    SELECT *
-   FROM venta
+   FROM puesto
    ORDER BY salario ASC;
    
    SELECT *
-   FROM venta
+   FROM puesto
    ORDER BY salario;
    ```
    
