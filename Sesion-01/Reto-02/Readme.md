@@ -22,51 +22,43 @@ Usando la base de datos `cursos`, escribe consultas que permitan responder las s
 <details><summary>Solución</summary>
 <p>
 
-- ¿En qué fecha se entrega la Práctica 1?
+- ¿Cuál es el nombre de los empleados con el puesto 4?
 
    ```sql
-   SELECT fecha_entrega
-   FROM Actividad
-   WHERE nombre = 'Práctica 1`;
+   SELECT nombre
+   FROM empleado
+   WHERE id_puesto = 4;
    ```
-   ![imagen](imagenes/s1-wr21.png)
+   ![imagen](imagenes/s1wr21.png)
 
-- ¿Cuál es la liga al repositorio de la Tarea 2?
+- ¿Qué puestos tienen un salario mayor a $10,000?
 
    ```sql
-   SELECT repositorio
-   FROM Actividad
-   WHERE nombre = 'Tarea 2`;
+   SELECT *
+   FROM puesto
+   WHERE salario = 10000;
    ```
-   ![imagen](imagenes/s1-wr22.png)
+   ![imagen](imagenes/s1wr22.png)
    
-- ¿Cuál es el horario de los grupos con clave de curso 5001?
+- ¿Qué articulos tienen un precio mayor a $1,000 y un iva mayor a 100?
 
    ```sql
-   SELECT horario
-   FROM Grupo
-   WHERE curso = 5001;
+   SELECT *
+   FROM articulo
+   WHERE precio > 1000
+     AND iv > 100;
    ```
-   ![imagen](imagenes/s1-wr23.png) 
+   ![imagen](imagenes/s1wr23.png) 
    
-- ¿Cuál es la fecha de inicio de los grupos con clave de curso 4001 durante el semestre 2019-1?
+- ¿Qué ventas incluyen los artículo 135 o 963 y fueron hechas por los empleados 835 o 369?
 
    ```sql
-   SELECT fecha_inicio
-   FROM Grupo
-   WHERE curso = 4001
-     AND semestre = '2019-1';
+   SELECT *
+   FROM venta
+   WHERE id_articulo IN (135,963)
+     AND id_empleado IN (835,369);
    ```
-   ![imagen](imagenes/s1-wr24.png)
-   
-- ¿Cuál es el correo de los usuarios Karla, Adriana y Javier?
-
-   ```sql
-   SELECT correo
-   FROM Usuario
-   WHERE nombre IN ('Karla', 'Adriana', 'Javier');
-   ```
-   ![imagen](imagenes/s1-wr25.png)
+   ![imagen](imagenes/s1wr24.png)
 
 </p>
 </details> 
