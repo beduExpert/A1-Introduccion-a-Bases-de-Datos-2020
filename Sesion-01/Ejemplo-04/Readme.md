@@ -14,37 +14,37 @@
 
 #### DESARROLLO
 
-1. Adicional a la restricción `WHERE`, es posible añadir otras restriccioens, por ejemplo, la restricción `ORDER BY` que permite ordenar los resultados de una consulta de manera ascendente (`ASC`) o descendente (`DESC`) a partir de un campo. Por ejemplo, la siguiente consulta muestra los resultados ordenados de mayor a menor a partir del campo `porcentaje`.
+1. Adicional a la restricción `WHERE`, es posible añadir otras restriccioens, por ejemplo, la restricción `ORDER BY` que permite ordenar los resultados de una consulta de manera ascendente (`ASC`) o descendente (`DESC`) a partir de un campo. Por ejemplo, la siguiente consulta muestra los resultados ordenados de mayor a menor a partir del campo `salario`.
 
    ```sql
    SELECT *
-   FROM Rubro
-   ORDER BY porcentaje DESC;
+   FROM venta
+   ORDER BY salario DESC;
    ```
    
-   ![imagen](imagenes/s1-w41.png)
+   ![imagen](imagenes/s1we41.png)
 
 2. Para ordenar de forma ascendente puede añadirse la opción `ASC` u omitirse, pues el ordenamiento por defecto es ascentende.
 
    ```sql
    SELECT *
-   FROM Rubro
-   ORDER BY porcentaje ASC;
+   FROM venta
+   ORDER BY salario ASC;
    
    SELECT *
-   FROM Rubro
-   ORDER BY porcentaje;
+   FROM venta
+   ORDER BY salario;
    ```
    
-   ![imagen](imagenes/s1-w42.png)
+   ![imagen](imagenes/s1we42.png)
 
 3. Otra restricción es `LIMIT` que permite limitar el número de registros en una consulta. Esto es útil principalmente cuando se tienen miles de millones de registros y no se necesitan mostrar todos.
 
    ```sql
    SELECT *
-   FROM Usuario
-   LIMIT 3;
+   FROM empleado
+   LIMIT 5;
    ```
  
-   ![imagen](imagenes/s1-w43.png)
+   ![imagen](imagenes/s1we43.png)
    
