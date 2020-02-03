@@ -12,7 +12,7 @@
 
 #### DESARROLLO
 
-Usando la base de datos `cursos`, elige cinco tablas y muestra la descripción de cada una. Por cada tipo de dato que encuentras llena la siguiente tabla. Usa la [Documentación de MySQL](https://dev.mysql.com/doc/refman/8.0/en/data-types.html) como referencia.
+Usando la base de datos `tienda`, muestra la descripción de las tablas `articulo`, `puesto` y `venta`. Por cada tipo de dato que encuentras llena la siguiente tabla. Usa la [Documentación de MySQL](https://dev.mysql.com/doc/refman/8.0/en/data-types.html) como referencia.
 
 | Tipo   | Descripción |
 |---|---|
@@ -21,37 +21,27 @@ Usando la base de datos `cursos`, elige cinco tablas y muestra la descripción d
 <details><summary>Solución</summary>
 <p>
 
-Veamos la descripción de las tablas `Alumno`, `Profesor`, `Curso`, `Asistencia` y `Rubro`. Recuerda que para visualizar todas las tablas del esquema puedes usar el comando:
+Veamos la descripción de las tablas `articulo`, `puesto` y `venta`. Recuerda que para visualizar todas las tablas del esquema puedes usar el comando:
 
 ```sql
 SHOW TABLES;
 ```
-![imagen](imagenes/s1-wr11.png)
+![imagen](imagenes/s1wr11.png)
 
 ```sql
-DESCRIBE Alumno;
+DESCRIBE articulo;
 ```
-![imagen](imagenes/s1-wr12.png)
+![imagen](imagenes/s1wr12.png)
 
 ```sql
-DESCRIBE Profesor;
+DESCRIBE puesto;
 ```
-![imagen](imagenes/s1-wr13.png)
+![imagen](imagenes/s1wr13.png)
 
 ```sql
-DESCRIBE Curso;
+DESCRIBE venta;
 ```
-![imagen](imagenes/s1-wr14.png)
-
-```sql
-DESCRIBE Asistencia;
-```
-![imagen](imagenes/s1-wr15.png)
-
-```sql
-DESCRIBE Rubro;
-```
-![imagen](imagenes/s1-wr16.png)
+![imagen](imagenes/s1wr14.png)
 
 | Tipo        | Descripción                   |
 |-------------|-------------------------------|
