@@ -15,75 +15,75 @@
 
 #### DESARROLLO
 
-1. Como recordarás de los ejemplos anteriores, la tabla `Usuario` incluía un campo `nombre`, vamos a seleccionar (o proyectar) los registros de ese campo. Para ello, usa la instrucción:
+1. Como recordarás de los ejemplos anteriores, la tabla `ejemplo` incluía un campo `nombre`, vamos a seleccionar (o *proyectar*) los registros de ese campo. Para ello, usa la instrucción:
 
    ```sql
    SELECT nombre
-   FROM Usuario;
+   FROM empleado;
    ```
    
-   ![imagen](imagenes/s1-w31.png)
+   ![imagen](imagenes/s1we31.png)
 
 2. Para traer todos los campos, usamos un asterisco en vez de listar todos los campos con la siguiente *consulta*:
 
    ```sql
    SELECT *
-   FROM Usuario;
+   FROM empleado;
    ```
    
    Se mostrarán las siguientes bases:
    
-   ![imagen](imagenes/s1-w32.png)
+   ![imagen](imagenes/s1we32.png)
 
-3. Ahora, filtremos todos los usuarios cuyo apellido paterno sea `Romero`. Para ello, usamos `WHERE` como sigue:
+3. Ahora, filtremos todos los usuarios cuyo apellido paterno sea `Risom`. Para ello, usamos `WHERE` como sigue:
 
    ```sql
    SELECT *
-   FROM Usuario
-   WHERE apellido_paterno = 'Romero';
+   FROM empleado
+   WHERE apellido_paterno = 'Risom';
    ```
  
-   ![imagen](imagenes/s1-w33.png)
+   ![imagen](imagenes/s1we33.png)
 
-4. También podemos usar operadores relacionales, para filtar registros. Por ejemplo, traemos todas los rubros cuyo porcentaje es mayor a 0.2.
-
-   ```sql
-   SELECT *
-   FROM Rubro
-   WHERE porcentaje > 0.2;
-   ```
-
-   ![imagen](imagenes/s1-w34.png)
-
-5. Podemos combinar filtros, mediante operadores lógicos, por ejemplo, supongamos que queremos todos los rubros cuyo porcentaje esté entre 0.2 y 0.35, entonces usamos el operador lógico `AND`.
+4. También podemos usar operadores relacionales, para filtar registros. Por ejemplo, traemos todas los empleados cuyo `id_puesto` es mayor a 100.
 
    ```sql
    SELECT *
-   FROM Rubro
-   WHERE porcentaje >= 0.2
-     AND porcentaje <= 0.35;
+   FROM empleado
+   WHERE id_puesto > 100;
    ```
 
-   ![imagen](imagenes/s1-w35.png)
+   ![imagen](imagenes/s1we34.png)
+
+5. Podemos combinar filtros, mediante operadores lógicos, por ejemplo, supongamos que queremos todos los rubros cuyo `id_puesto` esté entre 100 y 200, entonces usamos el operador lógico `AND`.
+
+   ```sql
+   SELECT *
+   FROM empleado
+   WHERE id_puesto >= 100
+     AND id_puesto <= 200;
+   ```
+
+   ![imagen](imagenes/s1we35.png)
    
-6. También podemos usar el operador lógico `OR`. Por ejemplo, queremos todos los rubros cuyo porcentaje sea 0.05 o 0.4.
+6. También podemos usar el operador lógico `OR`. Por ejemplo, queremos todos los rubros cuyo `id_puesto` sea 100 o 200.
 
    ```sql
    SELECT *
-   FROM Rubro
-   WHERE porcentaje = 0.05
-      OR porcentaje = 0.4;
+   FROM empleado
+   WHERE id_puesto = 100
+      OR id_puesto = 200;
    ```
 
-   ![imagen](imagenes/s1-w36.png)
+   ![imagen](imagenes/s1we36.png)
    
 7. Una forma de acortar el `OR` anterior es mediante `IN`. De esta forma, vemos si un campo se encuentra en un *listado de valores*. 
 
    ```sql
    SELECT *
-   FROM Rubro
-   WHERE porcentaje IN (0.05, 0.4);
+   FROM ejemplo
+   WHERE id_puesto IN (100,200);
    ```
 
-   ![imagen](imagenes/s1-w37.png)   
+   ![imagen](imagenes/s1we37.png)   
    
