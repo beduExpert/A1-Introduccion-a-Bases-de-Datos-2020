@@ -12,7 +12,7 @@
 
 #### DESARROLLO
 
-Usando la base de datos `cursos`, escribe una consulta que permita obtener el top 5 de calificaciones del estudiante con `id_alumno = 2`.
+Usando la base de datos `tienda`, escribe una consulta que permita obtener el top 5 de puestos por salarios.
 
 <details><summary>Solución</summary>
 <p>
@@ -20,10 +20,9 @@ Usando la base de datos `cursos`, escribe una consulta que permita obtener el to
 Para contestar a esta pregunta, basta con ordenar las calificaciones del alumno en orden descendente y limitar el número de registros a 5.
 
    ```sql
-   SELECT calificacion
-   FROM Calificacion
-   WHERE id_alumno = 2
-   ORDER BY calificacion DESC
+   SELECT salario
+   FROM tienda
+   ORDER BY salario DESC
    LIMIT 5;
    ```
 </p>
