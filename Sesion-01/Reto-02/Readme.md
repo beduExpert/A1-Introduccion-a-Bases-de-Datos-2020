@@ -14,9 +14,9 @@
 
 Usando la base de datos `cursos`, escribe consultas que permitan responder las siguientes preguntas.
 
-- ¿Cuál es el nombre de los empleados con el puesto `Staff Scientist`?
+- ¿Cuál es el nombre de los empleados con el puesto 4?
 - ¿Qué empleados tienen un sueldo mayor a $10,000?
-- ¿Qué empleados tienen el puesto `Junior Executive` y tienen un sueldo mayor a $10,000?
+- ¿Qué empleados tienen el puesto 2 y tienen un sueldo mayor a $10,000?
 - ¿Qué puesto tienen los empleados con sueldo mayor a $20,000?
 
 <details><summary>Solución</summary>
