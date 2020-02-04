@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Reto 03`
 	
-## Funciones de agrupamiento
+## Agrupamientos
 
 ### OBJETIVO 
 
@@ -29,7 +29,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    FROM puesto
    GROUP BY nombre;
    ```
-   ![imagen](imagenes/s2wr21.png)
+   ![imagen](imagenes/s2wr31.png)
 
 - ¿Cuánto dinero se paga en total por puesto?
 
@@ -38,7 +38,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    FROM puesto
    GROUP BY nombre;
    ```
-   ![imagen](imagenes/s2wr22.png)
+   ![imagen](imagenes/s2wr32.png)
    
 - ¿Cuál es el número total de ventas por vendedor?
 
@@ -47,7 +47,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    FROM venta
    GROUP BY id_empleado;
    ```
-   ![imagen](imagenes/s2wr23.png)
+   ![imagen](imagenes/s2wr33.png)
    
 - ¿Cuál es el número total de ventas por artículo?
    
@@ -57,7 +57,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    GROUP BY id_articulo;
    ```
    
-   ![imagen](imagenes/s2wr24.png)
+   ![imagen](imagenes/s2wr34.png)
 
 </p>
 </details> 
