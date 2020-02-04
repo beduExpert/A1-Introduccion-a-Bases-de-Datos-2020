@@ -1,4 +1,4 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Reto 03`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Reto 04`
 	
 ## Agrupamientos
 
@@ -14,50 +14,45 @@
 
 Usando la base de datos `tienda`, escribe consultas que permitan responder las siguientes preguntas.
 
-- ¿Cuántos registros hay por cada uno de los puestos?
-- ¿Cuánto dinero se paga en total por puesto?
-- ¿Cuál es el número total de ventas por vendedor?
-- ¿Cuál es el número total de ventas por artículo?
+- ¿Cuál es el nombre de los empleados cuyo sueldo es menor a $10,000?
+- ¿Cuál es la cantidad mínima y máxima de ventas de cada empleado?
+- ¿Cuál es el puesto de cada empleado?
 
 <details><summary>Solución</summary>
 <p>
 
-- ¿Cuántos registros hay por cada uno de los puestos?
+- ¿Cuál es el nombre de los empleados cuyo sueldo es menor a $10,000?
 
    ```sql
-   SELECT nombre, count(*)
-   FROM puesto
-   GROUP BY nombre;
+   SELECT nombre, apellido_paterno
+   FROM empleado
+   WHERE id_puesto IN
+	(SELECT id_puesto
+         FROM puesto
+         WHERE salario > 10000);
    ```
+   
    ![imagen](imagenes/s1wr31.png)
 
-- ¿Cuánto dinero se paga en total por puesto?
+- ¿Cuál es la cantidad mínima y máxima de ventas de cada empleado?
 
    ```sql
-   SELECT nombre, sum(salario)
-   FROM puesto
-   GROUP BY nombre;
-   ```
-   ![imagen](imagenes/s2wr32.png)
-   
-- ¿Cuál es el número total de ventas por vendedor?
-
-   ```sql
-   SELECT id_empleado, count(clave) AS ventas
-   FROM venta
+   SELECT id_empleado, min(total_ventas), max(total_ventas)
+   FROM
+	(SELECT clave, id_empleado, count(*) total_ventas
+         FROM venta
+         GROUP BY clave, id_empleado) AS sq
    GROUP BY id_empleado;
    ```
-   ![imagen](imagenes/s2wr33.png)
    
-- ¿Cuál es el número total de ventas por artículo?
+   ![imagen](imagenes/s2wr32.png)
    
-   ```sql
-   SELECT id_articulo, count(*)
-   FROM venta
-   GROUP BY id_articulo;
-   ```
-   
-   ![imagen](imagenes/s2wr34.png)
+- ¿Cuál es el puesto de cada empleado?
 
+   ```sql
+   SELECT nombre, apellido_paterno, (SELECT nombre FROM puesto WHERE id_puesto = e.id_puesto)
+   FROM empleado AS e;
+   ```
+   ![imagen](imagenes/s2wr33.png)
 </p>
 </details> 
