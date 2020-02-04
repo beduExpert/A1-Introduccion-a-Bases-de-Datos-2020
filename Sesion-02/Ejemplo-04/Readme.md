@@ -26,6 +26,8 @@
    WHERE nombre = 'Junior Executive';
    ```
    
+   ![imagen](imagenes/s2we41.png)
+   
    Ahora, con los identificadores que obtuvimos, podemos hacer una búsqueda de los empleado que tienen dichos identificadores. Para ello, usamos la consulta anterior dentro de la cláusula `WHERE` y filtramos aquellos empleados cuyo `id_puesto` esté en los resultados de la misma.
    
    ```sql
@@ -37,7 +39,7 @@
       WHERE nombre = 'Junior Executive');
    ```
    
-   ![imagen](imagenes/s2we31.png)
+   ![imagen](imagenes/s2we42.png)
    
    *Usando `FROM`*
    
@@ -50,7 +52,7 @@
    ORDER BY clave;
    ```
    
-   ![imagen](imagenes/s2we32.png)
+   ![imagen](imagenes/s2we43.png)
    
    Ahora, sobre la tabla resultante hacemos un nuevo agrupamiento para obtener la cantidad mínima y máxima de cada artículo, sin importar la venta.
    
@@ -64,7 +66,7 @@
    GROUP BY id_articulo;
    ```
    
-   ![imagen](imagenes/s2we32.png)
+   ![imagen](imagenes/s2we44.png)
    
    *Usando `SELECT`*
    
@@ -75,4 +77,4 @@
    FROM empleado AS e;	
    ```
 
-   ![imagen](imagenes/s2we33.png)
+   ![imagen](imagenes/s2we45.png)
