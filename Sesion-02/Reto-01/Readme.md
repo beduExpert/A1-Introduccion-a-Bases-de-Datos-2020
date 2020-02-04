@@ -1,27 +1,52 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 02`
 	
-## Titulo del Ejemplo 
+## Agrupamientos y subconsultas
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Escribir consultas que permitan responder a algunas preguntas.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. MySQL Workbench instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usando la base de datos `tienda`, escribe consultas que permitan responder las siguientes preguntas.
 
-<details>
+- ¿Qué artículos incluyen la palabra `Pasta` en su nombre?
+- ¿Qué artículos incluyen la palabra `Cannelloni` en su nombre?
+- ¿Qué nombres están separados por un guión (`-`) por ejemplo `Puree - Kiwi`?
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+<details><summary>Solución</summary>
+<p>
+
+- ¿Qué artículos incluyen la palabra `Pasta` en su nombre?
+
+   ```sql
+   SELECT *
+   FROM articulo
+   WHERE nombre LIKE '%PASTA%';
+   ```
+   ![imagen](imagenes/s1wr21.png)
+
+- ¿Qué artículos incluyen la palabra `Cannelloni` en su nombre?
+
+   ```sql
+   SELECT *
+   FROM articulo
+   WHERE nombre LIKE '%Cannelloni%';
+   ```
+   ![imagen](imagenes/s1wr22.png)
+   
+- ¿Qué nombres están separados por un guión (`-`) por ejemplo `Puree - Kiwi`?
+
+   ```sql
+   SELECT *
+   FROM articulo
+   WHERE nombre LIKE '% - %';
+   ```
+   ![imagen](imagenes/s1wr23.png) 
+
+</p>
 </details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
