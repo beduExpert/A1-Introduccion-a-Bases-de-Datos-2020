@@ -14,10 +14,10 @@
 - Búsqueda de patrones mediante `LIKE`
    - [Ejemplo 1](Ejemplo-01/)
    - [Reto 1](Reto-01/)
-- Funciones aritméticas
+- Funciones de agrupamiento
    - [Ejemplo 2](Ejemplo-02/)
    - [Reto 2](Reto-02/)
-- Agrupamientos y funciones de agrupamiento
+- Agrupamientos
    - [Ejemplo 3](Ejemplo-03/)
    - [Reto 3](Reto-03/)
 - Subconsultas
