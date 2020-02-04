@@ -26,7 +26,7 @@
    GROUP BY nombre;
    ```
    
-   ![imagen](imagenes/s2we21.png)
+   ![imagen](imagenes/s2we31.png)
    
    *Usando `COUNT`*
 
@@ -37,7 +37,7 @@
    ORDER BY cantidad DESC;
    ```
    
-   ![imagen](imagenes/s2we21.png)
+   ![imagen](imagenes/s2we32.png)
    
    *Usando `MIN` y `MAX`*
    
@@ -47,4 +47,4 @@
    GROUP BY nombre;
    ```
 
-   ![imagen](imagenes/s2we21.png)
+   ![imagen](imagenes/s2we33.png)
