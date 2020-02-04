@@ -42,9 +42,8 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
 - ¿Cuál es el salario mínimo y máximo?
 
    ```sql
-   SELECT *
-   FROM articulo
-   WHERE nombre LIKE '% - %';
+   SELECT min(salario), max(salario)
+   FROM puesto;
    ```
    ![imagen](imagenes/s2wr13.png)
    
