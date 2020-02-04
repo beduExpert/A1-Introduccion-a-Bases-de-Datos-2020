@@ -56,7 +56,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    FROM puesto;
    ```
    
-   ![imagen](imagenes/s2wr24.png
+   ![imagen](imagenes/s2wr24.png)
    
    Usamos ese identificador ahora.
 
