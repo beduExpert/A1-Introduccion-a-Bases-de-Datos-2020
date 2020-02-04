@@ -1,27 +1,71 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Reto 02`
 	
-## Titulo del Ejemplo 
+## Funciones de agrupamiento
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Escribir consultas que permitan responder a algunas preguntas.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. MySQL Workbench instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usando la base de datos `tienda`, escribe consultas que permitan responder las siguientes preguntas.
 
-<details>
+- ¿Cuál es el promedio de salario de los puestos?
+- ¿Cuántos artículos incluyen la palabra `Pasta` en su nombre?
+- ¿Cuál es el salario mínimo y máximo?
+- ¿Cuál es la suma del salario de los últimos cinco puestos agregados?
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+<details><summary>Solución</summary>
+<p>
+
+- ¿Cuál es el promedio de salario de los puestos?
+
+   ```sql
+   SELECT avg(salario)
+   FROM puesto;
+   ```
+   ![imagen](imagenes/s2wr11.png)
+
+- ¿Cuántos artículos incluyen la palabra `Pasta` en su nombre?
+
+   ```sql
+   SELECT count(*)
+   FROM articulo
+   WHERE nombre LIKE '%pasta%';
+   ```
+   ![imagen](imagenes/s2wr12.png)
+   
+- ¿Cuál es el salario mínimo y máximo?
+
+   ```sql
+   SELECT *
+   FROM articulo
+   WHERE nombre LIKE '% - %';
+   ```
+   ![imagen](imagenes/s2wr13.png)
+   
+- ¿Cuál es la suma del salario de los últimos cinco puestos agregados?
+
+   Primero obtenemos el ídentificador que nos permite saber eso.
+   
+   ```sql
+   SELECT max(id_puesto) - 5
+   FROM puesto;
+   ```
+   ![imagen](imagenes/s2wr13.png
+   
+   Usamos ese identificador ahora.
+
+   ```sql
+   SELECT sum(salario)
+   FROM puesto
+   WHERE id_puesto >= 995;
+   ```
+   ![imagen](imagenes/s2wr13.png)
+
+</p>
 </details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
