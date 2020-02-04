@@ -23,7 +23,7 @@
    WHERE nombre LIKE `M%`;
    ```
    
-   ![imagen](imagenes/s1-w2.png)
+   ![imagen](imagenes/s2we11.png)
 
 3. Podemos colocar el símbolo en cualquier posición de la cadena. Por ejemplo, para obtener todos los empleados cuyo nombre termina con `a`.
 
@@ -33,7 +33,7 @@
    WHERE nombre LIKE '%a';
    ```
 
-   ![imagen](imagenes/s1-w3.png)
+   ![imagen](imagenes/s2we12.png)
 
 4. También podemos encontrar todos los empleados cuyo nombre empieza con `M` y termina con `a`.
 
@@ -43,7 +43,7 @@
    WHERE nombre LIKE 'M%a';
    ```
 
-   ![imagen](imagenes/s1-w4.png)
+   ![imagen](imagenes/s2we13.png)
 
 5. Otra forma es mediante el símbolo `_` que se sustituye por cualquier caracter. Por ejemplo, podemos traer los empleados que tienen la estructura `M_elosa`.
 
@@ -51,5 +51,6 @@
    SELECT *
    FROM empleado
    WHERE nombre LIKE 'M_losa';
+   ```
 
-   ![imagen](imagenes/s1-w5.png)
+   ![imagen](imagenes/s2we14.png)
