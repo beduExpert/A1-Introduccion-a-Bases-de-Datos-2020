@@ -11,7 +11,7 @@
 
 #### ORGANIZACION DE LA CLASE
 
-- Búsqueda de patrones mediante `Like`
+- Búsqueda de patrones mediante `LIKE`
    - [Ejemplo 1](Ejemplo-01/)
    - [Reto 1](Reto-01/)
 - Funciones aritméticas
