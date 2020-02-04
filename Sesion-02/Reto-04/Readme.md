@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Reto 04`
 	
-## Agrupamientos
+## Subconsultas
 
 ### OBJETIVO 
 
@@ -32,7 +32,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
          WHERE salario > 10000);
    ```
    
-   ![imagen](imagenes/s1wr31.png)
+   ![imagen](imagenes/s2wr41.png)
 
 - ¿Cuál es la cantidad mínima y máxima de ventas de cada empleado?
 
@@ -45,7 +45,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    GROUP BY id_empleado;
    ```
    
-   ![imagen](imagenes/s2wr32.png)
+   ![imagen](imagenes/s2wr42.png)
    
 - ¿Cuál es el puesto de cada empleado?
 
@@ -53,6 +53,6 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    SELECT nombre, apellido_paterno, (SELECT nombre FROM puesto WHERE id_puesto = e.id_puesto)
    FROM empleado AS e;
    ```
-   ![imagen](imagenes/s2wr33.png)
+   ![imagen](imagenes/s2wr43.png)
 </p>
 </details> 
