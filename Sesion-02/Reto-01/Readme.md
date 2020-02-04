@@ -1,4 +1,4 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 01`
 	
 ## Agrupamientos y subconsultas
 
@@ -28,7 +28,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    FROM articulo
    WHERE nombre LIKE '%PASTA%';
    ```
-   ![imagen](imagenes/s1wr21.png)
+   ![imagen](imagenes/s2wr11.png)
 
 - ¿Qué artículos incluyen la palabra `Cannelloni` en su nombre?
 
@@ -37,7 +37,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    FROM articulo
    WHERE nombre LIKE '%Cannelloni%';
    ```
-   ![imagen](imagenes/s1wr22.png)
+   ![imagen](imagenes/s2wr12.png)
    
 - ¿Qué nombres están separados por un guión (`-`) por ejemplo `Puree - Kiwi`?
 
@@ -46,7 +46,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    FROM articulo
    WHERE nombre LIKE '% - %';
    ```
-   ![imagen](imagenes/s1wr23.png) 
+   ![imagen](imagenes/s2wr13.png) 
 
 </p>
 </details> 
