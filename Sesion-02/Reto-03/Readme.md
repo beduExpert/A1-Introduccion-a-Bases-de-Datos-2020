@@ -29,7 +29,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    FROM puesto
    GROUP BY nombre;
    ```
-   ![imagen](imagenes/s2wr31.png)
+   ![imagen](imagenes/s1wr31.png)
 
 - ¿Cuánto dinero se paga en total por puesto?
 
