@@ -1,27 +1,63 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Reto 03`
 	
-## Titulo del Ejemplo 
+## Funciones de agrupamiento
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Escribir consultas que permitan responder a algunas preguntas.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. MySQL Workbench instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usando la base de datos `tienda`, escribe consultas que permitan responder las siguientes preguntas.
 
-<details>
+- ¿Cuántos registros hay por cada uno de los puestos?
+- ¿Cuánto dinero se paga en total por puesto?
+- ¿Cuál es el número total de ventas por vendedor?
+- ¿Cuál es el número total de ventas por artículo?
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+<details><summary>Solución</summary>
+<p>
+
+- ¿Cuántos registros hay por cada uno de los puestos?
+
+   ```sql
+   SELECT nombre, count(*)
+   FROM puesto
+   GROUP BY nombre;
+   ```
+   ![imagen](imagenes/s2wr21.png)
+
+- ¿Cuánto dinero se paga en total por puesto?
+
+   ```sql
+   SELECT nombre, sum(salario)
+   FROM puesto
+   GROUP BY nombre;
+   ```
+   ![imagen](imagenes/s2wr22.png)
+   
+- ¿Cuál es el número total de ventas por vendedor?
+
+   ```sql
+   SELECT id_empleado, count(clave) AS ventas
+   FROM venta
+   GROUP BY id_empleado;
+   ```
+   ![imagen](imagenes/s2wr23.png)
+   
+- ¿Cuál es el número total de ventas por artículo?
+   
+   ```sql
+   SELECT id_articulo, count(*)
+   FROM venta
+   GROUP BY id_articulo;
+   ```
+   
+   ![imagen](imagenes/s2wr24.png)
+
+</p>
 </details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
