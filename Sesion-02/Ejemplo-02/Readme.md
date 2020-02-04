@@ -22,7 +22,7 @@
    SELECT (1 + 7) * (10 / (6 - 4));
    ```
    
-   ![imagen](imagenes/s2we11.png)
+   ![imagen](imagenes/s2we21.png)
 
 3. Una función de agrupamiento es aquella que reduce los registros de un campo en un valor. Veamos algunos ejemplos de este tipo de funciones.
 
@@ -33,7 +33,7 @@
    FROM articulo;
    ```
 
-   ![imagen](imagenes/s2we12.png)
+   ![imagen](imagenes/s2we22.png)
    
    *Número de registros de una columna*
 
@@ -42,7 +42,7 @@
    FROM articulo;
    ```
 
-   ![imagen](imagenes/s2we12.png)
+   ![imagen](imagenes/s2we23.png)
    
    *Valor máximo de una columna*
 
@@ -51,7 +51,7 @@
    FROM articulo;
    ```
 
-   ![imagen](imagenes/s2we12.png)
+   ![imagen](imagenes/s2we24.png)
    
    *Valor mínimo de una columna*
 
@@ -60,7 +60,7 @@
    FROM articulo;
    ```
 
-   ![imagen](imagenes/s2we12.png)   
+   ![imagen](imagenes/s2we25.png)   
 
    *Suma de una columna*
 
@@ -69,4 +69,4 @@
    FROM articulo;
    ```
 
-   ![imagen](imagenes/s2we12.png)
+   ![imagen](imagenes/s2we26.png)
