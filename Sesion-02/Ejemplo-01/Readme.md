@@ -1,27 +1,55 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Ejemplo 01`
 
-## Titulo del Ejemplo
+## Ejemplo 1: Selecciones con `LIKE`
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprender a realizar consultas que hagan uso de la restricción `LIKE` que hace uso de la técnica de reconocimiento de patrones.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. MySQL Workbench instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Abre MySQL Wokbench y conectate a la base de datos del curso.
 
-<details>
+2. La primitiva `LIKE` permite encontrar patrones en una cadena. Para detectar patrones se usan los símbolos `%` y `_`. El símbolo `%` es sustituido por cualquier cadena. Por ejemplo, para obtener todos los empleados cuyo nombre empieza con `M` se usa la siguiente consulta.
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+   ```sql
+   SELECT *
+   FROM empleado
+   WHERE nombre LIKE `M%`;
+   ```
+   
+   ![imagen](imagenes/s1-w2.png)
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+3. Podemos colocar el símbolo en cualquier posición de la cadena. Por ejemplo, para obtener todos los empleados cuyo nombre termina con `a`.
 
+   ```sql
+   SELECT *
+   FROM empleado
+   WHERE nombre LIKE '%a';
+   ```
 
+   ![imagen](imagenes/s1-w3.png)
+
+4. También podemos encontrar todos los empleados cuyo nombre empieza con `M` y termina con `a`.
+
+   ```sql
+   SELECT *
+   FROM empleado
+   WHERE nombre LIKE 'M%a';
+   ```
+
+   ![imagen](imagenes/s1-w4.png)
+
+5. Otra forma es mediante el símbolo `_` que se sustituye por cualquier caracter. Por ejemplo, podemos traer los empleados que tienen la estructura `M_elosa`.
+
+   ```sql
+   SELECT *
+   FROM empleado
+   WHERE nombre LIKE 'M_losa';
+
+   ![imagen](imagenes/s1-w5.png)
