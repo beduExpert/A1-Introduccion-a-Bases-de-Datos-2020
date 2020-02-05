@@ -26,7 +26,7 @@ Una vez que sepas con qué datos vas a trabajar, define cómo los usarás y qué
 
 Te recomendamos plantear en un diagrama las bases de datos que vas a utilizar. Este tipo de diagramas se conocen como entidad-relación. Por ejemplo, para la base de datos de la tienda que manejamos en la clase, se tiene el siguiente diagrama entidad-relación.
 
-![imagen1](imagenes/s1pw1)
+![imagen1](imagenes/s1pw1.png)
 
 Este diagrama puedes generarlo en MySQL Workbench. Si tienes dudas de cómo trabajarlo, pregunta al experto asignado.
 
