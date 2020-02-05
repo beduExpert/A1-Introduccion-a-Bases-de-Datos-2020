@@ -21,7 +21,7 @@
    SHOW KEYS FROM venta;
    ```
    
-   ![imagen](imagenes/s2we12.png)
+   ![imagen](imagenes/s3we11.png)
    
    La llave primaria se resalta pues en el campo `Key_name` aparece el valor `PRIMARY`, mientras que el resto de las llaves se consideran llaves foráneas.
    
@@ -38,7 +38,7 @@
      ON e.id_puesto = p.id_puesto;
    ```
 
-   ![imagen](imagenes/s2we12.png)
+   ![imagen](imagenes/s3we12.png)
    
    *`LEFT JOIN` / `LEFT OUTER JOIN`*  
    
@@ -51,7 +51,7 @@
    ON p.id_puesto = e.id_puesto;
    ```
    
-   ![imagen](imagenes/s2we12.png)
+   ![imagen](imagenes/s3we13.png)
    
    *`RIGHT JOIN` / `RIGHT OUTER JOIN`*
    
@@ -64,4 +64,4 @@
    ON e.id_puesto = p.id_puesto;
    ```
    
-   ![imagen](imagenes/s2we12.png)
+   ![imagen](imagenes/s3we14.png)
