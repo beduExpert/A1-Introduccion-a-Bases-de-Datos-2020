@@ -31,7 +31,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    ORDER BY clave;
    ```
    
-   ![imagen](imagenes/s2wr11.png)
+   ![imagen](imagenes/s3wr11.png)
 
 - ¿Cuál es el nombre de los artículos que se han vendido?
 
@@ -43,7 +43,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    ORDER BY clave;
    ```
    
-   ![imagen](imagenes/s2wr12.png)
+   ![imagen](imagenes/s3wr12.png)
    
 - ¿Cuál es el total de cada venta?
 
@@ -55,7 +55,7 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    GROUP BY clave
    ORDER BY clave;
    ```
-   ![imagen](imagenes/s2wr13.png) 
+   ![imagen](imagenes/s3wr13.png) 
 
 </p>
 </details> 
