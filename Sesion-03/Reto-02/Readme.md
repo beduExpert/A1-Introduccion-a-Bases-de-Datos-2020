@@ -36,7 +36,7 @@ Usando la base de datos `tienda`, define las siguientes vistas que permitan obte
    FROM puestos;
    ```
    
-   ![imagen](imagenes/s3wr11.png)
+   ![imagen](imagenes/s3wr21.png)
 
 - Saber qué artículos ha vendido cada empleado.
 
@@ -56,7 +56,7 @@ Usando la base de datos `tienda`, define las siguientes vistas que permitan obte
    FROM  empleado_articulo;
    ```
    
-   ![imagen](imagenes/s3wr12.png)
+   ![imagen](imagenes/s3wr22.png)
    
 - Saber qué puesto ha tenido más ventas.
 
@@ -78,7 +78,7 @@ Usando la base de datos `tienda`, define las siguientes vistas que permitan obte
    LIMIT 1;
    ```
    
-   ![imagen](imagenes/s3wr13.png) 
+   ![imagen](imagenes/s3wr23.png) 
 
 </p>
 </details> 
