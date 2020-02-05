@@ -1,27 +1,23 @@
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Postwork`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Postwork
 
-## Titulo del Ejemplo
+### OBJETIVOS
 
-### OBJETIVO
-
-- Lo que esperamos que el alumno aprenda
+- Continuar con el planteamiento inicial del proyecto.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. MySQL Workbench instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### Más preguntas
 
-<details>
+Añade al menos otras cinco preguntas que puedas realizar a la base de datos que definiste en el planteamiento de tu proyecto que apliquen los conceptos vistos durante la sesión. 
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+Recuerda incluir el uso de: llaves primarias, tipos de relaciones, relación de tablas mediante joins y creación de vistas.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+Crea al menos 5 vistas de preguntas más complejas a lo que haz trabajado durante el curso.
 
-
+Pregunta al experto del curso si tienes alguna duda.
