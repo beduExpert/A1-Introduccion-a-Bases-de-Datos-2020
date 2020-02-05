@@ -1,16 +1,18 @@
+[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 03`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-
-## Titulo de la Sesion 
+## Joins y Vistas
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Escribir consultas que relacionen dos o más tablas mediante el uso de joins.
+- Definir vistas que guarden el resultado de una consulta."
 
-#### ORGANIZACION DE LA CLASE 
+#### ORGANIZACION DE LA CLASE
 
-- Tema que veran en el ejemplo
-
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+- Clasificación de Joins
+   - [Ejemplo 1](Ejemplo-01/)
+   - [Reto 1](Reto-01/)
+- Definición de vistas
+   - [Ejemplo 2](Ejemplo-02/)
+   - [Reto 2](Reto-02/)
+- [Postwork/Proyecto](Postwork/)	
