@@ -9,7 +9,7 @@ Conocer los principales conceptos que ahondan las bases de datos y ponerlos en p
  
  - [Sesión 1: Fundamentos de SQL](Sesion-01/) 
  - [Sesión 2: Agrupaciones y subconsultas](Sesion-02/) 
- - [Sesión 3]() 
+ - [Sesión 3: Joins y Vistas](Sesion-03/) 
  - [Sesión 4]() 
  - [Sesión 5]() 
  - [Sesión 6]() 
