@@ -30,7 +30,7 @@
      ON v.id_articulo = a.id_articulo;
    ```
    
-   ![imagen](imagenes/s3we11.png)
+   ![imagen](imagenes/s3we31.png)
    
    Ahora crearemos la vista con la instrucción `CREATE VIEW`. Le daremos el nombre `tickets`.
    
@@ -52,11 +52,13 @@
    FROM tickets;
    ```
 
-   ![imagen](imagenes/s3we12.png)
+   ![imagen](imagenes/s3we22.png)
  
    ```sql
    SELECT clave, round(sum(precio),2) total
    FROM tickets
    GROUP BY clave;	
    ```
+   
+   ![imagen](imagenes/s3we23.png)
    
