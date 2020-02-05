@@ -15,5 +15,5 @@
 - Definición de vistas
    - [Ejemplo 2](Ejemplo-02/)
    - [Reto 2](Reto-02/)
-- [Proyecto](/Proyecto)   
+- [Proyecto](Proyecto/)   
 - [Postwork](Postwork/)	
