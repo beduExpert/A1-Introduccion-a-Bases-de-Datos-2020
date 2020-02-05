@@ -1,27 +1,84 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Reto 02`
 	
-## Titulo del Ejemplo 
+## Definición de vistas
 
-### OBJETIVO 
+### OBJETIVOS
 
-- Lo que esperamos que el alumno aprenda 
+- Definir vistas sobre algunas consultas.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. MySQL Workbench instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usando la base de datos `tienda`, define las siguientes vistas que permitan obtener la siguiente información.
 
-<details>
+- Obtener el puesto de un empleado.
+- Saber qué artículos ha vendido cada empleado.
+- Saber qué puesto ha tenido más ventas.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+<details><summary>Solución</summary>
+<p>
+
+- Obtener el puesto de un empleado.
+
+   ```sql
+   CREATE VIEW puestos AS
+   SELECT concat(e.nombre, ' ', e.apellido_paterno), p.nombre
+   FROM empleado e
+   JOIN puesto p
+     ON e.id_puesto = p.id_puesto;
+   ```
+   
+   ```sql
+   SELECT *
+   FROM puestos;
+   ```
+   
+   ![imagen](imagenes/s3wr11.png)
+
+- Saber qué artículos ha vendido cada empleado.
+
+   ```sql
+   CREATE VIEW empleado_articulo AS
+   SELECT v.clave, concat(e.nombre, ' ', e.apellido_paterno) nombre, a.nombre articulo
+   FROM venta v
+   JOIN empleado e
+     ON v.id_empleado = e.id_empleado
+   JOIN articulo a
+     ON v.id_articulo = a.id_articulo
+   ORDER BY v.clave;
+   ```
+   
+   ```sql
+   SELECT *
+   FROM  empleado_articulo;
+   ```
+   
+   ![imagen](imagenes/s3wr12.png)
+   
+- Saber qué puesto ha tenido más ventas.
+
+   ```sql
+   CREATE VIEW puesto_ventas AS
+   SELECT p.nombre, count(v.clave) total
+   FROM venta v
+   JOIN empleado e
+     ON v.id_empleado = e.id_empleado
+   JOIN puesto p
+     ON e.id_puesto = p.id_puesto
+   GROUP BY p.nombre;
+   ```
+   
+   ```sql
+   SELECT *
+   FROM puesto_ventas
+   ORDER BY total DESC
+   LIMIT 1;
+   ```
+   
+   ![imagen](imagenes/s3wr13.png) 
+
+</p>
 </details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
