@@ -11,7 +11,7 @@
 
 #### ORGANIZACION DE LA CLASE
 
-##- **Búsqueda de patrones mediante `LIKE`**  
+## Búsqueda de patrones mediante `LIKE` 
 
 La **búsqueda de patrones** es una técnica que permite realizar búsquedas mediante la coincidencia de patrones en lugar de igualdad.  
 Ejemplos de uso de esta técnica son:  
@@ -33,7 +33,7 @@ La cláusula LIKE permite usar comodines en la cláusula WHERE de una instrucci�
    
 ---
    
-##- **Funciones de agrupamiento** 
+## Funciones de agrupamiento
 
 Las funciones de agrupamiento son funciones que permiten realizar cálculos sobre los valores de una columna y que regresan un único valor.  
  
@@ -52,7 +52,7 @@ COUNT()**
    
 ---
 
-##- **Agrupamientos**  
+## Agrupamientos
 
 La cláusula GROUP BY es usada dentro de la instrucción SELECT para recolectar datos a partir de varios registros y agruparlos en una o más columnas.  
 
@@ -63,7 +63,7 @@ La cláusula GROUP BY es usada dentro de la instrucción SELECT para recolectar 
    
 ---
 
-##- **Subconsultas**  
+## Subconsultas  
 
 Una subconsulta es una consulta que se encuentra dentro de otra. Estas subconsultas pueden aparecer en las cláusulas, WHERE, FROM y en el área de campos de SELECT.  
 
