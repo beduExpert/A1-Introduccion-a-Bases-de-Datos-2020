@@ -7,7 +7,6 @@
 - Escribir consultas que relacionen dos o más tablas mediante el uso de joins.
 - Definir vistas que guarden el resultado de una consulta.
 
-
 ### TEORÍA  
 
 - **Llaves primarias y foráneas**   
@@ -18,9 +17,11 @@ Una llave primaria permite identificar de manera única los registros de una tab
 
 - **NUESTRO MODELO**: Diagrama entidad-relación de la tienda  
 
-![Sin titulo](https://www.astera.com/wp-content/uploads/2019/05/DBI-1-400x422.jpg)  
+![Sin titulo](https://drive.google.com/file/d/1meC5yZuLrWbYsIId3UXXdtF011oev5u5/view)  
 
 *Analizar el diagrama de la base de datos del curso: ¿Qué tipos de relaciones aprecias?*  
+
+
 
 - **Joins**    
 
@@ -33,10 +34,14 @@ Son operaciones que permiten relacionar dos o más tablas mediante la condición
 
 > Explicar qué es la teoría de conjuntos, algunas de sus operaciones y cómo se aplican mediante joins en mysql.  
 
+
+
 - **Vistas**      
 Permiten preservar los resultados de una consulta como si se tratara de una nueva tabla. Son tablas *virtuales*.     
 
 > Mencionar los principales beneficios de usar vistas y explicar cómo crearlas (CREATE VIEW).
+
+
   
 --- 
 
