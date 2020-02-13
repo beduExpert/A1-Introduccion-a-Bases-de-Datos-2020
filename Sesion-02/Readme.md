@@ -24,7 +24,10 @@ Ejemplos de uso de esta técnica son:
 **Cláusula `LIKE`**  
 La cláusula LIKE permite usar comodines en la cláusula WHERE de una instrucción SELECT y realizar búsqueda de patrones.  
 
+
 > Describir la sintaxis de LIKE y los comodines existentes. --> se recomienda hacerlo de manera visual en el pizarrón. 
+
+
 
    - [Ejemplo 1](Ejemplo-01/)
    - [Reto 1](Reto-01/)  
@@ -35,26 +38,38 @@ La cláusula LIKE permite usar comodines en la cláusula WHERE de una instrucci�
 
 Las funciones de agrupamiento son funciones que permiten realizar cálculos sobre los valores de una columna y que regresan un único valor.  
  
-style="color: red;">SUM()</span>
-style="color: blue;">AVG()</span>
+**SUM()  
+AVG()  
+MAX()  
+MIN()  
+COUNT()**  
 
-MAX()
 
-MIN()
+> Explicar cómo funciona una función de agrupamiento y ejemplificar, relacionarlo con el comportamiento que tienen las hojas de cálculo (Excel).  
 
-COUNT()
-
-> Explicar cómo funciona una función de agrupamiento y ejemplificar, relacionarlo con el comportamiento que tienen las hojas de cálculo (Excel). 
 
    - [Ejemplo 2](Ejemplo-02/)
    - [Reto 2](Reto-02/)  
    
 ---
 
-- Agrupamientos
+- Agrupamientos  
+
+La cláusula GROUP BY es usada dentro de la instrucción SELECT para recolectar datos a partir de varios registros y agruparlos en una o más columnas.  
+
+> Explicar el uso de agrupamientos de bases de datos, quizá mencionar alguno de sus principale usos. Nuevamente se sugiere hacer dibujos en el pizarrón para hacer más claro el resultado (antes del ejemplo).  
+
    - [Ejemplo 3](Ejemplo-03/)
-   - [Reto 3](Reto-03/)
-- Subconsultas
+   - [Reto 3](Reto-03/)  
+   
+---
+
+- Subconsultas  
+
+Una subconsulta es una consulta que se encuentra dentro de otra. Estas subconsultas pueden aparecer en las cláusulas, WHERE, FROM y en el área de campos de SELECT.  
+
+> Explicar qué es una subconsulta, en qué consiste, y cómo se puede usar en un WHERE, FROM y SELECT.  
+
    - [Ejemplo 4](Ejemplo-04/)
    - [Reto 4](Reto-04/)
 - [Proyecto](Proyecto/)   
