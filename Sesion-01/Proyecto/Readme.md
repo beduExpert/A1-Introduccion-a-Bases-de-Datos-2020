@@ -12,6 +12,16 @@
 
 #### DESARROLLO
 
+**En este pequeño proyecto aplicarás los conceptos adquiridos durante la sesión:**
+
+- Descripción de tablas  
+- Consulta de los campos de una tabla  
+- Cláusula WHERE  
+- Operadores relacionales  
+- Operadores lógicos  
+- Cláusula ORDER BY  
+- Cláusula LIMIT  
+
 Todas las consultas que realices deberás mantenerlas dentro del editor de textos de MySQL Workbench. Al finalizar, guarda este archivo, llendo al menú `File` > `Save script`. Recuerda que para hacer consultas a una tabla debes conocer primero su estructura.
 
 1. Dentro del mismo servidor de bases de datos, conéctate al esquema `classicmodels`.
