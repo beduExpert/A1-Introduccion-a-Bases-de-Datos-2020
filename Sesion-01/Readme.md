@@ -42,9 +42,9 @@ Permite administrar permisos y trabajar en modo cliente-servidor [^2]
 SQL nunca cambia [^3]  
 
 **Recursos adicionales:**  
-[Con titulo](https://www.oracle.com/es/database/what-is-database.html "What is a Database?")  
-[Sin titulo](https://www.ibm.com/support/knowledgecenter/es/SS3RA7_sub/modeler_mainhelp_client_ddita/clementine/odbc_query_dialogue.html)  
-[Con titulo](https://www.hostinger.mx/tutoriales/que-es-consulta-base-de-datos/ "Consulta a una Base de Dastos")    
+[What is a Database?](https://www.oracle.com/es/database/what-is-database.html "What is a Database?")  
+[Consulta a una Base de Datos](https://www.ibm.com/support/knowledgecenter/es/SS3RA7_sub/modeler_mainhelp_client_ddita/clementine/odbc_query_dialogue.html)  
+[Consulta a una Base de Datos](https://www.hostinger.mx/tutoriales/que-es-consulta-base-de-datos/ "Consulta a una Base de Datos")    
 
 
 #### ORGANIZACION DE LA CLASE
