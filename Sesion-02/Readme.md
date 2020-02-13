@@ -7,7 +7,7 @@
 - Escribir consultas que hagan uso de `LIKE`.
 - Entender el funcionamiento de algunas funciones y su efecto en consultas.
 - Realizar agrupamientos en los resultados de una consulta o tabla.
-- Realizar subconsultas a una tabla."
+- Realizar subconsultas a una tabla.
 
 #### ORGANIZACION DE LA CLASE
 
