@@ -17,7 +17,7 @@ Una llave primaria permite identificar de manera única los registros de una tab
 
 - **NUESTRO MODELO**: Diagrama entidad-relación de la tienda  
 
-![Sin titulo](https://ibb.co/2NgprVw)    
+![Sin titulo]("https://i.ibb.co/gVzc8qG/Diagrama.png" alt="Diagrama" border="0")    
 
 *Analizar el diagrama de la base de datos del curso: ¿Qué tipos de relaciones aprecias?*  
 
