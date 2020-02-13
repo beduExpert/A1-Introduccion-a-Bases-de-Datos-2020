@@ -37,9 +37,10 @@ SQL significa Structured Query Language y se utiliza para comunicarse con una ba
 El SQL es un lenguaje de programación que utilizan casi todas las bases de datos relacionales para consultar, manipular y definir los datos, además de para proporcionar control de acceso. El SQL se desarrolló por primera vez en IBM en la década de 1970 con Oracle como uno de los principales contribuyentes, lo que dio lugar a la implementación del estándar ANSI SQL. El SQL ha propiciado muchas ampliaciones de empresas como IBM, Oracle y Microsoft. Aunque el SQL se sigue utilizando mucho hoy en día, están empezando a aparecer nuevos lenguajes de programación.  
 
 ![Sin titulo](https://programaenlinea.net/wp-content/uploads/2017/12/2017-01-19-Ejecutar-consultas-SQL-Din%C3%A1micas.png)  
-Puede soportar procedimientos almacenados [^1]
-Permite administrar permisos y trabajar en modo cliente-servidor [^2]
-SQL nunca cambia [^3]  
+- Puede soportar procedimientos almacenados.  
+- Permite administrar permisos y trabajar en modo cliente-servidor.  
+- SQL nunca cambia.    
+
 
 **Recursos adicionales:**  
 [What is a Database?](https://www.oracle.com/es/database/what-is-database.html "What is a Database?")  
