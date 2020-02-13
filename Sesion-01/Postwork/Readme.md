@@ -14,7 +14,8 @@
 
 ##### Planteamiento del proyecto
 
-A lo largo del programa deberás desarrollar un proyecto. En este postwork, debes definir con qué conjunto de datos vas a trabajar, si es un proyecto de datos propios o vas a seleccionar algún conjunto de datos público.
+A lo largo del programa deberás desarrollar un proyecto. En este postwork, debes definir con qué conjunto de datos vas a trabajar, si es un proyecto de datos propios o vas a seleccionar algún conjunto de datos público.  
+Al mismo tiempo darás forma a la base de datos que usarás para almacenar datos y a partir de ahí obtener información relevante.  
 
 Si haces uso de los datos públicos a continuación algunas sugerencias para buscar y descargar conjuntos de datos
    - https://datos.gob.mx
