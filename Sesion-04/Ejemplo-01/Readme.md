@@ -1,8 +1,8 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 01`
 
-## Ejemplo 1: Conexión a MongoDB
+### Ejemplo 1: Conexión a MongoDB
 
-### OBJETIVO
+#### OBJETIVO
 
 - Aprender a realizar la conexión a MongoDB mediante el cliente MongoDB Compass.
 
