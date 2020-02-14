@@ -15,7 +15,7 @@
 - Colecciones, Documentos y Proyecciones
    - [Ejemplo 2](Ejemplo-02/Readme.md)
    - [Reto 1](Reto-01/Readme.md)
-- Ordenamientos y Límites
+- Filtros básicos
    - [Ejemplo 3](Ejemplo-03/Readme.md)
    - [Reto 2](Reto-02/Readme.md)
 - [Proyecto](Proyecto/Readme.md)
