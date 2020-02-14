@@ -16,21 +16,21 @@
 
 1. Dentro de la colección `movies`, vuelve a dar clic en el botón `OPTIONS`.  Esta vez usaremos el campo `FILTER`, esta opción es equivalente a la cláusula `WHERE` de SQL. Por ejemplo, podemos filtrar todas las películas del año 1993.
 
-  *Consulta en SQL*
+   *Consulta en SQL*
   
-  ```sql
-  SELECT *
-  FROM movies
-  WHERE year = 1993;
-  ```
+   ```sql
+   SELECT *
+   FROM movies
+   WHERE year = 1993;
+   ```
   
-  *Consulta en MongoDB usando JSON*
+   *Consulta en MongoDB usando JSON*
   
-  ```json
-  {year: 1993}
-  ```
+   ```json
+   {year: 1993}
+   ```
 
-   ![imagen](imagenes/s4e31.png)
+    ![imagen](imagenes/s4e31.png)
 
 2. Al igual que en SQL, tenemos operadores relacionales, por ejemplo queremos todas las películas de los años 2000.
 
@@ -91,7 +91,7 @@
    {year: 1}
    ```
    
-   ![imagen](imagenes/s4e24.png)
+   ![imagen](imagenes/s4e34.png)
    
     *Consulta en SQL*
 
@@ -107,8 +107,8 @@
    {year: -1}
    ```
    
-   ![imagen](imagenes/s4e25.png)
+   ![imagen](imagenes/s4e35.png)
    
 5. Finalmente, para limitar los resultados de una consulta, podemos usar la opción `LIMIT`. Sólo basta con agregar el número deseado. Por ejemplo, las cinco películas de los últimos años.
 
-   ![imagen](imagenes/s4e25.png)
+   ![imagen](imagenes/s4e36.png)
