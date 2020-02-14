@@ -1,41 +1,35 @@
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 01`
 
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 01`
-
-## Ejemplo 1: Conexión a bases de datos
+## Ejemplo 1: Conexión a MongoDB
 
 ### OBJETIVO
 
-- Aprender a realizar la conexión a una base de datos mediante un cliente.
+- Aprender a realizar la conexión a MongoDB mediante el cliente MongoDB Compass.
 
 #### REQUISITOS
 
-1. MySQL Workbench instalado.
+1. MongoDB Compass instalado.
 
 #### DESARROLLO
 
-1. Abre MySQL Wokbench. En esta primera pantalla se muestran las conexiones que tienes configuradas o se muestra en blanco en caso de que sea la primera vez que realizas una conexión.
+1. Abre MongoDB Compass. En esta primera pantalla se muestran, del lado izquierdo, las conexiones que tienes configuradas o se muestra en blanco en caso de que sea la primera vez que realizas una conexión.
 
-   ![imagen](imagenes/s1-w1.png)
+   ![imagen](imagenes/s4e11.png)
 
-2. Junto al título `MySQL Connections` da clic en el botón de más. Se abrirá una nueva ventana solicitando los datos para realizar la conexión correspondiente. Introduce los datos necesarios para realizar la conexión. Pide al experto que te los proporcione.
+2. Abajo del título `New Connection`, da clic en el texto que dice `Fill in connection fields individually`. Cambiará el formato de la pantalla. Introduce los datos necesarios para realizar la conexión. Pide al experto que te los proporcione.
 
-   - **Connection Name:** Un nombre de tu preferencia para recordar a qué servidor te estás conectando.
    - **Hostname:** Dirección del servidor al cuál nos conectaremos.
    - **Port:** Puerto a través del cual realizaremos la conexión.
-   - **Password:** Contraseña de acceso. Da clic en el botón `Store in Keychain ...` e introduce la contraseña.
+   - **SRV Record:** Dejar apagado.
+   - **Authentication:** Username / Password.
+   - **Username:** Nombre de usuario.
+   - **Password:** Contraseña de acceso.
+   - **Authentication Database:** Base de datos con la que se definió el usuario.
    
-   ![imagen](imagenes/s1-w2.png)
+   ![imagen](imagenes/s4e12.png)
 
-3. Presiona el botón `Test Connection` y si obtienes un mensaje como el que se muestra en la siguiente imagen, entonces los datos de la conexión son correctos y presiona el botón `Ok`. En caso contrario revisa las credenciales.
+3. Presiona el botón `Connect` y y si obtienes una pantalla como la que se muestra en la siguiente imagen, la conexión se habrá realizado con éxito.
 
-   ![imagen](imagenes/s1-w3.png)
+   ![imagen](imagenes/s4e13.png)
 
-4. Se añadirá la conexión que acabas de configurar a la pantalla inicial.
-
-   ![imagen](imagenes/s1-w4.png)
-
-5. Da clic sobre la conexión que se agregó a la pantalla inicial, se mostrará una ventana como la de la imagen.
-
-   ![imagen](imagenes/s1-w5.png)
-
-**¡Felicidades! Haz realizado tu primera conexión a una base de datos**
+**¡Felicidades! Haz realizado tu primera conexión a una base de datos con MongoDB**
