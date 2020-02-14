@@ -1,4 +1,4 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Proyecto`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Proyecto`
 	
 ## Proyecto de la sesión
 
@@ -8,19 +8,39 @@
 
 #### REQUISITOS 
 
-1. MySQL Workbench instalado.
+1. MongoDB Compass instalado.
 
 #### DESARROLLO
 
-Todas las consultas que realices deberás mantenerlas dentro del editor de textos de MySQL Workbench. Al finalizar, guarda este archivo, llendo al menú `File` > `Save script`. 
+Las consultas se realizarán sobre la base `sample_training`.
 
-1. Obten el código de producto, nombre de producto y descripción de todos los productos.
+Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass. Para hacer esto, da clic en el botón con los puntos `···` y en `Toogle Query History`. Busca la última consulta y agregala a favoritos presionando el íncono con la estrella :star:.
 
-2. Obten el número de orden, estado y costo total de cada orden.
+1. Obtén los datos de contacto de cada compañía.
 
-3. Obten el número de orden, fecha de orden, línea de orden, nombre del producto, cantidad ordenada y precio de cada pieza que muestre los detalles de cada orden.
+2. Obtén la fuente de cada tweet.
 
-4. 
+3. Obtén el nombre de todas las compañias fundadas en octubre.
+
+4. Obtén el nombre de todas las compañías fundadas en 2008.
+
+5. Obtén todos los *post* del autor `machine`.
+
+6. Obtén todos los tweets provenientes de la `web`.
+
+7. Obtén todas las compañías fundadas en octubre del 2008.
+
+8. Obtén todas las compañias con más de 50 empleados. 
+
+9. Obtén las historias con número de comentarios entre 10 y 30.
+
+10. Obtén la empresa con el menor número de empleados.
+
+11. Obtén la empresa con el mayor número de empleados.
+
+12. Obtén la historia más comentada.
+
+13. Obtén la historia menos comentada.
 
 **¡¡¡MUCHA SUERTE!!!**
 
