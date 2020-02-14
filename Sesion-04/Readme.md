@@ -11,12 +11,12 @@
 ### ORGANIZACION DE LA CLASE
 
 - Conexión a MongoDB
-   - [Ejemplo 1](Ejemplo-01/README.md)
+   - [Ejemplo 1](Ejemplo-01/Readme.md)
 - Colecciones, Documentos y Proyecciones
-   - [Ejemplo 2](Ejemplo-02/README.md)
-   - [Reto 1](Reto-01/README.md)
+   - [Ejemplo 2](Ejemplo-02/Readme.md)
+   - [Reto 1](Reto-01/Readme.md)
 - Ordenamientos y Límites
-   - [Ejemplo 3](Ejemplo-03/README.md)
-   - [Reto 2](Reto-02/README.md)
-- [Proyecto](Proyecto/README.md)
-- [Postwork](Postwork/README.md)
+   - [Ejemplo 3](Ejemplo-03/Readme.md)
+   - [Reto 2](Reto-02/Readme.md)
+- [Proyecto](Proyecto/Readme.md)
+- [Postwork](Postwork/Readme.md)
