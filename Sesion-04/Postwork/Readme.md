@@ -1,27 +1,17 @@
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Postwork`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Postwork
 
-## Titulo del Ejemplo
+### OBJETIVOS
 
-### OBJETIVO
-
-- Lo que esperamos que el alumno aprenda
+- Continuar con el planteamiento inicial del proyecto.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. MongoDB instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### Mismas preguntas, diferente lenguaje
 
-<details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
-
+Usando como base las preguntas que definiste en el Postwork de la Sesión 1, reescribe las consultas usando JSON. Debes especificar en cada caso, si el JSON corresponde a una proyección, filtro, ordenamiento o límite de resultados.
