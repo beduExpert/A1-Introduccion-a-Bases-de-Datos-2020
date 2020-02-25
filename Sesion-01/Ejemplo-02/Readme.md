@@ -5,8 +5,8 @@
 
 ### OBJETIVO
 
-- Aprender a listar las bases de datos (esquemas) en un servidor de bases de datos y a conectarse a las mismas.
-- Aprender a listar las tablas dentro de un esquema.
+- Listar las bases de datos (esquemas) en un servidor de bases de datos y a conectarse a las mismas.
+- Listar las tablas dentro de un esquema.
 - Usar la instrucción `DESCRIBE` para mostrar la estructura de una tabla y los tipos de datos de sus campos.
 
 #### REQUISITOS
