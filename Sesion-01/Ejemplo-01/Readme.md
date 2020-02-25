@@ -5,7 +5,7 @@
 
 ### OBJETIVO
 
-- Aprender a realizar la conexión a una base de datos mediante un cliente.
+- Realizar la conexión a una base de datos mediante un cliente.
 
 #### REQUISITOS
 
