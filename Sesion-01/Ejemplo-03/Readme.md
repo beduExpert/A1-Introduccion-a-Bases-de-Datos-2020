@@ -4,7 +4,7 @@
 
 ### OBJETIVO
 
-- Aprender escribir consultas sencillas por medio de `SELECT`.
+- Escribir consultas sencillas por medio de `SELECT`.
 - Filtrar los resultados de un `SELECT` mediante la restricción `WHERE`.
 - Ilustrar el uso de los operadores lógicos, relacionales e `IN`.
 
