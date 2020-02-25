@@ -4,7 +4,7 @@
 
 ### OBJETIVO
 
-- Aprender a ordenar los resultados de una consulta.
+- Ordenar los resultados de una consulta.
 - Limitar el número de registros de una consulta.
 
 #### REQUISITOS
