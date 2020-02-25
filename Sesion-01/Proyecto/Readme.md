@@ -26,7 +26,7 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 
 1. Dentro del mismo servidor de bases de datos, conéctate al esquema `classicmodels`.
 
-2. Dentro de la tabla `employees`, obten el apellido de todos los empleados.
+2. Dentro de la tabla `employees`, obtén el apellido de todos los empleados.
 
 3. Dentro de la tabla `employees`, obten el apellido, nombre y puesto de todos los empleados.
 
