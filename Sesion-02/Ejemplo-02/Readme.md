@@ -4,7 +4,7 @@
 
 ### OBJETIVO
 
-- Aprender a realizar consultas que modifiquen el valor de una columna mediante lo que se conoce como *función de agrupamiento*.
+- Realizar consultas que modifiquen el valor de una columna mediante lo que se conoce como *función de agrupamiento*.
 
 #### REQUISITOS
 
