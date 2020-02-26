@@ -5,7 +5,7 @@
 
 ### OBJETIVO
 
-- Aprender a realizar consultas que hagan uso de la restricción `LIKE` que hace uso de la técnica de reconocimiento de patrones.
+- Realizar consultas que hagan uso de la restricción `LIKE` que hace uso de la técnica de reconocimiento de patrones.
 
 #### REQUISITOS
 
