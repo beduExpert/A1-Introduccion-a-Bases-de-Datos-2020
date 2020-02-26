@@ -4,7 +4,7 @@
 
 #### OBJETIVO
 
-- Aprender a realizar la conexión a MongoDB mediante el cliente MongoDB Compass.
+- Realizar la conexión a MongoDB mediante el cliente MongoDB Compass.
 
 #### REQUISITOS
 
