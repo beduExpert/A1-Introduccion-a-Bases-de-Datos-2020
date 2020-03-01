@@ -1,10 +1,10 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 01`
 	
-## Colecciones, Documentos y Proyecciones
+## Expresiones regulares
 
 ### OBJETIVO 
 
-- Proyectar columnas sobre distintos documentos para repasar algunos conceptos.
+- Poner en práctica el uso de expresiones regulares.
 
 #### REQUISITOS 
 
@@ -12,37 +12,47 @@
 
 #### DESARROLLO
 
-Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.
+Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguientes filtros:
 
-- Fecha, nombre y texto de cada comentario.
-- Título, elenco y año de cada película.
-- Nombre y contraseña de cada usuario.
+- Propiedades que no permitan fiestas.
+- Propiedades que admitan mascotas.
+- Propiedades que no permitan fumadores.
+- Propiedades que no permitan fiestas ni fumadores.
 
 <details><summary>Solución</summary>
 <p>
 
-- Fecha, nombre y texto de cada comentario.
+- Propiedades que no permitan fiestas.
 
    ```json
-   {date:1, name:1, text:1}
+   {house_rules: /No Parties/i}
    ```
    
-   ![imagen](imagenes/s4r11.png)
+   ![imagen](imagenes/s5r11.png)
 
-- Título, elenco y año de cada película.
-
-   ```json
-   {title:1, cast:1, year:1}
-   ```
-   
-   ![imagen](imagenes/s4r12.png)
-   
-- Nombre y contraseña de cada usuario.
+- Propiedades que admitan mascotas.
 
    ```json
-   {name:1, password:1}	
+   {house_rules: /Pets Allowed/i}
    ```
-   ![imagen](imagenes/s4r13.png) 
+   
+   ![imagen](imagenes/s5r12.png)
+   
+- Propiedades que no permitan fumadores.
+
+   ```json
+   {house_rules: /No Smoking/i}	
+   ```
+   ![imagen](imagenes/s5r13.png) 
+   
+- Propiedades que no permitan fiestas ni fumadores.
+
+   ```json
+   {house_rules: /No Smoking|No Parties/i}
+   ```
+   
+   ![imagen](imagenes/s5r14.png)
+
 
 </p>
 </details> 
