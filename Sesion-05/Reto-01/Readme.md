@@ -1,27 +1,48 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 01`
 	
-## Titulo del Ejemplo 
+## Colecciones, Documentos y Proyecciones
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Proyectar columnas sobre distintos documentos para repasar algunos conceptos.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. MongoDB Compass instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.
 
-<details>
+- Fecha, nombre y texto de cada comentario.
+- Título, elenco y año de cada película.
+- Nombre y contraseña de cada usuario.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+<details><summary>Solución</summary>
+<p>
+
+- Fecha, nombre y texto de cada comentario.
+
+   ```json
+   {date:1, name:1, text:1}
+   ```
+   
+   ![imagen](imagenes/s4r11.png)
+
+- Título, elenco y año de cada película.
+
+   ```json
+   {title:1, cast:1, year:1}
+   ```
+   
+   ![imagen](imagenes/s4r12.png)
+   
+- Nombre y contraseña de cada usuario.
+
+   ```json
+   {name:1, password:1}	
+   ```
+   ![imagen](imagenes/s4r13.png) 
+
+</p>
 </details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
