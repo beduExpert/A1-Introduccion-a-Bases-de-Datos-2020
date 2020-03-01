@@ -1,4 +1,4 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 01`
 
 ### Ejemplo 1: Expresiones regulares
 
@@ -25,7 +25,7 @@ En este ejemplo revisaremos el concepto de expresión regular. Éste es similar 
       {transit: /Metro/}
       ```
       
-      [!imagen](imagenes/s5e11.png)
+      ![imagen](imagenes/s5e11.png)
       
    - La consulta anterior parece funcionar, pero qué ocurre si el dueño puso en la descripción metro con minúsculas, todos esos documentos están siendo omitidos. Le pediremos a MongoDB que haga la búsqueda ignorando las mayúsculas y minúsculas agregando el modificador `i`.
    
@@ -33,7 +33,7 @@ En este ejemplo revisaremos el concepto de expresión regular. Éste es similar 
       {transit: /Metro/i}
       ```
       
-      [!imagen](imagenes/s5e12.png)
+      ![imagen](imagenes/s5e12.png)
       
    Como puedes observar, la consulta trajo más registros pues en esta ocasión, estamos obteniendo documentos con la palabra `Metro` o `metro`.   
 
@@ -47,7 +47,7 @@ En este ejemplo revisaremos el concepto de expresión regular. Éste es similar 
    
    Recuerda colocar las diagonales.
    
-   [!imagen](imagenes/s5e13.png)
+   ![imagen](imagenes/s5e13.png)
    
 3. De la misma manera, podemos buscar los correos que tengan dominio `@cats.com`, para ello, debemos buscar correos que tengan al final el texto mencionado. Para ello usamos el símbolo `$` que marca el fin de una cadena.
 
@@ -55,7 +55,7 @@ En este ejemplo revisaremos el concepto de expresión regular. Éste es similar 
    {email: /@cats.com$/}
    ```
    
-   [!imagen](imagenes/s5e14.png)
+   ![imagen](imagenes/s5e14.png)
    
 4. Por último, buscaremos documentos cuyo correo incluya una `a` en cualquier parte del mismo. Para ello usaremos la expresión `.*` que se sustituye por cualquier cadena.
 
@@ -63,4 +63,4 @@ En este ejemplo revisaremos el concepto de expresión regular. Éste es similar 
    {email: /.*a.*/}
    ```
    
-   [!imagen](imagenes/s5e15.png)   
+   ![imagen](imagenes/s5e15.png)   
