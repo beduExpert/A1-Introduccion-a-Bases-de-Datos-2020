@@ -28,7 +28,7 @@ Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguiente
    {house_rules: /No Parties/i}
    ```
    
-   ![imagen](imagenes/s5r11.png)
+   ![imagen](imagenes/s5e11.png)
 
 - Propiedades que admitan mascotas.
 
@@ -36,14 +36,14 @@ Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguiente
    {house_rules: /Pets Allowed/i}
    ```
    
-   ![imagen](imagenes/s5r12.png)
+   ![imagen](imagenes/s5e12.png)
    
 - Propiedades que no permitan fumadores.
 
    ```json
    {house_rules: /No Smoking/i}	
    ```
-   ![imagen](imagenes/s5r13.png) 
+   ![imagen](imagenes/s5e13.png) 
    
 - Propiedades que no permitan fiestas ni fumadores.
 
@@ -51,7 +51,7 @@ Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguiente
    {house_rules: /No Smoking|No Parties/i}
    ```
    
-   ![imagen](imagenes/s5r14.png)
+   ![imagen](imagenes/s5e14.png)
 
 
 </p>
