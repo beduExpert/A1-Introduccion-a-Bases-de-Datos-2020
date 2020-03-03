@@ -1,6 +1,6 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 03`
 	
-## Notación punto y arreglos
+## Introducción a las agregaciones
 
 ### OBJETIVO 
 
@@ -12,16 +12,37 @@
 
 #### DESARROLLO
 
-Usando la colección `sample_airbnb.listingsAndReviews`, agrega un filtro que permita obtener todas las publicaciones que tengan 50 o más comentarios, que la valoración sea mayor o igual a 80, que cuenten con conexión a Internet vía cable y estén ubicada en Brazil.
+Usando la colección `sample_airbnb.listingsAndReviews`, mediante el uso de agregaciones, encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet).
 
 <details><summary>Solución</summary>
 <p>
+	
+1. Primero filtramos los documentos con Internet desde Wifi o desde cable. Para ello usamos `$match` que permite realizar filtros dentro de agregaciones.
 
-```json
-{number_of_reviews: {$gte: 50}, "review_scores.review_scores_rating": {$gte: 80}, amenities: {$in: [/Ethernet/]}, "address.country_code": "BR" }
-```
+   ```json
+   {
+      amenities: {$in: ["Wifi", "Ethernet"]}
+   }
+   ```
 
-   ![imagen](imagenes/s5r21.png)
+   ![imagen](imagenes/s5r31.png)
+   
+2. Ahora contamos el número de registros resultantes con `$group`. Los agrupamientos al igual que en __SQL__ necesitan un campo por el cual agrupar y una función de agrupamiento.
+
+   - Dado que contaremos los registros no necesitamos campo, así que ponemos `_id: null`.
+   
+   - Para agrupar usaremos la función `$sum` con el parámetro `1`. Es decir, por cada documento sumará un 1, trayendo al final el total de documentos.
+   
+   ```json
+   {
+      _id: null,
+      total: {
+         $sum: 1
+      }
+   }
+   ```
+   
+   ![imagen](imagenes(s4r32.png)
 
 </p>
 </details> 
