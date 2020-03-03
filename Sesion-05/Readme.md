@@ -14,7 +14,7 @@
 - Expresiones regulares
    - [Ejemplo 1](Ejemplo-01/Readme.md)
    - [Reto 1](Reto-01/Readme.md)
-- Notación punto
+- Notación punto y arreglos
    - [Ejemplo 2](Ejemplo-02/Readme.md)
    - [Reto 2](Reto-02/Readme.md)
 - Introducción a las agregaciones
