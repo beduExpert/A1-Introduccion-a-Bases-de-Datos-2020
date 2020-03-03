@@ -42,7 +42,7 @@ Usando la colección `sample_airbnb.listingsAndReviews`, mediante el uso de agre
    }
    ```
    
-   ![imagen](imagenes/s4r32.png)
+   ![imagen](imagenes/s5r32.png)
 
 </p>
 </details> 
