@@ -1,12 +1,10 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 03`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 03`
 
-### Ejemplo 3: Filtros básicos
+### Ejemplo 3: Introducción a las agregaciones
 
 #### OBJETIVO
 
-- Usar la opción `FILTER` para filtrar documentos
-- Usar la opción `ORDER` para ordenar documentos
-- Usar la opción `LIMIT` para limitar documentos
+- Entender el concepto de agregación y su similitud con los agrupamientos y subconsultas de __SQL__.
 
 #### REQUISITOS
 
@@ -14,101 +12,56 @@
 
 #### DESARROLLO
 
-1. Dentro de la colección `movies`, vuelve a dar clic en el botón `OPTIONS`.  Esta vez usaremos el campo `FILTER`, esta opción es equivalente a la cláusula `WHERE` de SQL. Por ejemplo, podemos filtrar todas las películas del año 1993.
+1. Cuando revisamos __SQL__ usamos agrupamientos que aplicaban una función a una columna reduciéndola a un valor que podía ser una suma, un conteo o calcular un promedio, por ejemplo. 
 
-   *Consulta en SQL*
-  
-   ```sql
-   SELECT *
-   FROM movies
-   WHERE year = 1993;
-   ```
-  
-   *Consulta en MongoDB usando JSON*
-  
-   ```json
-   {year: 1993}
-   ```
+En __MongoDB__ podemos realizar lo mismo mediante el uso de agregaciones. Las agregaciones, permiten realizar distintos filtros usando *capas*. Una capa es el resultado de la aplicación de algún filtro, proyección, agrupamiento, ordienamiento, etc. Cada capa puede usarse en una nueva capa. La primera capa siempre será la colección completa.
 
-    ![imagen](imagenes/s4e31.png)
+Al conjunto de capas generadas en una agregación se le conoce como *pipeline*.
 
-2. Al igual que en SQL, tenemos operadores relacionales, por ejemplo queremos todas las películas de los años 2000.
+Por ejemplo, queremos saber cuál es la propiedad con mayor número de servicios (`amenities`) de la colección `sample_airbnb.listingsAndReviews`. Para usar agregaciones, daremos clic en la pestaña `Aggregations` de Compass. 
 
-   *Consulta en SQL*
+- Primero debemos obtener la longitud del arreglo `amenities` para saber el número de servicios de cada documento. Para esto, seleccionamos `addFields` en la primera capa.
+
+   Con `addFields` podemos agregar campos como resultado de aplicar funciones a otros campos de la colección. De esta forma agregaremos el tamaño del arreglo como columna.
    
-   ```sql
-   SELECT *
-   FROM movies
-   WHERE year >= 2000;
-   ```
-   
-   *Consulta en MongoDB usando JSON*
+   Llamaremos a este campo servicios y para calcularlo usaremos la función `$size`. 
    
    ```json
-   {year: {$gte: 2000}}
+   {
+      servicios: {$size: "$amenities"}
+   }
    ```
    
-   *Observación:* Las operaciones de MongoDB siempre aparecen precedidas del símbolo `$`.
+   ![imagen](imagenes/s5e31.png)
    
-   ![imagen](imagenes/s4e32.png)
+- Como el único dato que nos interesa es el número de servicios, sólo proyectaremos este resultado, para esto crearemos una nueva capa con `ADD STAGE` y elegiremos `$project`. Proyectamos el campo `name` y  `servicios` poniendo un `1` y quitamos el campo `_id` poniendo un 0.
 
-3. También tenemos las operaciones lógica. Por ejemplo, si quisiéramos las películas comprendidas entre el año 2012 y 2019.
-
-   *Consulta en SQL*
-   
-   ```sql
-   SELECT *
-   FROM movies
-   WHERE year >= 2012
-     AND year <= 2019;
-   ```
-   
-   *Consulta en MongoDB usando JSON*
-   
    ```json
-   {$and: [{year: {$gte: 2012}},{year: {$lte: 2019}}]}
+   {
+      name: 1,
+      servicios: 1,
+      _id: 0
+   }
    ```
    
-   *Observación:* Las operaciones que reciben más de un argumento, usan arreglos para separar los mismos.
+   ![imagen](imagenes/s5e32.png)
+   
+- Ahora lo ordenamos añadiendo otra capa y usando `$sort`, recuerda -1 para descendente, 1 para ascendente.
 
-   ![imagen](imagenes/s4e33.png)
-   
-   Para conocer más operaciones de este tipo, revisa la [documentación de MongoDB](https://docs.mongodb.com/manual/reference/operator/query/). 
-   
-4. Para ordenar, usaremos la opción `SORT`. Para ordenar, hay que agregar un JSON con el nombre de los campos por los cuales se desea ordenar y agregar un valor 1 si se desea ordenar ascendentemente o -1 para un ordenamiento descendente. Por ejemplo, ordenaremos las películas por año.
-
-   *Consulta en SQL*
-
-   ```sql
-   SELECT *
-   FROM movies
-   ORDER BY year ASC;
-   ```
-   
-   *Consulta en MongoDB usando JSON*
-   
    ```json
-   {year: 1}
+   {
+      servicios: -1
+   }
    ```
    
-   ![imagen](imagenes/s4e34.png)
+   ![imagen](imagenes/s5e33.png)
    
-    *Consulta en SQL*
+- Finalmente, limitamos la consulta a un registro usando `$limit`.
 
-   ```sql
-   SELECT *
-   FROM movies
-   ORDER BY year DESC;
-   ```
-   
-   *Consulta en MongoDB usando JSON*
-   
    ```json
-   {year: -1}
+   {
+      1
+   }
    ```
    
-   ![imagen](imagenes/s4e35.png)
-   
-5. Finalmente, para limitar los resultados de una consulta, podemos usar la opción `LIMIT`. Sólo basta con agregar el número deseado. Por ejemplo, las cinco películas de los últimos años.
-
-   ![imagen](imagenes/s4e36.png)
+   ![imagen](imagenes/s5e34.png)
