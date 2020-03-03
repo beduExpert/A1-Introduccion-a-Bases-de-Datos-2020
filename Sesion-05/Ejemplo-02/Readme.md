@@ -1,11 +1,10 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 02`
 
-### Ejemplo 2: Colecciones, Documentos y Proyecciones
+### Ejemplo 2: Notación Punto
 
 #### OBJETIVO
 
-- Usar la interfaz de MongoDB para listar las colecciones y documentos de una base de datos.
-- Realizar filtros por proyección.
+- Utilizar la notación punto para acceder a objetos anidados dentro de arreglos u otros objetos.
 
 #### REQUISITOS
 
@@ -13,35 +12,65 @@
 
 #### DESARROLLO
 
-1. Abre MongoDB Compass. En esta primera pantalla se muestran las bases de datos contenidas en el servidor. Da clic en la base de datos `sample_mflix`. A partir de ahora usaremos esa base de datos para los retos y ejemplos dentro de la sesión.
+1. La notación punto es una técnica mediante la cual los lenguajes de programación orientados a objetos permiten acceder a los atributos de un determinado objeto. Por ejemplo, en la base de datos `sample_airbnb.listingsAndReviews` se tiene un campo llamado `address` que a su vez incluye un atributo llamado `country` para indicar el país de dicha propiedad.
 
-   ![imagen](imagenes/s4e21.png)
+Con esto podemos busar todas las propiedades que se encuentren en España usando el siguiente filtro.
 
-2. En la ventana que apareció se muestran las **colecciones** para la base de datos que elegiste. También puedes navegar entre las colecciones con el menú desplegable de la izquierda. Da clic en la colección `users`.
-   
-   ![imagen](imagenes/s4e22.png)
-
-3. Ahora estás apreciando los documentos que hay dentro de la colección `users`. En el menú que se encuentra sobre los documentos, puedes cambiar el formato en que se muestran, por defecto, la forma de visualizarlos es en formato de lista aunque hay otras opciones como JSON o formato de tabla como en SQL.
-
-   ![imagen](imagenes/s4e23.png)
-   
-4. Por defecto, la interfaz de MongoDB Compass muestra todos los campos de todos los documentos, esto es equivalente a ejecutar la instrucción de SQL:
-
-   ```sql
-   SELECT *
-   FROM users;
-   ```
-   
-   Para mostrar algún campo en específico, como lo hacíamos en SQL, usaremos proyecciones. Para usar una proyección, hay que dar clic en el botón `OPTIONS`. Se abrirá un formulario, llenaremos el campo llamado `PROJECT`. 
-   
-   En las bases de datos relacionales, la forma de comunicarnos con la base es mediante SQL, en MongoDB lo haremos a través de JSON. De esta forma, para proyectar los datos, usaremos un JSON, separando cada campo deseado, con un valor de 1. Por ejemplo, si queremos obtener únicamente el nombre y correo del usuario, escribimos lo siguiente.
-   
    ```json
-   {name:1, email:1}
+   {"address.country": "Spain"}
    ```
    
-   Para mostrar la proyección, damos clic en el botón `FIND`.
-   
-   ![imagen](imagenes/s4e24.png)
+Es importante que observes que para usar la notación punto debemos colocar el nombre de los campos entre comillas dobles, de lo contrario, no funcionará el punto.   
 
-**¡Felicidades! Haz realizado tu primera consulta en una base de datos con MongoDB**
+   ![imagen](imagenes/s5e21.png)
+
+2. De la misma forma podemos acceder a los elementos de un arreglo mediante sus índices. Por ejemplo, en la base de datos se tiene el arreglo `amenities`. Para acceder al segundo elemento usamos el índice 1. Los elementos comienzan a contarse a partir del 0. Más adelante mediante el uso de agregaciones obtendemos los elementos de un arreglo.
+
+De momento, podemos usar la función `$in` que permite filtrar mediante los elementos contenidos en el arreglo, por ejemplo, queremos las propiedades que tengan cocina, para ello usamos el filtro:
+
+   ```json
+   {amenities: {$in: ["Kitchen"]}}
+   ```
+   
+   ![imagen](imagenes/s5e22.png)
+
+3. Ahora podemos aplicar un filtro que incluya todo lo que hemos aprendido. Por ejemplo, podemos obtener la lista de todas las publicaciones con un costo menor a 100, que se encuentren en España, con una valoración de 50 o más puntos, que cuenten con Internet o Wifi y que tegan Elevador.
+
+Esta es una consulta más compleja que las anteriores, por lo que la construiremos por partes y luego la juntaremos.
+
+   - Publicaciones con un costro menor a 100.
+   
+      ```json
+      {price: {$lte: 100}}
+      ```
+   
+   - En españa.
+   
+      ```json
+      {"address.country_code": "ES"}
+      ```
+   
+   - Con una valoración de 50 o más puntos.
+   
+      ```json
+      {"review_scores.review_scores_rating": {$gte: 50}}
+      ```
+      
+   - Que cuenten con Internet o Wifi.
+   
+      ```json
+      {amenities: {$in: ["Internet, "Wifi"]}
+      ```
+      
+   - Que tengan elevador.
+      
+      ```json
+      {amenities: {$in: ["Elevator"]}}
+      ```
+      
+   - Integrando todo.
+   ```json
+   {price: {$lte: 100}, "address.country_code": "ES", "review_scores.review_scores_rating":{$gte: 50}, amenities: {$in:["Internet", "Wifi"]}, amenities:{$in:["Elevator"]}}
+   ```
+
+   ![imagen](imagenes/s5e23.png)
