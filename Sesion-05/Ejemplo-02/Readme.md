@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 02`
 
-### Ejemplo 2: Notación Punto
+### Ejemplo 2: Notación Punto y arreglos
 
 #### OBJETIVO
 
