@@ -59,7 +59,7 @@ Posteriormente, obtenemos el objeto del arreglo, su campo `password` y finalment
 }
 ```
 
-![imagen](imagenes/s6r2.png)
+![imagen](imagenes/s6r22.png)
 
 </p>
 </details> 
