@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Reto 03`
 	
-## Generación de vistas.
+## Generación de vistas
 
 ### OBJETIVO 
 
