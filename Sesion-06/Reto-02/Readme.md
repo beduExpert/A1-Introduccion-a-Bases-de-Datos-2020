@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 02`
 	
-## Notación punto y arreglos
+## Asociación de colecciones
 
 ### OBJETIVO 
 
@@ -12,16 +12,54 @@
 
 #### DESARROLLO
 
-Usando la colección `sample_airbnb.listingsAndReviews`, agrega un filtro que permita obtener todas las publicaciones que tengan 50 o más comentarios, que la valoración sea mayor o igual a 80, que cuenten con conexión a Internet vía cable y estén ubicada en Brazil.
+Usando las colecciones `comments` y `users`, se requiere conocer el correo y contraseña de cada persona que realizó un comentario. Construye un pipeline que genere como resultado estos datos.
 
 <details><summary>Solución</summary>
 <p>
+	
+Primero, obtenemos la relación con `$lookup`.	
 
 ```json
-{number_of_reviews: {$gte: 50}, "review_scores.review_scores_rating": {$gte: 80}, amenities: {$in: [/Ethernet/]}, "address.country_code": "BR" }
+{
+  from: 'users',
+  localField: 'name',
+  foreignField: 'name',
+  as: 'usuario'
+}
 ```
 
-   ![imagen](imagenes/s5r21.png)
+![imagen](imagenes/s6r21.png)
+
+Posteriormente, obtenemos el objeto del arreglo, su campo `password` y finalmente proyectamos los datos necesarios.
+
+- `$addFields`
+
+```json
+{
+  usuario_objeto: {$arrayElemAt: ["$usuario", 0]}
+}
+```
+
+- `$addFields`
+
+```json
+{
+  usuario_password: "$usuario_objeto.password"
+}
+```
+
+- `$project`
+
+```json
+{
+  _id:0,
+  name:1,
+  email:1,
+  usuario_password:1
+}
+```
+
+![imagen](imagenes/s6r2.png)
 
 </p>
 </details> 
