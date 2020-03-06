@@ -1,10 +1,10 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Reto 01`
 	
-## Expresiones regulares
+## Agrupamientos
 
 ### OBJETIVO 
 
-- Poner en práctica el uso de expresiones regulares.
+- Poner en práctica el uso de agrupamientos.
 
 #### REQUISITOS 
 
@@ -12,47 +12,70 @@
 
 #### DESARROLLO
 
-Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguientes filtros:
-
-- Propiedades que no permitan fiestas.
-- Propiedades que admitan mascotas.
-- Propiedades que no permitan fumadores.
-- Propiedades que no permitan fiestas ni fumadores.
+Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo promedio por habitación ṕor país de las propiedades de tipo casa.
 
 <details><summary>Solución</summary>
 <p>
 
-- Propiedades que no permitan fiestas.
+- Filtramos las propeidades con `$match`
 
    ```json
-   {house_rules: /No Parties/i}
+   {
+      property_type: 'House',
+      bedrooms: {$gte: 1}
+   }
    ```
    
-   ![imagen](imagenes/s5e11.png)
-
-- Propiedades que admitan mascotas.
+   ![imagen](imagenes/s6r11.png)
+   
+- Agregamos el costo por recámara con `$addFields`
 
    ```json
-   {house_rules: /Pets Allowed/i}
+   {
+      costo_recamara: {$divide: ["$price", "$bedrooms"]}
+   }
    ```
+
+   ![imagen](imagenes/s6r12.png)
    
-   ![imagen](imagenes/s5e12.png)
-   
-- Propiedades que no permitan fumadores.
+- Agrupamos la suma de recamaras y del total agrupando en este caso por país. Para ello usamos `$group`.
 
    ```json
-   {house_rules: /No Smoking/i}	
+   {
+     _id: "$address.country",
+     recamaras: {
+       $sum: 1
+     },
+     total: {
+       $sum: "$costo_recamara"
+     }
+   }
    ```
-   ![imagen](imagenes/s5e13.png) 
    
-- Propiedades que no permitan fiestas ni fumadores.
+   ![imagen](imagenes/s6r13.png)
+   
+- Agregamos el campo costo promedio para cada pas con `$addFields`, creamos un alias al `_id` para hacer más claro el valor que guarda.
 
    ```json
-   {house_rules: /No Smoking|No Parties/i}
+   {
+     pais: "$_id",
+     costo_promedio: {$divide: ["$total", "$recamaras"]}
+   }
    ```
    
-   ![imagen](imagenes/s5e14.png)
+   ![imagen](imagenes/s6r15.png)
+   
+- Agregamos una proyección para quitar campos irrelevantes con `project`.
 
-
+   ```json
+   {
+     _id:0,
+     pais:1,
+     costo_promedio:1
+   }
+   ```
+   
+   ![imagen](imagenes/s6r16.png
+ 
 </p>
 </details> 
