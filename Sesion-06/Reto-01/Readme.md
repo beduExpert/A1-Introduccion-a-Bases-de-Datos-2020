@@ -75,7 +75,7 @@ Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo pro
    }
    ```
    
-   ![imagen](imagenes/s6r16.png
+   ![imagen](imagenes/s6r16.png)
  
 </p>
 </details> 
