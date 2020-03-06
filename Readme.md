@@ -12,6 +12,6 @@ Conocer los principales conceptos que ahondan las bases de datos y ponerlos en p
  - [Sesión 3: Joins y Vistas](Sesion-03/Readme.md) 
  - [Sesión 4: Fundamentos de MongoDB](Sesion-04/Readme.md) 
  - [Sesión 5: Consultas en MongoDB](Sesion-05/Readme.md) 
- - [Sesión 6]() 
+ - [Sesión 6: Agregaciones](Sesion-06/Readme.md) 
  - [Sesión 7]() 
  - [Sesión 8]()
