@@ -66,4 +66,4 @@ Elegimos únicamente los campos de interés, primero extrayendo el nombre del ob
 }
 ```
 
-![imagen](s6e24.png)
+![imagen](imagenes/s6e24.png)
