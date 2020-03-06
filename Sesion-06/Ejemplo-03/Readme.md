@@ -1,10 +1,10 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 03`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Ejemplo 03`
 
-### Ejemplo 3: Introducción a las agregaciones
+### Ejemplo 3: Generación de vistas
 
 #### OBJETIVO
 
-- Entender el concepto de agregación y su similitud con los agrupamientos y subconsultas de __SQL__.
+- Construir vistas a partir de los resultados obtenidos de un *pipeline*.
 
 #### REQUISITOS
 
@@ -12,56 +12,20 @@
 
 #### DESARROLLO
 
-1. Cuando revisamos __SQL__ usamos agrupamientos que aplicaban una función a una columna reduciéndola a un valor que podía ser una suma, un conteo o calcular un promedio, por ejemplo. 
+Con base en lo resultados del *pipeline* del Ejemplo 2, vamos a construir una vista que guarde los resultados. Una vista en __MongoDB__ funciona de manera similar a las vistas de __SQL__. Se genera una colección virtual que puede consultarse como si se tratara de una colección real.
 
-En __MongoDB__ podemos realizar lo mismo mediante el uso de agregaciones. Las agregaciones, permiten realizar distintos filtros usando *capas*. Una capa es el resultado de la aplicación de algún filtro, proyección, agrupamiento, ordienamiento, etc. Cada capa puede usarse en una nueva capa. La primera capa siempre será la colección completa.
+Para crear una vista, damos clic en el botón `SAVE`.
 
-Al conjunto de capas generadas en una agregación se le conoce como *pipeline*.
+![imagen](imagenes/s6e31.png)
 
-Por ejemplo, queremos saber cuál es la propiedad con mayor número de servicios (`amenities`) de la colección `sample_airbnb.listingsAndReviews`. Para usar agregaciones, daremos clic en la pestaña `Aggregations` de Compass. 
+Posteriormente damos un nombre a la vista y presionamos el botón `GUARDAR`.
 
-- Primero debemos obtener la longitud del arreglo `amenities` para saber el número de servicios de cada documento. Para esto, seleccionamos `addFields` en la primera capa.
+![imagen](imagenes/s6e32.png)
 
-   Con `addFields` podemos agregar campos como resultado de aplicar funciones a otros campos de la colección. De esta forma agregaremos el tamaño del arreglo como columna.
-   
-   Llamaremos a este campo servicios y para calcularlo usaremos la función `$size`. 
-   
-   ```json
-   {
-      servicios: {$size: "$amenities"}
-   }
-   ```
-   
-   ![imagen](imagenes/s5e31.png)
-   
-- Como el único dato que nos interesa es el número de servicios, sólo proyectaremos este resultado, para esto crearemos una nueva capa con `ADD STAGE` y elegiremos `$project`. Proyectamos el campo `name` y  `servicios` poniendo un `1` y quitamos el campo `_id` poniendo un 0.
+En el menú izquierdo, aparece nuestra vista creada.
 
-   ```json
-   {
-      name: 1,
-      servicios: 1,
-      _id: 0
-   }
-   ```
-   
-   ![imagen](imagenes/s5e32.png)
-   
-- Ahora lo ordenamos añadiendo otra capa y usando `$sort`, recuerda -1 para descendente, 1 para ascendente.
+![imagen](imagenes/s6e33.png)
 
-   ```json
-   {
-      servicios: -1
-   }
-   ```
-   
-   ![imagen](imagenes/s5e33.png)
-   
-- Finalmente, limitamos la consulta a un registro usando `$limit`.
+Si la abrimos, podemos notar que la consulta se realiza como a cualquier otra colección.
 
-   ```json
-   {
-      1
-   }
-   ```
-   
-   ![imagen](imagenes/s5e34.png)
+![imagen](imagenes/s6e34.png)
