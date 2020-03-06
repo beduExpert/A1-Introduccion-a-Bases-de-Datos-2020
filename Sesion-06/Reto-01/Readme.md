@@ -1,27 +1,58 @@
- 
-
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 01`
 	
-## Titulo del Ejemplo 
+## Expresiones regulares
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Poner en práctica el uso de expresiones regulares.
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. MongoDB Compass instalado.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguientes filtros:
 
-<details>
+- Propiedades que no permitan fiestas.
+- Propiedades que admitan mascotas.
+- Propiedades que no permitan fumadores.
+- Propiedades que no permitan fiestas ni fumadores.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+<details><summary>Solución</summary>
+<p>
+
+- Propiedades que no permitan fiestas.
+
+   ```json
+   {house_rules: /No Parties/i}
+   ```
+   
+   ![imagen](imagenes/s5e11.png)
+
+- Propiedades que admitan mascotas.
+
+   ```json
+   {house_rules: /Pets Allowed/i}
+   ```
+   
+   ![imagen](imagenes/s5e12.png)
+   
+- Propiedades que no permitan fumadores.
+
+   ```json
+   {house_rules: /No Smoking/i}	
+   ```
+   ![imagen](imagenes/s5e13.png) 
+   
+- Propiedades que no permitan fiestas ni fumadores.
+
+   ```json
+   {house_rules: /No Smoking|No Parties/i}
+   ```
+   
+   ![imagen](imagenes/s5e14.png)
+
+
+</p>
 </details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-

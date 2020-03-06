@@ -1,16 +1,24 @@
+[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 05`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
+## Consultas en MongoDB
 
-## Titulo de la Sesion 
+### OBJETIVOS
 
-### OBJETIVOS 
+- Entender qué es y cómo se usa una expresión regular.
+- Filtrar resultados mediante expresiones regulares.
+- Usar la notación punto para filtrar objetos anidados
+- Entender de manera básica qué es una agregación
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+### ORGANIZACION DE LA CLASE
 
-#### ORGANIZACION DE LA CLASE 
-
-- Tema que veran en el ejemplo
-
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+- Expresiones regulares
+   - [Ejemplo 1](Ejemplo-01/Readme.md)
+   - [Reto 1](Reto-01/Readme.md)
+- Notación punto y arreglos
+   - [Ejemplo 2](Ejemplo-02/Readme.md)
+   - [Reto 2](Reto-02/Readme.md)
+- Introducción a las agregaciones
+   - [Ejemplo 3](Ejemplo-03/Readme.md)
+   - [Reto 3](Reto-03/Readme.md)
+- [Proyecto](Proyecto/Readme.md)
+- [Postwork](Postwork/Readme.md)
