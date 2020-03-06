@@ -1,10 +1,10 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Ejemplo 02`
 
-### Ejemplo 2: Notación Punto y arreglos
+### Ejemplo 2: Asociación de colecciones
 
 #### OBJETIVO
 
-- Utilizar la notación punto para acceder a objetos anidados dentro de arreglos u otros objetos.
+- Asociar colecciones mediante sus campos en común, usando la agregación `$lookup`.
 
 #### REQUISITOS
 
@@ -12,65 +12,58 @@
 
 #### DESARROLLO
 
-1. La notación punto es una técnica mediante la cual los lenguajes de programación orientados a objetos permiten acceder a los atributos de un determinado objeto. Por ejemplo, en la base de datos `sample_airbnb.listingsAndReviews` se tiene un campo llamado `address` que a su vez incluye un atributo llamado `country` para indicar el país de dicha propiedad.
+En la base de datos, existen varias colecciones que pueden asociarse. Por ejemplo la colección `comments` tiene la siguiente estructura:
 
-Con esto podemos busar todas las propiedades que se encuentren en España usando el siguiente filtro.
+![imagen](imagenes/s6e21.png)
 
-   ```json
-   {"address.country": "Spain"}
-   ```
-   
-Es importante que observes que para usar la notación punto debemos colocar el nombre de los campos entre comillas dobles, de lo contrario, no funcionará el punto.   
+Sin embargo, para conocer la película sobre la cual se hizo el comentario, es necesario consultar la colección `movies`. Y buscar el id que leímos de la colección `comments`.
 
-   ![imagen](imagenes/s5e21.png)
+![imagen](imagenes/s6e22.png)
 
-2. De la misma forma podemos acceder a los elementos de un arreglo mediante sus índices. Por ejemplo, en la base de datos se tiene el arreglo `amenities`. Para acceder al segundo elemento usamos el índice 1. Los elementos comienzan a contarse a partir del 0. Más adelante mediante el uso de agregaciones obtendemos los elementos de un arreglo.
+Para facilitar esta búsqueda podemos usar una agregación `$lookup` que permite asociar dos colecciones. Algo similar a la operación `JOIN` de `SQL`.
 
-De momento, podemos usar la función `$in` que permite filtrar mediante los elementos contenidos en el arreglo, por ejemplo, queremos las propiedades que tengan cocina, para ello usamos el filtro:
+Agregamos la agregación `$lookup` con el siguiente json:
 
-   ```json
-   {amenities: {$in: ["Kitchen"]}}
-   ```
-   
-   ![imagen](imagenes/s5e22.png)
+```json
+{
+  from: 'movies',
+  localField: 'movie_id',
+  foreignField: '_id',
+  as: 'pelicula'
+}
+```
 
-3. Ahora podemos aplicar un filtro que incluya todo lo que hemos aprendido. Por ejemplo, podemos obtener la lista de todas las publicaciones con un costo menor a 100, que se encuentren en España, con una valoración de 50 o más puntos, que cuenten con Internet o Wifi y que tegan Elevador.
+Esto nos indica que la colección actual (`comments`) se asociará con la conexión `movies` que el campo que tomaremos para asociarlas será `comments.movie_id` y `movies._id` respectivamente y que los resultados serán almacenados en un arreglo llamado `pelicula`.
 
-Esta es una consulta más compleja que las anteriores, por lo que la construiremos por partes y luego la juntaremos.
+![imagen](imagenes/s6e23.png)
 
-   - Publicaciones con un costro menor a 100.
-   
-      ```json
-      {price: {$lte: 100}}
-      ```
-   
-   - En españa.
-   
-      ```json
-      {"address.country_code": "ES"}
-      ```
-   
-   - Con una valoración de 50 o más puntos.
-   
-      ```json
-      {"review_scores.review_scores_rating": {$gte: 50}}
-      ```
-      
-   - Que cuenten con Internet o Wifi.
-   
-      ```json
-      {amenities: {$in: ["Internet, "Wifi"]}
-      ```
-      
-   - Que tengan elevador.
-      
-      ```json
-      {amenities: {$in: ["Elevator"]}}
-      ```
-      
-   - Integrando todo.
-   ```json
-   {price: {$lte: 100}, "address.country_code": "ES", "review_scores.review_scores_rating":{$gte: 50}, amenities: {$in:["Internet", "Wifi"]}, amenities:{$in:["Elevator"]}}
-   ```
+Elegimos únicamente los campos de interés, primero extrayendo el nombre del objeto que envuelve el arreglo y posteriormente proyectando únicamente los campos deseados
 
-   ![imagen](imagenes/s5e23.png)
+- `$addFields`
+
+```json
+{
+  pelicula_objeto: {$arrayElemAt: ["$pelicula",0]}
+}
+```
+
+- `$addFields`
+
+```json
+{
+  pelicula_nombre: "$pelicula_objeto.title"
+}
+```
+
+- `$project`
+
+```
+{
+  _id:0,
+  pelicula_nombre:1,
+  name:1,
+  text:1
+}
+```
+
+![imagen](s6e24.png)
