@@ -14,6 +14,8 @@
 
 Usando las colecciones `comments` y `users`, se requiere conocer el correo y contraseña de cada persona que realizó un comentario. Construye un pipeline que genere como resultado estos datos.
 
+**NO CIERES ESTE *PIPELINE* PUES LO USAREMOS MÁS ADELANTE**
+
 <details><summary>Solución</summary>
 <p>
 	
