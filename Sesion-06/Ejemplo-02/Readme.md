@@ -66,4 +66,6 @@ Elegimos únicamente los campos de interés, primero extrayendo el nombre del ob
 }
 ```
 
+**No cierres, este *pipeline*, pues lo usaremos más adelante.**
+
 ![imagen](imagenes/s6e24.png)
