@@ -1,27 +1,44 @@
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 07`](../Readme.md) > Ejemplo 1
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+## Ejemplo 1: Operaciones con bases de datos
 
-## Titulo del Ejemplo
+### 1. Objetivos
+- Conectarse a un __MySQL__	localmente.
+- Conocer las operaciones sobre bases de datos.
 
-### OBJETIVO
+### 2. Requisitos
+- Servidor de __MySQL__ instalado u ejecutándose.
 
-- Lo que esperamos que el alumno aprenda
+### 3. Desarrollo
 
-#### REQUISITOS
+1. Conectate a tu base de datos desde __MySQL Workbench__ con las credenciales correspondientes a la configuración de tu servidor.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Para crear una base de datos se usa la instrucción `CREATE DATABASE Nombre`, donde `Nombre` suele ser el nombre del proyecto, pero para el curso usa tú nombre y un apellido o un seudónimo en redes sociales que prefieras.
 
-#### DESARROLLO
+   ![imagen](imagenes/s7e11.png)
 
-Agrega las instrucciones generales del ejemplo o reto
+   El resultado indica que el comando se ejecutó de forma correcta, la cantidad de líneas o renglones afectados y el tiempo de ejecución.
 
-<details>
+   **Sugerencia.**  Cuando este comando sea usado con *scripts* para automatizar tareas, se sugiere usar la siguiente variante:
+   
+   ```sql
+   CREATE DATABASE IF NOT EXISTS Nombre;
+   ```
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+   para evitar que se genere un error en caso de que la base de datos ya exista y se intente crear de nuevo.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+1. Para borrar una base de datos se usa el comando  `DROP DATABASE Nombre`
+   
+   ![imagen](imagenes/s7e12.png)
 
+   **Sugerencia.**  Cuando este comando sea usado con scripts para automatizar tareas, se sugiere usar la siguiente variante:
 
+   ```sql
+   DROP DATABASE IF EXISTS Nombre;
+   ```
+
+   para evitar que se genere un error en caso de que la base de datos ya no exista y se intente borrar de nuevo.
+
+1. Como paso final, se creará nuevamente la base de datos y se hará uso de ella como la base de datos actual, para ello se usará el comando `USE Nombre`
+
+   ![imagen](imagenes/s7e13.png)
