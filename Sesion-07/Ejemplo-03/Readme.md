@@ -7,9 +7,7 @@
  - Validar que la correcta importación de los datos
 
 ### 2. Requisitos :clipboard:
-1. MyCli instalado
-1. Carpeta de repo actualizada
-1. Carpeta `Sesion-03/Ejemplo-02/Datos/` disponible
+ - Servidor __MySQL__ instalado
 
 ### 3. Desarrollo :rocket:
 1. Para cargar nuestros conjuntos de datos necesitamos que estén en un formato CSV. Como recordarás, el archivo `users.dat` tiene el siguiente formato:
