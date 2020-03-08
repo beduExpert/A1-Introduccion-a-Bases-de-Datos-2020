@@ -7,7 +7,7 @@
  - Crear una tabla acorde a los datos
 
 ### 2. Requisitos :clipboard:
-1. Servidor __MySQL__ instalado
+- Servidor __MySQL__ instalado
 
 ### 3. Desarrollo :rocket:
 
