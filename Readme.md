@@ -1,11 +1,14 @@
- 
 ## Módulo: Introducción a Bases de Datos
 
-### OBJETIVO 
+<img src="imagenes/bedu.jpg" align="right" height="150" width="150">
 
-Conocer los principales conceptos que ahondan las bases de datos y ponerlos en práctica mediante la generación de consultas mediante sistemas gestores de bases de datos relacionales y no relacionales.						
+<img src="https://cdn.dribbble.com/users/776867/screenshots/6179644/mongogooo.gif" align="right" height="150" width="150" hspace="10">
 
- ### ORGANIZACIÓN DEL MÓDULO 
+### Descripción
+
+El módulo de __Introducción a Bases de Datos__ forma parte del programa *Data Analysis* en __BEDU__ y tiene como principal objetivo conocer los principales conceptos que ahondan las bases de datos y ponerlos en práctica mediante la generación de consultas a través sistemas gestores de bases de datos relacionales y no relacionales.						
+
+ ### Contenido
  
  - [Sesión 1: Fundamentos de SQL](Sesion-01/Readme.md) 
  - [Sesión 2: Agrupaciones y subconsultas](Sesion-02/Readme.md) 
