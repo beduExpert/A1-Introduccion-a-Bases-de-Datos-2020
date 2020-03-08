@@ -16,5 +16,5 @@ El módulo de __Introducción a Bases de Datos__ forma parte del programa *Data 
  - [Sesión 4: Fundamentos de MongoDB](Sesion-04/Readme.md) 
  - [Sesión 5: Consultas en MongoDB](Sesion-05/Readme.md) 
  - [Sesión 6: Agregaciones](Sesion-06/Readme.md) 
- - [Sesión 7]() 
+ - [Sesión 7: Configuración de Bases de Datos Locales](Sesion-07/Readme.md) 
  - [Sesión 8]()
