@@ -17,19 +17,19 @@
 
 #### Work :muscle:
 - Conexión a bases de datos
-	- [Ejemplo 1](Ejemplo-01)
+	- [Ejemplo 1](Ejemplo-01/Readme.md)
 - Estructura de una tabla
-	- [Ejemplo 2](Ejemplo-02)
-	- [Reto 1](Reto-01)
+	- [Ejemplo 2](Ejemplo-02/Readme.md)
+	- [Reto 1](Reto-01/Readme.md)
 - Estructura básica de una consulta
-	- [Ejemplo 3](Ejemplo-03)
-	- [Reto 2](Reto-02)
+	- [Ejemplo 3](Ejemplo-03/Readme.md)
+	- [Reto 2](Reto-02/Readme.md)
 - Ordenamientos y limites
-	- [Ejemplo 4](Ejemplo-04)
-	- [Reto 3](Reto-03)
+	- [Ejemplo 4](Ejemplo-04/Readme.md)
+	- [Reto 3](Reto-03/Readme.md)
 
 #### Proyecto :hammer:	
-- [Proyecto](Proyecto/)
+- [Proyecto](Proyecto/Readme.md)
 
 #### Postwork :memo:
-- [Postwork](Postwork/)
+- [Postwork](Postwork/Readme.md)

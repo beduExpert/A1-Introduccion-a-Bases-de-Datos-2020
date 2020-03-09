@@ -21,7 +21,7 @@
    - [Reto 1](Reto-01/Readme.md)
 - Importando datos a una tabla en formato CSV
    - [Ejemplo 3](Ejemplo-03/Readme.md)
-   - [Reto 2](Reto-03/Readme.md)
+   - [Reto 2](Reto-02/Readme.md)
 - Realizando consultas para validar la importación de datos en una tabla
    - [Ejemplo 4](Ejemplo-03/Readme.md)
    - [Reto 3](Reto-03/Readme.md)

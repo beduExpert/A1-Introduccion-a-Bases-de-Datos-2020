@@ -3,15 +3,15 @@
 
 ## Ejemplo 1: Conexión a bases de datos
 
-### OBJETIVO
+### 1. Objetivos :dart:
 
 - Realizar la conexión a una base de datos mediante un cliente.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. Abre MySQL Wokbench. En esta primera pantalla se muestran las conexiones que tienes configuradas o se muestra en blanco en caso de que sea la primera vez que realizas una conexión.
 
@@ -39,3 +39,5 @@
    ![imagen](imagenes/s1-w5.png)
 
 **¡Felicidades! Haz realizado tu primera conexión a una base de datos**
+
+[`Anterior`](../Intro/Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
