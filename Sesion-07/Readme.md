@@ -12,7 +12,9 @@
 
 ### Organización de la sesión :blue_book:
 
-#### Parte I: Configuración de Bases Relacionales
+#### Work :muscle:
+
+##### Parte I: Configuración de Bases Relacionales
 
 - Operaciones con bases de datos
    - [Ejemplo 1](Ejemplo-01/Readme.md)
@@ -22,19 +24,18 @@
 - Importando datos a una tabla en formato CSV
    - [Ejemplo 3](Ejemplo-03/Readme.md)
    - [Reto 2](Reto-02/Readme.md)
-- Realizando consultas para validar la importación de datos en una tabla
-   - [Ejemplo 4](Ejemplo-03/Readme.md)
-   - [Reto 3](Reto-03/Readme.md)
 
-#### Parte II: Configuración de Bases No Relacionales
+##### Parte II: Configuración de Bases No Relacionales
 
+- Configuración de __MongoDB__ en la nube
+   - [Ejemplo 4](Ejemplo-04/Readme.md)
 - Operaciones con bases de datos
-   - [Ejemplo 5](Ejemplo-01/Readme.md)
+   - [Ejemplo 5](Ejemplo-04/Readme.md)
 - Realizando operaciones con Colecciones e importando datos
-   - [Ejemplo 6](Ejemplo-02/Readme.md)
-   - [Reto 4](Reto-01/Readme.md)
+   - [Ejemplo 6](Ejemplo-05/Readme.md)
+   - [Reto 3](Reto-03/Readme.md)
 - Realizando operaciones con Documentos
-   - [Ejemplo 7](Ejemplo-03/Readme.md) 
+   - [Ejemplo 7](Ejemplo-06/Readme.md) 
 
 ### Proyecto :hammer:  
 - [Proyecto](Proyecto/Readme.md)
