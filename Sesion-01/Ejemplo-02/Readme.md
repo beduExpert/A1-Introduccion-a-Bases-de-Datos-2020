@@ -1,20 +1,19 @@
-
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 02`
 
 ## Ejemplo 2: Estructura de una tabla
 
-### OBJETIVO
+### 1. Objetivos :dart:
 
 - Listar las bases de datos (esquemas) en un servidor de bases de datos y a conectarse a las mismas.
 - Listar las tablas dentro de un esquema.
 - Usar la instrucción `DESCRIBE` para mostrar la estructura de una tabla y los tipos de datos de sus campos.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. Conexión al servidor de bases de datos que se configuró en el Ejemplo 1.
 2. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. Una vez realizada la conexión al servidor de bases de datos, se tiene la siguiente pantalla dentro de Workbench. En ella se muestra un editor de texto llamado *Query 1*.
 
@@ -59,3 +58,5 @@
    ![imagen](imagenes/s1we25.png)
 
    La instrucción `DESCRIBE` es tu amiga. La usaremos cada que necesitamos consultar los registros de una tabla, pues nos permitirá saber qué campos tiene y su tipo.
+
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Reto-01/Readme.md)
