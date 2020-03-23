@@ -30,12 +30,12 @@
 - Configuración de __MongoDB__ en la nube
    - [Ejemplo 4](Ejemplo-04/Readme.md)
 - Operaciones con bases de datos
-   - [Ejemplo 5](Ejemplo-04/Readme.md)
+   - [Ejemplo 5](Ejemplo-05/Readme.md)
 - Realizando operaciones con Colecciones e importando datos
-   - [Ejemplo 6](Ejemplo-05/Readme.md)
+   - [Ejemplo 6](Ejemplo-06/Readme.md)
    - [Reto 3](Reto-03/Readme.md)
 - Realizando operaciones con Documentos
-   - [Ejemplo 7](Ejemplo-06/Readme.md) 
+   - [Ejemplo 7](Ejemplo-07/Readme.md) 
 
 ### Proyecto :hammer:  
 - [Proyecto](Proyecto/Readme.md)
