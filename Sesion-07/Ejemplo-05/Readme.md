@@ -7,10 +7,8 @@
 - Que el alumno cuente con una base de datos para trabajar
 
 ### 2. Requisitos :clipboard:
-1. Repositorio actualizado
 1. MongoDB Compass instalado
 1. Datos de conexión al Servidor MongoDB
-1. Usar la carpeta de trabajo `Sesion-05/Ejemplo-01`
 
 ### 3. Desarrollo :rocket:
 1. Conectarse a la base de datos creada en el Ejemplo 4.
@@ -30,4 +28,4 @@
    ![Lista de colecciones](imagenes/lista-colecciones.png)
    Se trabajará con Colecciones en el siguiente ejemplo.
 
-[`Anterior`](../Ejemplo-04/Readme.md) | [`Siguiente`](../Reto-03/Readme.md)      
+[`Anterior`](../Ejemplo-04/Readme.md) | [`Siguiente`](../Ejemplo-06/Readme.md)      
