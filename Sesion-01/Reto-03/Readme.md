@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 03`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 3`
 	
-## Ordenamientos y Límites
+## Reto 3: Ordenamientos y Límites
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Escribir consultas que permitan responder a algunas preguntas mediante ordenamientos y límites.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Usando la base de datos `tienda`, escribe una consulta que permita obtener el top 5 de puestos por salarios.
 
@@ -27,3 +29,9 @@ Para contestar a esta pregunta, basta con ordenar las calificaciones del alumno 
    ```
 </p>
 </details> 
+
+<br/>
+
+[`Anterior`](../Ejemplo-04/Readme.md) | [`Siguiente`](../Proyecto/Readme.md)
+
+</div>

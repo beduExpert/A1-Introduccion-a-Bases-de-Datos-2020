@@ -1,8 +1,9 @@
-[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 01`
+[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 1`
 
 ## Sesión 1: Fundamentos de SQL
 
 <img src="../imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+<div style="text-align: justify;">
 
 ### Objetivos :dart: 
 
@@ -33,3 +34,7 @@
 
 #### Postwork :memo:
 - [Postwork](Postwork/Readme.md)
+
+[`Anterior`](../Readme.md) | [`Siguiente`](Intro/Readme.md)      
+
+</div>

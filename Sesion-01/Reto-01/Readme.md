@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 1`
 	
-## Estructura de una tabla
+## Reto 1: Estructura de una tabla
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Consultar la estructura de algunas tablas.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Usando la base de datos `tienda`, muestra la descripción de las tablas `articulo`, `puesto` y `venta`. Por cada tipo de dato que encuentras llena la siguiente tabla. Usa la [Documentación de MySQL](https://dev.mysql.com/doc/refman/8.0/en/data-types.html) como referencia.
 
@@ -51,4 +53,10 @@ DESCRIBE venta;
 | `double`    | Datos numéricos con decimales |
 
 </p>
-</details> 
+</details>
+   
+<br/>
+
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
+
+</div>

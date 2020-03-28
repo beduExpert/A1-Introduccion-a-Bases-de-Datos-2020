@@ -1,18 +1,20 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 04`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 4`
 
 ## Ejemplo 4: Ordenamientos y límites
 
-### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Ordenar los resultados de una consulta.
 - Limitar el número de registros de una consulta.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. Conexión al servidor de bases de datos que se configuró en el Ejemplo 1.
 2. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. Adicional a la restricción `WHERE`, es posible añadir otras restriccioens, por ejemplo, la restricción `ORDER BY` que permite ordenar los resultados de una consulta de manera ascendente (`ASC`) o descendente (`DESC`) a partir de un campo. Por ejemplo, la siguiente consulta muestra los resultados ordenados de mayor a menor a partir del campo `salario`.
 
@@ -47,4 +49,7 @@
    ```
  
    ![imagen](imagenes/s1we43.png)
-   
+
+[`Anterior`](../Reto-02/Readme.md) | [`Siguiente`](../Reto-03/Readme.md)
+
+</div>

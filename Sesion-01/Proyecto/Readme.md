@@ -2,15 +2,17 @@
 	
 ## Proyecto de la sesión
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Aplicar los conceptos adquiridos durante la sesión.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 **En este pequeño proyecto aplicarás los conceptos adquiridos durante la sesión:**
 
@@ -72,3 +74,6 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 
 **¡¡¡MUCHA SUERTE!!!**
 
+[`Anterior`](../Reto-03/Readme.md) | [`Siguiente`](../Postwork/Readme.md)
+
+</div>

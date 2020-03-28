@@ -1,18 +1,20 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Postwork`
 
-## Postwork
+## Postwork Sesión 1
 
-### OBJETIVOS
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Iniciar con el planteamiento del problema que resolverás a lo largo de todo el programa.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
-##### Planteamiento del proyecto
+#### Planteamiento del proyecto
 
 A lo largo del programa deberás desarrollar un proyecto. En este postwork, debes definir con qué conjunto de datos vas a trabajar, si es un proyecto de datos propios o vas a seleccionar algún conjunto de datos público.  
 Al mismo tiempo darás forma a la base de datos que usarás para almacenar datos y a partir de ahí obtener información relevante.  
@@ -32,3 +34,7 @@ Te recomendamos plantear en un diagrama las bases de datos que vas a utilizar. E
 Este diagrama puedes generarlo en MySQL Workbench. Si tienes dudas de cómo trabajarlo, pregunta al experto asignado.
 
 Una vez definida la estructura de tu proyecto, define cinco preguntas que te interesen sobre la base de datos que definiste y escribe (a mano) las consultas equivalentes. Más adelante te apoyaremos en instalar tu propio servidor de bases de datos y podrás probar tus consultas.
+
+[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-02/Readme.md)
+
+</div>

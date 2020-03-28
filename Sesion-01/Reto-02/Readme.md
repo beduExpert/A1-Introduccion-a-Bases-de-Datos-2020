@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Reto 2`
 	
-## Estructura básica de una consulta
+## Reto 2: Estructura básica de una consulta
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Escribir consultas que permitan responder a algunas preguntas.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Usando la base de datos `cursos`, escribe consultas que permitan responder las siguientes preguntas.
 
@@ -62,3 +64,9 @@ Usando la base de datos `cursos`, escribe consultas que permitan responder las s
 
 </p>
 </details> 
+
+<br/>
+
+[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md)
+
+</div>

@@ -2,6 +2,8 @@
 
 ## Ejemplo 2: Estructura de una tabla
 
+<div style="text-align: justify;">
+
 ### 1. Objetivos :dart:
 
 - Listar las bases de datos (esquemas) en un servidor de bases de datos y a conectarse a las mismas.
@@ -60,3 +62,5 @@
    La instrucción `DESCRIBE` es tu amiga. La usaremos cada que necesitamos consultar los registros de una tabla, pues nos permitirá saber qué campos tiene y su tipo.
 
 [`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Reto-01/Readme.md)
+
+<div style="text-align: justify;">

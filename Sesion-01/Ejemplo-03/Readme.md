@@ -1,19 +1,21 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 03`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 3`
 
 ## Ejemplo 3: Estructura básica de una consulta
 
-### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Escribir consultas sencillas por medio de `SELECT`.
 - Filtrar los resultados de un `SELECT` mediante la restricción `WHERE`.
 - Ilustrar el uso de los operadores lógicos, relacionales e `IN`.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. Conexión al servidor de bases de datos que se configuró en el Ejemplo 1.
 2. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. Como recordarás de los ejemplos anteriores, la tabla `ejemplo` incluía un campo `nombre`, vamos a seleccionar (o *proyectar*) los registros de ese campo. Para ello, usa la instrucción:
 
@@ -85,5 +87,8 @@
    WHERE id_puesto IN (100,200);
    ```
 
-   ![imagen](imagenes/s1we37.png)   
-   
+   ![imagen](imagenes/s1we37.png)
+
+[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Reto-02/Readme.md)
+
+</div>   

@@ -1,7 +1,9 @@
 
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 1`
 
 ## Ejemplo 1: Conexión a bases de datos
+
+<div style="text-align: justify;">
 
 ### 1. Objetivos :dart:
 
@@ -41,3 +43,5 @@
 **¡Felicidades! Haz realizado tu primera conexión a una base de datos**
 
 [`Anterior`](../Intro/Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
+
+</div>
