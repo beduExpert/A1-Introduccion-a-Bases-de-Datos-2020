@@ -10,7 +10,7 @@
 
 ### 2. Requisitos :clipboard:
 1. MongoDB Compass instalado
-1. Datos de conexión al Servidor MongoD
+1. Datos de conexión al Servidor MongoDB
 1. Base de datos __MiNombre__ y Colecciones `users`, `movies` y `ratings` creadas
 
 ### 3. Desarrollo :rocket:
