@@ -61,6 +61,6 @@
 
    La instrucción `DESCRIBE` es tu amiga. La usaremos cada que necesitamos consultar los registros de una tabla, pues nos permitirá saber qué campos tiene y su tipo.
 
-[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Reto-01/Readme.md)
+[`Anterior`](../Readme.md#estructura-de-una-tabla) | [`Siguiente`](../Reto-01/Readme.md)
 
 <div style="text-align: justify;">

@@ -57,6 +57,6 @@ DESCRIBE venta;
    
 <br/>
 
-[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Ejemplo-03/Readme.md)
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Readme.md#estructura-de-una-consulta)
 
 </div>

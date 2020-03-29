@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Proyecto`
 	
-## Proyecto de la sesión
+## Proyecto Sesión 1
 
 <div style="text-align: justify;">
 
@@ -74,6 +74,6 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 
 **¡¡¡MUCHA SUERTE!!!**
 
-[`Anterior`](../Reto-03/Readme.md) | [`Siguiente`](../Postwork/Readme.md)
+[`Anterior`](../Readme.md#3-proyecto-hammer) | [`Siguiente`](../Readme.md#4-postwork-memo)
 
 </div>

@@ -42,6 +42,6 @@
 
 **¡Felicidades! Haz realizado tu primera conexión a una base de datos**
 
-[`Anterior`](../Intro/Readme.md) | [`Siguiente`](../Ejemplo-02/Readme.md)
+[`Anterior`](../Readme.md#bases-de-datos-relacionales) | [`Siguiente`](../Readme.md#estructura-de-una-tabla)
 
 </div>

@@ -35,6 +35,6 @@ Este diagrama puedes generarlo en MySQL Workbench. Si tienes dudas de cómo trab
 
 Una vez definida la estructura de tu proyecto, define cinco preguntas que te interesen sobre la base de datos que definiste y escribe (a mano) las consultas equivalentes. Más adelante te apoyaremos en instalar tu propio servidor de bases de datos y podrás probar tus consultas.
 
-[`Anterior`](../Proyecto/Readme.md) | [`Siguiente`](../../Sesion-02/Readme.md)
+[`Anterior`](../Readme.md#4-postwork-memo) | [`Siguiente`](../Readme.md#4-postwork-memo)
 
 </div>

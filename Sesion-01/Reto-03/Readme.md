@@ -32,6 +32,6 @@ Para contestar a esta pregunta, basta con ordenar las calificaciones del alumno 
 
 <br/>
 
-[`Anterior`](../Ejemplo-04/Readme.md) | [`Siguiente`](../Proyecto/Readme.md)
+[`Anterior`](../Ejemplo-04/Readme.md) | [`Siguiente`](../Readme.md#3-proyecto-hammer)
 
 </div>

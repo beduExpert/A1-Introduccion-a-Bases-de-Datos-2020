@@ -50,6 +50,6 @@
  
    ![imagen](imagenes/s1we43.png)
 
-[`Anterior`](../Reto-02/Readme.md) | [`Siguiente`](../Reto-03/Readme.md)
+[`Anterior`](../Readme.md#ordenamientos-y-límites) | [`Siguiente`](../Reto-03/Readme.md)
 
 </div>

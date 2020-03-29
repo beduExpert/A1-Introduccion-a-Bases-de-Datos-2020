@@ -89,6 +89,6 @@
 
    ![imagen](imagenes/s1we37.png)
 
-[`Anterior`](../Reto-01/Readme.md) | [`Siguiente`](../Reto-02/Readme.md)
+[`Anterior`](../Readme.md#estructura-de-una-consulta) | [`Siguiente`](../Reto-02/Readme.md)
 
 </div>   
