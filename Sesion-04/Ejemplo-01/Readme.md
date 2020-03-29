@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 1`
 
-### Ejemplo 1: Conexión a MongoDB
+## Ejemplo 1: Conexión a MongoDB
 
-#### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Realizar la conexión a MongoDB mediante el cliente MongoDB Compass.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. Abre MongoDB Compass. En esta primera pantalla se muestran, del lado izquierdo, las conexiones que tienes configuradas o se muestra en blanco en caso de que sea la primera vez que realizas una conexión.
 
@@ -33,3 +35,7 @@
    ![imagen](imagenes/s4e13.png)
 
 **¡Felicidades! Haz realizado tu primera conexión a una base de datos con MongoDB**
+
+[`Anterior`](../Readme.md#conexión-a-mongodb) | [`Siguiente`](../Readme.md##colecciones-documentos-y-proyecciones)
+
+</div>

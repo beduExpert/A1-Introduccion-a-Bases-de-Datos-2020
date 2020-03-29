@@ -66,7 +66,7 @@ Al igual que con las proyecciones, los filtros se construyen usando __JSON__. En
 
 > *Explicar qué es un filtro y en qué parte de Compass deben realizarse.*
 
-- [**`EJEMPLO 3`**](Ejemplo-02/Readme.md)
+- [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 - [**`RETO 2`**](Reto-02/Readme.md)
 
 ---

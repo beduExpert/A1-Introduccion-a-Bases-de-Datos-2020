@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Reto 1`
 	
-## Colecciones, Documentos y Proyecciones
+## Reto 1: Colecciones, Documentos y Proyecciones
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Proyectar columnas sobre distintos documentos para repasar algunos conceptos.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.
 
@@ -46,3 +48,9 @@ Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.
 
 </p>
 </details> 
+
+<br/>
+
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Readme.md#filtros-básicos)
+
+</div>

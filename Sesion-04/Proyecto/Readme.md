@@ -1,16 +1,18 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Proyecto`
 	
-## Proyecto de la sesión
+## Proyecto Sesión 4
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Aplicar los conceptos adquiridos durante la sesión.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Las consultas se realizarán sobre la base `sample_training`.
 
@@ -43,4 +45,8 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 13. Obtén la historia menos comentada.
 
 **¡¡¡MUCHA SUERTE!!!**
+
+[`Anterior`](../Readme.md#3-proyecto-hammer) | [`Siguiente`](../Readme.md#4-postwork-memo)
+
+</div>
 

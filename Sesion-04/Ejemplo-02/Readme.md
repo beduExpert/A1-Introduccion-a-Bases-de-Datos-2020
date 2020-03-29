@@ -1,17 +1,19 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 04`](../Readme.md) > `Ejemplo 2`
 
-### Ejemplo 2: Colecciones, Documentos y Proyecciones
+## Ejemplo 2: Colecciones, Documentos y Proyecciones
 
-#### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Usar la interfaz de MongoDB para listar las colecciones y documentos de una base de datos.
 - Realizar filtros por proyección.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. Abre MongoDB Compass. En esta primera pantalla se muestran las bases de datos contenidas en el servidor. Da clic en la base de datos `sample_mflix`. A partir de ahora usaremos esa base de datos para los retos y ejemplos dentro de la sesión.
 
@@ -45,3 +47,7 @@
    ![imagen](imagenes/s4e24.png)
 
 **¡Felicidades! Haz realizado tu primera consulta en una base de datos con MongoDB**
+
+[`Anterior`](../Readme.md#colecciones-documentos-y-proyecciones) | [`Siguiente`](../Reto-01/Readme.md)
+
+</div>
