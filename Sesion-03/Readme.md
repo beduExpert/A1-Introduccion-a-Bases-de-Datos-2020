@@ -1,57 +1,66 @@
-[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 03`
+[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 3`
 
-## Joins y Vistas
+## Sesión 3: Joins y Vistas
 
-### OBJETIVOS 
+<img src="../imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Escribir consultas que relacionen dos o más tablas mediante el uso de joins.
 - Definir vistas que guarden el resultado de una consulta.
 
-### TEORÍA  
+### 2. Contenido :blue_book:
 
-- **Llaves primarias y foráneas**   
+---
 
-Una llave primaria permite identificar de manera única los registros de una tabla. Para relacionar tablas se usan las llaves. A los campos que aparecen como  llaves primarias de otras tablas se les llama llaves foráneas.  
+#### <ins>Clasificación de *joins*</ins>
+<img src="imagenes/imagen1.png" align="right" height="170" width="250"> 
 
-> Se recomienda primero repasar el tema de forma teórica, posteriormente explicar el comando SHOW KEYS y explicar los tipos de relaciones: uno a uno, uno a muchos y muchos a muchos. Dibujar algún diagrama entidad-relación en el pizarrón que muestre cómo se unen las tablas.  
+Para relacionar tablas se incluyen los *joins* que son operadores entre tablas, las cuales permiten asociar dos o más tablas mediane sus campos. Por lo general, esta asociacion se realiza usando las llaves primarias y foráneas de cada tabla. Los tipos de *join* que incluye __MySQL__ son:
 
-- **NUESTRO MODELO**: Diagrama entidad-relación de la tienda  
+1. `INNER JOIN`
+1. `LEFT OUTER JOIN`
+1. `RIGHT OUTER JOIN`
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/gVzc8qG/Diagrama.png" alt="Diagrama" border="0"></a>   
+> *Explicar el concepto de join y las direntes entre cada una de sus variables. Se sugiere <ins>ampliamente</ins> el uso del pizarrón para ejemplificar los resultados después de aplicar estas operaciones.*
 
-*Analizar el diagrama de la base de datos del curso: ¿Qué tipos de relaciones aprecias?*  
+- [**`EJEMPLO 1`**](Ejemplo-01/Readme.md)
+- [**`RETO 1`**](Reto-01/Readme.md)	
 
+---
 
+#### <ins>Definición de vistas</ins>
+<img src="imagenes/imagen2.png" align="right" height="300" width="300"> 
 
-- **Joins**    
+Una vista es una tabla *virtual* que almacena los resultados de una consulta. Son útiles cuando las consultas son demasiado complejas y su proceso puede tomar varios minutos en ejecutarse. De esta forma, se consultan directamente los resultados de la consulta como si se tratara de cualquier tabla.
 
-Son operaciones que permiten relacionar dos o más tablas mediante la condición del join. Existen tres tipos en MySQL:  
-- INNER JOIN  
-- LEFT OUTER JOIN  
-- RIGHT OUTER JOIN  
-  
-![Sin titulo](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots_2018/Outer-Join.jpg)  
+Para crear una vista se usa:
 
-> Explicar qué es la teoría de conjuntos, algunas de sus operaciones y cómo se aplican mediante joins en mysql.  
+`CREATE VIEW`
 
+Las vistas no requieren de almacenamiento adicional y pueden consultar usando la cláusula `SELECT`.
 
+> *Explicar el concepto de vista y sus principales ventajas.*
 
-- **Vistas**      
-Permiten preservar los resultados de una consulta como si se tratara de una nueva tabla. Son tablas *virtuales*.     
+- [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
+- [**`RETO 2`**](Reto-02/Readme.md)	
 
-> Mencionar los principales beneficios de usar vistas y explicar cómo crearlas (CREATE VIEW).
+---
 
+### 3. Proyecto :hammer:
 
-  
---- 
+Aplica lo todo lo que aprendiste durante la sesión en este proyecto. 
 
-#### ORGANIZACION DE LA CLASE
+- [**`PROYECTO SESIÓN 3`**](Proyecto/Readme.md)
 
-- Clasificación de Joins
-   - [Ejemplo 1](Ejemplo-01/)
-   - [Reto 1](Reto-01/)
-- Definición de vistas
-   - [Ejemplo 2](Ejemplo-02/)
-   - [Reto 2](Reto-02/)
-- [Proyecto](Proyecto/)   
-- [Postwork](Postwork/)	
+### 4. Postwork :memo:
+Aplica lo todo lo que aprendiste durante la sesión a tu proyecto personal.
+
+- [**`POSTWORK SESIÓN 3`**](Postwork/Readme.md)
+
+</br>
+
+[`Anterior`](../Sesion-02/Readme.md) | [`Siguiente`](../Sesion-04/Readme.md)
+
+</div>	
