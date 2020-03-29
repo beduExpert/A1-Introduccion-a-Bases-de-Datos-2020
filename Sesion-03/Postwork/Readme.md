@@ -1,16 +1,18 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Postwork`
 
-## Postwork
+## Postwork Sesión 3
 
-### OBJETIVOS
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Continuar con el planteamiento inicial del proyecto.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 ##### Más preguntas
 
@@ -21,3 +23,7 @@ Recuerda incluir el uso de: llaves primarias, tipos de relaciones, relación de 
 Crea al menos 5 vistas de preguntas más complejas a lo que haz trabajado durante el curso.
 
 Pregunta al experto del curso si tienes alguna duda.
+
+[`Anterior`](../Readme.md#4-postwork-memo) | [`Siguiente`](../Readme.md#4-postwork-memo)
+
+</div>

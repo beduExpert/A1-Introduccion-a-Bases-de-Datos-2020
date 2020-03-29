@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Reto 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Reto 2`
 	
-## Definición de vistas
+## Reto 2: Definición de vistas
 
-### OBJETIVOS
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Definir vistas sobre algunas consultas.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Usando la base de datos `tienda`, define las siguientes vistas que permitan obtener la siguiente información.
 
@@ -82,3 +84,9 @@ Usando la base de datos `tienda`, define las siguientes vistas que permitan obte
 
 </p>
 </details> 
+
+<br/>
+
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Readme.md#3-proyecto-hammer)
+
+</div>

@@ -1,17 +1,19 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Ejemplo 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Ejemplo 1`
 
 ## Ejemplo 1: Clasificación de Joins
 
-### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Analizar la relación que existe entre dos o más tablas.
 - Comprender las distintas formas de relacionar tablas mediante el uso de las cláusulas `JOIN`, `LEFT JOIN` y `RIGHT JOIN`.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. Abre MySQL Wokbench y conectate a la base de datos del curso.
 
@@ -65,3 +67,7 @@
    ```
    
    ![imagen](imagenes/s3we14.png)
+
+[`Anterior`](../Readme.md#clasificación-de-joins) | [`Siguiente`](../Reto-01/Readme.md)
+
+</div>
