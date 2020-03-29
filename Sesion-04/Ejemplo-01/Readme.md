@@ -36,6 +36,6 @@
 
 **¡Felicidades! Haz realizado tu primera conexión a una base de datos con MongoDB**
 
-[`Anterior`](../Readme.md#conexión-a-mongodb) | [`Siguiente`](../Readme.md##colecciones-documentos-y-proyecciones)
+[`Anterior`](../Readme.md#conexión-a-mongodb) | [`Siguiente`](../Readme.md#colecciones-documentos-y-proyecciones)
 
 </div>
