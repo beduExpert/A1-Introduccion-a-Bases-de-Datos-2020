@@ -1,18 +1,20 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 03`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 3`
 
-### Ejemplo 3: Introducción a las agregaciones
+## Ejemplo 3: Introducción a las agregaciones
 
-#### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Entender el concepto de agregación y su similitud con los agrupamientos y subconsultas de __SQL__.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
-1. Cuando revisamos __SQL__ usamos agrupamientos que aplicaban una función a una columna reduciéndola a un valor que podía ser una suma, un conteo o calcular un promedio, por ejemplo. 
+Cuando revisamos __SQL__ usamos agrupamientos que aplicaban una función a una columna reduciéndola a un valor que podía ser una suma, un conteo o calcular un promedio, por ejemplo. 
 
 En __MongoDB__ podemos realizar lo mismo mediante el uso de agregaciones. Las agregaciones, permiten realizar distintos filtros usando *capas*. Una capa es el resultado de la aplicación de algún filtro, proyección, agrupamiento, ordienamiento, etc. Cada capa puede usarse en una nueva capa. La primera capa siempre será la colección completa.
 
@@ -65,3 +67,7 @@ Por ejemplo, queremos saber cuál es la propiedad con mayor número de servicios
    ```
    
    ![imagen](imagenes/s5e34.png)
+
+[`Anterior`](../Readme.md#introducción-a-las-agregaciones) | [`Siguiente`](../Reto-03/Readme.md)
+
+</div>

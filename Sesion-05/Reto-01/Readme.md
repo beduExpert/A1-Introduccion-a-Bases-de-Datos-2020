@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 1`
 	
-## Expresiones regulares
+## Reto 1: Expresiones regulares
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Poner en práctica el uso de expresiones regulares.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguientes filtros:
 
@@ -55,4 +57,10 @@ Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguiente
 
 
 </p>
-</details> 
+</details>
+
+<br/>
+
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Readme.md#notación-punto-y-arreglos)
+
+</div>

@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Ejemplo 2`
 
-### Ejemplo 2: Notación Punto y arreglos
+## Ejemplo 2: Notación Punto y arreglos
 
-#### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Utilizar la notación punto para acceder a objetos anidados dentro de arreglos u otros objetos.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. La notación punto es una técnica mediante la cual los lenguajes de programación orientados a objetos permiten acceder a los atributos de un determinado objeto. Por ejemplo, en la base de datos `sample_airbnb.listingsAndReviews` se tiene un campo llamado `address` que a su vez incluye un atributo llamado `country` para indicar el país de dicha propiedad.
 
@@ -74,3 +76,7 @@ Esta es una consulta más compleja que las anteriores, por lo que la construirem
    ```
 
    ![imagen](imagenes/s5e23.png)
+
+[`Anterior`](../Readme.md#notación-punto-y-arreglos) | [`Siguiente`](../Reto-02/Readme.md)
+
+</div>

@@ -1,16 +1,18 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Proyecto`
 	
-## Proyecto de la sesión
+## Proyecto Sesión 5
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Aplicar los conceptos adquiridos durante la sesión.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Para este proyecto deberás practicar en el uso de agregaciones, pues serán usadas durante la siguiente sesión.
 
@@ -20,3 +22,4 @@ El proyecto consiste en obtener todas las publicaciones que tengan 50 o más com
 
 **¡¡¡MUCHA SUERTE!!!**
 
+[`Anterior`](../Readme.md#3-proyecto-hammer) | [`Siguiente`](../Readme.md#4-postwork-memo)

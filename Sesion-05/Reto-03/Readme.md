@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 03`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 3`
 	
-## Introducción a las agregaciones
+## Reto 3: Introducción a las agregaciones
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Proyectar columnas sobre distintos documentos para repasar algunos conceptos.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Usando la colección `sample_airbnb.listingsAndReviews`, mediante el uso de agregaciones, encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet).
 
@@ -45,4 +47,10 @@ Usando la colección `sample_airbnb.listingsAndReviews`, mediante el uso de agre
    ![imagen](imagenes/s5r32.png)
 
 </p>
-</details> 
+</details>
+
+<br/>
+
+[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Readme.md#3-proyecto-hammer)
+
+</div>
