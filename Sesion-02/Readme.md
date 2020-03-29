@@ -1,78 +1,102 @@
-[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 02`
+[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 2`
 
-## Agrupaciones y subconsultas
+## Sesión 2: Agrupaciones y subconsultas
 
-### OBJETIVOS 
+<img src="../imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Escribir consultas que hagan uso de `LIKE`.
 - Entender el funcionamiento de algunas funciones y su efecto en consultas.
 - Realizar agrupamientos en los resultados de una consulta o tabla.
 - Realizar subconsultas a una tabla.
 
-#### ORGANIZACION DE LA CLASE
+### 2. Contenido :blue_book:
 
-###### Búsqueda de patrones mediante `LIKE` 
-
-La **búsqueda de patrones** es una técnica que permite realizar búsquedas mediante la coincidencia de patrones en lugar de igualdad.  
-Ejemplos de uso de esta técnica son:  
-* Las expresiones regulares  
-* El uso de la cláusula LIKE en SQL  
-
-> Describir a profundidad la técnica de *pattern matching* y mencionar lenguajes de programación y otras herramientas tecnolgógicas que utilicen esta técnica. 
-> Explicar qué son las expresiones regulares.
-
-**Cláusula `LIKE`**  
-La cláusula LIKE permite usar comodines en la cláusula WHERE de una instrucción SELECT y realizar búsqueda de patrones.  
-
-
-> Describir la sintaxis de LIKE y los comodines existentes. --> se recomienda hacerlo de manera visual en el pizarrón. 
-
-
-   - [Ejemplo 1](Ejemplo-01/)
-   - [Reto 1](Reto-01/)  
-   
 ---
-   
-###### Funciones de agrupamiento
+
+#### Búsqueda de patrones mediante `LIKE`
+<img src="imagenes/imagen1.jpg" align="right" height="200" width="300"> 
+
+La *búsqueda de patrones* es una técnica que permite realizar búsquedas mediante la coincidencia de patrones en lugar de igualdad. Ejemplos de uso de esta técnica son:  
+* Las expresiones regulares  
+* El uso de la cláusula `LIKE` en __SQL__  
+
+> *Describir a profundidad la técnica de pattern matching y mencionar lenguajes de programación y otras herramientas tecnológicas que utilicen esta técnica.*
+
+> *Explicar qué son las expresiones regulares.*
+
+##### Cláusula `LIKE`
+La cláusula `LIKE` permite usar comodines en la cláusula `WHERE` de una instrucción `SELECT` y realizar búsqueda de patrones.  
+
+
+> *Describir la sintaxis de LIKE y los comodines existentes. <S></S>e recomienda hacerlo de manera visual en el pizarrón.*
+
+- [**`EJEMPLO 1`**](Ejemplo01/Readme.md)
+- [**`RETO 1`**](Reto01/Readme.md)	
+
+---
+
+#### Funciones de agrupamiento
+<img src="imagenes/imagen2.gif" align="right" height="200" width="300"> 
 
 Las funciones de agrupamiento son funciones que permiten realizar cálculos sobre los valores de una columna y que regresan un único valor.  
  
-**SUM()  
+```
+SUM()  
 AVG()  
 MAX()  
 MIN()  
-COUNT()**  
+COUNT()
+```
 
 
-> Explicar cómo funciona una función de agrupamiento y ejemplificar, relacionarlo con el comportamiento que tienen las hojas de cálculo (Excel).  
+> *Explicar cómo funciona una función de agrupamiento y ejemplificar, relacionarlo con el comportamiento que tienen las hojas de cálculo (Excel).*
 
+- [**`EJEMPLO 2`**](Ejemplo02/Readme.md)
+- [**`RETO 2`**](Reto02/Readme.md)	
 
-   - [Ejemplo 2](Ejemplo-02/)
-   - [Reto 2](Reto-02/)  
-   
 ---
 
-###### Agrupamientos
+#### Agrupamientos
+<img src="imagenes/imagen3.jpg" align="right" height="150" width="250"> 
 
-La cláusula GROUP BY es usada dentro de la instrucción SELECT para recolectar datos a partir de varios registros y agruparlos en una o más columnas.  
+La cláusula `GROUP BY` es usada dentro de la instrucción SELECT para recolectar datos a partir de varios registros y agruparlos en una o más columnas.
 
-> Explicar el uso de agrupamientos de bases de datos, quizá mencionar alguno de sus principale usos. Nuevamente se sugiere hacer dibujos en el pizarrón para hacer más claro el resultado (antes del ejemplo).  
+> *Explicar el uso de agrupamientos de bases de datos, quizá mencionar alguno de sus principales usos. Nuevamente se sugiere hacer dibujos en el pizarrón para hacer más claro el resultado (antes del ejemplo).*
 
-   - [Ejemplo 3](Ejemplo-03/)
-   - [Reto 3](Reto-03/)  
-   
+- [**`EJEMPLO 3`**](Ejemplo03/Readme.md)
+- [**`RETO 3`**](Reto03/Readme.md)	
+
 ---
 
-###### Subconsultas  
+#### Subconsultas
+
+<img src="imagenes/imagen4.png" align="right" height="150" width="250">
 
 Una subconsulta es una consulta que se encuentra dentro de otra. Estas subconsultas pueden aparecer en las cláusulas, WHERE, FROM y en el área de campos de SELECT.  
 
-> Explicar qué es una subconsulta, en qué consiste, y cómo se puede usar en un WHERE, FROM y SELECT.  
+> Explicar qué es una subconsulta, en qué consiste, y cómo se puede usar en un WHERE, FROM y SELECT.
 
-   - [Ejemplo 4](Ejemplo-04/)
-   - [Reto 4](Reto-04/) 
+- [**`EJEMPLO 4`**](Ejemplo04/Readme.md)
+- [**`RETO 4`**](Reto04/Readme.md)	
 
 ---
 
-- [Proyecto](Proyecto/)   
-- [Postwork](Postwork/)	
+### 3. Proyecto :hammer:
+
+Aplica lo todo lo que aprendiste durante la sesión en este proyecto. 
+
+- [**`PROYECTO SESIÓN 2`**](Proyecto/Readme.md)
+
+### 4. Postwork :memo:
+Aplica lo todo lo que aprendiste durante la sesión a tu proyecto personal.
+
+- [**`POSTWORK SESIÓN 2`**](Postwork/Readme.md)
+
+</br>
+
+[`Anterior`](../Sesion-01/Readme.md) | [`Siguiente`](../Sesion-03/Readme.md)
+
+</div>
