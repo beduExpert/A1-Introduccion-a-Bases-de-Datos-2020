@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Ejemplo 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Ejemplo 2`
 
-### Ejemplo 2: Asociación de colecciones
+## Ejemplo 2: Asociación de colecciones
 
-#### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Asociar colecciones mediante sus campos en común, usando la agregación `$lookup`.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 En la base de datos, existen varias colecciones que pueden asociarse. Por ejemplo la colección `comments` tiene la siguiente estructura:
 
@@ -69,3 +71,6 @@ Elegimos únicamente los campos de interés, primero extrayendo el nombre del ob
 **No cierres, este *pipeline*, pues lo usaremos más adelante.**
 
 ![imagen](imagenes/s6e24.png)
+
+[`Anterior`](../Readme.md#asociación-de-colecciones) | [`Siguiente`](../Reto-02/Readme.md)   
+

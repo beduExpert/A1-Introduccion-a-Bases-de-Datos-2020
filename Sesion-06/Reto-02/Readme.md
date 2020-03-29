@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Reto 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Reto 2`
 	
-## Asociación de colecciones
+## Reto 2: Asociación de colecciones
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Proyectar columnas sobre distintos documentos para repasar algunos conceptos.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Usando las colecciones `comments` y `users`, se requiere conocer el correo y contraseña de cada persona que realizó un comentario. Construye un pipeline que genere como resultado estos datos.
 
@@ -65,3 +67,9 @@ Posteriormente, obtenemos el objeto del arreglo, su campo `password` y finalment
 
 </p>
 </details> 
+
+<br/>
+
+[`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Readme.md#generación-de-vistas)   
+
+</div>

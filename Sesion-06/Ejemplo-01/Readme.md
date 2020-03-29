@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Ejemplo 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Ejemplo 1`
 
-### Ejemplo 1: Agrupamientos
+## Ejemplo 1: Agrupamientos
 
-#### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Repasar la estructura de las agregaciones de tipo `$group`.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Para ejemplificar el concepto de agrupamiento, buscaremos  el costo promedio de una habitación de tipo casa, continuaremos usando la base de datos `sample_airbnb.listingsAndReviews`:
    
@@ -75,3 +77,4 @@ Ahora, para obtener el costo promedio, debemos dividir el total entre el número
    
    ![imagen](imagenes/s6e15.png)
    
+[`Anterior`](../Readme.md#agrupamientos) | [`Siguiente`](../Reto-01/Readme.md)   

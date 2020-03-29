@@ -1,18 +1,20 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Reto 01`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Reto 1`
 	
-## Agrupamientos
+## Reto 1: Agrupamientos
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Poner en práctica el uso de agrupamientos.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
-Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo promedio por habitación ṕor país de las propiedades de tipo casa.
+Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo promedio por habitación por país de las propiedades de tipo casa.
 
 <details><summary>Solución</summary>
 <p>
@@ -79,3 +81,7 @@ Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo pro
  
 </p>
 </details> 
+
+<br/>
+
+[`Anterior`](../Ejemplo-01/Readme.md) | [`Siguiente`](../Readme.md#asociación-de-colecciones)   

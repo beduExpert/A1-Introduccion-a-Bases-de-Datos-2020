@@ -1,16 +1,18 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 06`](../Readme.md) > `Proyecto`
 	
-## Proyecto de la sesión
+## Proyecto Sesión 6
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 
 - Aplicar los conceptos adquiridos durante la sesión.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MongoDB Compass instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Continuaremos trabajando con la base de datos de películas y sus comentarios.
 
@@ -24,3 +26,4 @@ El proyecto consiste en obtener, por país, el número de películas que hay de 
 
 **¡¡¡MUCHA SUERTE!!!**
 
+[`Anterior`](../Readme.md#3-proyecto-hammer) | [`Siguiente`](../Readme.md#4-postwork-memo)   
