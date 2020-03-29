@@ -16,7 +16,7 @@
 
 ---
 
-#### Búsqueda de patrones mediante `LIKE`
+#### <ins>Búsqueda de patrones mediante `LIKE`</ins>
 <img src="imagenes/imagen1.jpg" align="right" height="200" width="300"> 
 
 La *búsqueda de patrones* es una técnica que permite realizar búsquedas mediante la coincidencia de patrones en lugar de igualdad. Ejemplos de uso de esta técnica son:  
@@ -33,12 +33,12 @@ La cláusula `LIKE` permite usar comodines en la cláusula `WHERE` de una instru
 
 > *Describir la sintaxis de LIKE y los comodines existentes. <S></S>e recomienda hacerlo de manera visual en el pizarrón.*
 
-- [**`EJEMPLO 1`**](Ejemplo01/Readme.md)
-- [**`RETO 1`**](Reto01/Readme.md)	
+- [**`EJEMPLO 1`**](Ejemplo-01/Readme.md)
+- [**`RETO 1`**](Reto-01/Readme.md)	
 
 ---
 
-#### Funciones de agrupamiento
+#### <ins>Funciones de agrupamiento</ins>
 <img src="imagenes/imagen2.gif" align="right" height="200" width="300"> 
 
 Las funciones de agrupamiento son funciones que permiten realizar cálculos sobre los valores de una columna y que regresan un único valor.  
@@ -54,24 +54,24 @@ COUNT()
 
 > *Explicar cómo funciona una función de agrupamiento y ejemplificar, relacionarlo con el comportamiento que tienen las hojas de cálculo (Excel).*
 
-- [**`EJEMPLO 2`**](Ejemplo02/Readme.md)
-- [**`RETO 2`**](Reto02/Readme.md)	
+- [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
+- [**`RETO 2`**](Reto-02/Readme.md)	
 
 ---
 
-#### Agrupamientos
+#### <ins>Agrupamientos</ins>
 <img src="imagenes/imagen3.jpg" align="right" height="150" width="250"> 
 
 La cláusula `GROUP BY` es usada dentro de la instrucción SELECT para recolectar datos a partir de varios registros y agruparlos en una o más columnas.
 
 > *Explicar el uso de agrupamientos de bases de datos, quizá mencionar alguno de sus principales usos. Nuevamente se sugiere hacer dibujos en el pizarrón para hacer más claro el resultado (antes del ejemplo).*
 
-- [**`EJEMPLO 3`**](Ejemplo03/Readme.md)
-- [**`RETO 3`**](Reto03/Readme.md)	
+- [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
+- [**`RETO 3`**](Reto-03/Readme.md)	
 
 ---
 
-#### Subconsultas
+#### <ins>Subconsultas</ins>
 
 <img src="imagenes/imagen4.png" align="right" height="150" width="250">
 
@@ -79,8 +79,8 @@ Una subconsulta es una consulta que se encuentra dentro de otra. Estas subconsul
 
 > Explicar qué es una subconsulta, en qué consiste, y cómo se puede usar en un WHERE, FROM y SELECT.
 
-- [**`EJEMPLO 4`**](Ejemplo04/Readme.md)
-- [**`RETO 4`**](Reto04/Readme.md)	
+- [**`EJEMPLO 4`**](Ejemplo-04/Readme.md)
+- [**`RETO 4`**](Reto-04/Readme.md)	
 
 ---
 

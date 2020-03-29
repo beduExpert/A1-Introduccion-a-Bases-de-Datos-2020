@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Ejemplo 04`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Ejemplo 4`
 
 ## Ejemplo 4: Subconsultas
 
-### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Escribir consultas que hagan uso de otras subconsultas, ya sea en la cláusula `SELECT`, en la cláusula `FROM` o en la cláusula `WHERE`.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. Abre MySQL Wokbench y conectate a la base de datos del curso.
 
@@ -78,3 +80,7 @@
    ```
 
    ![imagen](imagenes/s2we45.png)
+
+[`Anterior`](../Readme.md#subconsultas) | [`Siguiente`](../Reto-04/Readme.md)            
+
+</div>

@@ -1,4 +1,3 @@
-
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 1`
 
 ## Ejemplo 1: Conexión a bases de datos

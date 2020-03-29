@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Ejemplo 03`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Ejemplo 3`
 
 ## Ejemplo 3: Agrupamientos
 
-### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Escribir consultas que hagan uso de agrupamientos mediante las funciones revisadas en el Ejemplo 2.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. Abre MySQL Wokbench y conectate a la base de datos del curso.
 
@@ -48,3 +50,7 @@
    ```
 
    ![imagen](imagenes/s2we33.png)
+
+[`Anterior`](../Readme.md#agrupamientos) | [`Siguiente`](../Reto-03/Readme.md)         
+
+</div>   

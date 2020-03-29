@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Reto 04`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Reto 4`
 	
-## Subconsultas
+## Reto 4: Subconsultas
 
-### OBJETIVO 
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Escribir consultas que permitan responder a algunas preguntas.
 
-#### REQUISITOS 
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 Usando la base de datos `tienda`, escribe consultas que permitan responder las siguientes preguntas.
 
@@ -56,3 +58,9 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
    ![imagen](imagenes/s2wr43.png)
 </p>
 </details> 
+
+<br/>
+
+[`Anterior`](../Ejemplo-04/Readme.md) | [`Siguiente`](../Readme.md#3-proyecto-hammer)            
+
+</div>

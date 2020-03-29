@@ -1,16 +1,18 @@
-[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Ejemplo 02`
+[`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Ejemplo 2`
 
 ## Ejemplo 2: Funciones de agrupamiento
 
-### OBJETIVO
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart:
 
 - Realizar consultas que modifiquen el valor de una columna mediante lo que se conoce como *función de agrupamiento*.
 
-#### REQUISITOS
+### 2. Requisitos :clipboard:
 
 1. MySQL Workbench instalado.
 
-#### DESARROLLO
+### 3. Desarrollo :rocket:
 
 1. Abre MySQL Wokbench y conectate a la base de datos del curso.
 
@@ -70,3 +72,7 @@
    ```
 
    ![imagen](imagenes/s2we26.png)
+
+[`Anterior`](../Readme.md#funciones-de-agrupamiento) | [`Siguiente`](../Reto-02/Readme.md)      
+
+</div>
