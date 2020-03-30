@@ -28,8 +28,6 @@ Para conectarnos a mongo haremos uso del cliente __MongoDB Compass__ este client
 
 Para conectarnos con un servidor de bases de datos de __MongoDB__ debe usar, al igual que con __MySQL__ la arquitectura cliente servidor.
 
-> *Platicar brevemente qué es MongoDB y MongoDB Compass. Repasar el modelo cliente-servidor.*
-
 - [**`EJEMPLO 1`**](Ejemplo-01/Readme.md)
 
 ---
@@ -49,8 +47,6 @@ Para realizar consultas u otras operaciones en __MongoDB__ debe usarse este leng
 - `{campo: 0}`
 - `{campo: 1}`
 
-> *Realizar ejemplos de construcción de __JSON__, mostrar las colecciones de la base de datos del módulo y mostrar algunas colecciones en formato __JSON__. Explicar en qué parte de Compass hacer proyecciones.*
-
 - [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
 - [**`RETO 1`**](Reto-01/Readme.md)	
 
@@ -63,8 +59,6 @@ Al igual que con las proyecciones, los filtros se construyen usando __JSON__. En
 ```json
 {campo: "valor"}
 ```
-
-> *Explicar qué es un filtro y en qué parte de Compass deben realizarse.*
 
 - [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 - [**`RETO 2`**](Reto-02/Readme.md)

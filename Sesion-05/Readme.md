@@ -22,8 +22,6 @@ Las expresiones regulares permiten reconocer patrones en un texto, de forma simi
 
 Existen distintos estándares que los lenguajes de programación y sistemas gestores de bases de datos deben seguir para definir expresiones regulares. El estándar que usa mongo es: [JavaScript RegExp Reference](https://www.w3schools.com/jsref/jsref_obj_regexp.asp).
 
-> *Explicar mediante ejemplos la sintaxis de una expresión regular usando el estándar antes mencionado. Ejemplificar con correos electrónicos, longitud de dígitos, generación de códigos postales o CURP.*
-
 - [**`EJEMPLO 1`**](Ejemplo-01/Readme.md)
 - [**`RETO 1`**](Reto-01/Readme.md)	
 
@@ -35,8 +33,6 @@ La notación punto es ampliamente usado en los lenguajes de programación orient
 
 Con esta notación podemos obtener los campos de un objeto representado en __JSON__. De la misma forma, podemos acceder a los elementos de un arreglo si se conoce su índice, tal y como se hace en distintos lenguajes de programación.
 
-> *Mostrar ejemplos de notación punto y acceso a los elementos de un arreglo.*
-
 - [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
 - [**`RETO 2`**](Reto-02/Readme.md)	
 
@@ -47,8 +43,6 @@ Con esta notación podemos obtener los campos de un objeto representado en __JSO
 Una agregación se compone de un conjunto de *capas* que en conjunto realizan consultas sobre una colección de documentos. Cada capa puede aplicar nuevos filtros o modificaciones a la capa anterior. Al flujo de cambios entre las distintas capas se le conoce como *pipeline*.
 
 El principio de cada *pipeline* siempre es la colección completa.
-
-> *Explicar los usos de una agregación y mostrar la ventana de Compass encargada de realizar estas operaciones*
 
 - [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 - [**`RETO 3`**](Reto-03/Readme.md)	

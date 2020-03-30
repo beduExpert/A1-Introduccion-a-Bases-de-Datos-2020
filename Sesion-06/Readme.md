@@ -30,8 +30,6 @@ Al igual que en __SQL__ en __MongoDB__ podemos realizar agrupamientos. Se realiz
  }
 ```
 
-> *Explicar cómo funciona la operación group de MongoDB y qué es un acumulador.*
-
 - [**`EJEMPLO 1`**](Ejemplo-01/Readme.md)
 - [**`RETO 1`**](Reto-01/Readme.md)
 
@@ -53,8 +51,6 @@ De la misma forma en que __SQL__ incluye distintos tipos de *join*. En __MongoDB
 }
 ```
 
-> *Explicar la sintaxis de lookup y mostrar ejemplos. Hacer énfasis en que los resultados se guardan como arreglo y no como colección.*
-
 - [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
 - [**`RETO 2`**](Reto-02/Readme.md)	
 
@@ -65,8 +61,6 @@ De la misma forma en que __SQL__ incluye distintos tipos de *join*. En __MongoDB
 En __MongoDB__ también es posible generar vistas que almacenen el resultado de las distintas consulas. Para generar una vista usaremos __Compass__.
 
 Una vez creada la vista, podemos consultarla como a cualquier otra colección.
-
-> *Explicar la pantalla de __Compass__ en la que se generan las vistas.*
 
 - [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 - [**`RETO 3`**](Reto-03/Readme.md)
