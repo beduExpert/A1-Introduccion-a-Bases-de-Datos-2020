@@ -8,7 +8,7 @@
 
 ### 2. Requisitos :clipboard:
 - Servidor __MySQL__ o __MongoDB__ instalado, puedes usar también los servidores que __BEDU__ ha dispuesto para ti en este módulo.
-- De preferencia trabaja en equipos de no más de tres persona.
+- De preferencia trabaja en equipos de no más de tres personas.
 
 ### 3. Desarrollo :rocket:
 
