@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 07`](../Readme.md) > Proyecto
 
-## Proyecto
+## Proyecto Sesión 7
 
 ### 1. Objetivos :dart:
 - Que el alumno comprenda la estructura de documentos de una base de datos __MongoDB__
@@ -76,4 +76,4 @@ A continuación se realizaran algunas operaciones de agregar, modificar y elimin
 
    ![Lista de documentos en la colección](imagenes/documentos-en-coleccion-2.png)
 
-[`Anterior`](../Ejemplo-07/Readme.md) | [`Siguiente`](../Postwork/Readme.md)      
+[`Anterior`](../Readme.md#3-proyecto-hammer) | [`Siguiente`](../Readme.md#4-postwork-memo)      

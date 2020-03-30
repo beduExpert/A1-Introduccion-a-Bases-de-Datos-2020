@@ -28,4 +28,4 @@
    ![Lista de colecciones](imagenes/lista-colecciones.png)
    Se trabajará con Colecciones en el siguiente ejemplo.
 
-[`Anterior`](../Ejemplo-04/Readme.md) | [`Siguiente`](../Ejemplo-06/Readme.md)      
+[`Anterior`](../Readme.md#operaciones-con-bases-de-datos-1) | [`Siguiente`](../Readme.md#realizando-operaciones-con-colecciones-e-importando-datos)      

@@ -60,4 +60,4 @@ Se deberá de crear colecciones e importar los datos de los archivos `movies.csv
    ![Documentos en ratings final](imagenes/documentos-ratings.png)
    Después entonces el total de documentos es 1000209 como era de esperar. 
 
-[`Anterior`](../Ejemplo-06/Readme.md) | [`Siguiente`](../Ejemplo-07/Readme.md)         
+[`Anterior`](../Ejemplo-06/Readme.md) | [`Siguiente`](../Readme.md#3-proyecto-hammer)

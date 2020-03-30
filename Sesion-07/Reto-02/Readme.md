@@ -67,4 +67,4 @@
 </details>
 <br/>
 
-[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Ejemplo-04/Readme.md)
+[`Anterior`](../Ejemplo-03/Readme.md) | [`Siguiente`](../Readme.md#configuración-de-mongodb-en-la-nube)

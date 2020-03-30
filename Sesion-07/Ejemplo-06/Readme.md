@@ -53,4 +53,4 @@ A diferencia de SQL, las Colecciones sólo se crean y no es necesario definir ca
 
    Después entonces el total de documento es 6040 como era de esperar.
 
-[`Anterior`](../Ejemplo-05/Readme.md) | [`Siguiente`](../Reto-03/Readme.md)      
+[`Anterior`](../Readme.md#realizando-operaciones-con-colecciones-e-importando-datos) | [`Siguiente`](../Reto-03/Readme.md)      

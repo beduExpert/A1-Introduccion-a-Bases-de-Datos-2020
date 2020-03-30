@@ -32,7 +32,7 @@ CREATE DATABASE <nombre>;
 - [**`EJEMPLO 1`**](Ejemplo-01/Readme.md)
 
 ---
-##### <ins>Relacionado operaciones con tablas</ins>
+##### <ins>Realizando operaciones con tablas</ins>
 <img src="imagenes/imagen2.png" align="right" height="200" width="300">
 
 Como hemos visto, una tabla se compone de renglones, columnas, tipos asociados a las columnas, llaves primarias y foráneas y por supuesto los valores que almacena.
@@ -48,7 +48,7 @@ Para crear una tabla se usa el comando (en su forma simple):
 
 > *Mostrar ejemplos de creación de tablas con llaves y los distintos tipos de datos de __MySQL__.*
 
-- [**`EJEMPLO 2`**](Ejemplo-01/Readme.md)
+- [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
 - [**`RETO 1`**](Reto-01/Readme.md)
 
 ---

@@ -115,3 +115,5 @@
 1. Finalmente se crea nuevamente la tabla `users` y se valida que exista.
 
    ![image](imagenes/s7e23.png)
+
+[`Anterior`](../Readme.md#relacionado-operaciones-con-tablas) | [`Siguiente`](../Reto-01/Readme.md)   

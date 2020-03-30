@@ -2,14 +2,16 @@
 
 ## Ejemplo 1: Operaciones con bases de datos
 
-### 1. Objetivos
+<div style="text-align: justify;">
+
+### 1. Objetivos :dart: 
 - Conectarse a un __MySQL__	localmente.
 - Conocer las operaciones sobre bases de datos.
 
-### 2. Requisitos
+### 2. Requisitos :clipboard:
 - Servidor de __MySQL__ instalado u ejecutándose.
 
-### 3. Desarrollo
+### 3. Desarrollo :rocket:
 
 1. Conectate a tu base de datos desde __MySQL Workbench__ con las credenciales correspondientes a la configuración de tu servidor.
 
@@ -42,3 +44,7 @@
 1. Como paso final, se creará nuevamente la base de datos y se hará uso de ella como la base de datos actual, para ello se usará el comando `USE Nombre`
 
    ![imagen](imagenes/s7e13.png)
+
+[`Anterior`](../Readme.md#operaciones-con-bases-de-datos) | [`Siguiente`](../Readme.md#relacionado-operaciones-con-tablas)      
+
+</div>

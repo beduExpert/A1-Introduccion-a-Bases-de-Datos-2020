@@ -78,4 +78,4 @@
    ![Compass conectado a MongoDB Atlas](imagenes/compass-conectado.png)
    En este punto ya __Compass__ ya estará conectado al __Cluster0__ que como se puede ver en la columna izquierda consta de 3 instancias de MongoDB corriendo en paralelo lo que se puede escalar según las necesidades.
 
-[`Anterior`](../Reto-02/Readme.md) | [`Siguiente`](../Ejemplo-05/Readme.md)   
+[`Anterior`](../Readme.md#configuración-de-mongodb-en-la-nube) | [`Siguiente`](../Readme.md#operaciones-con-bases-de-datos-1)   
