@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../../Readme.md) > [`Sesión 07`](../Readme.md) > Postwork
 
-## Postwork Sesión 8
+## Postwork Sesión 7
 
 ### 1. Objetivos :dart:
 - Instalar localmente la base de datos que utilizarás en tu proyecto.
