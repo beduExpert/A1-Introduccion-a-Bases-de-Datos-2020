@@ -45,6 +45,6 @@
 
    ![imagen](imagenes/s7e13.png)
 
-[`Anterior`](../Readme.md#operaciones-con-bases-de-datos) | [`Siguiente`](../Readme.md#relacionado-operaciones-con-tablas)      
+[`Anterior`](../Readme.md#operaciones-con-bases-de-datos) | [`Siguiente`](../Readme.md#realizando-operaciones-con-tablas)      
 
 </div>
