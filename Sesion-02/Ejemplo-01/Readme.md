@@ -21,7 +21,7 @@
    ```sql
    SELECT *
    FROM empleado
-   WHERE nombre LIKE `M%`;
+   WHERE nombre LIKE 'M%';
    ```
    
    ![imagen](imagenes/s2we11.png)
