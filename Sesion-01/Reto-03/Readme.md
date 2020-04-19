@@ -22,7 +22,7 @@ Usando la base de datos `tienda`, escribe una consulta que permita obtener el to
 Para contestar a esta pregunta, basta con ordenar las calificaciones del alumno en orden descendente y limitar el número de registros a 5.
 
    ```sql
-   SELECT salario
+   SELECT *
    FROM tienda
    ORDER BY salario DESC
    LIMIT 5;
