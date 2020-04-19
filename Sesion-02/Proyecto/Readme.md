@@ -28,21 +28,21 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 
 6. Dentro de la tabla `products`, obten el código de producto y nombre de los productos cuyo código incluye la cadena `_20`.
 
-7. Dentro de la tabla `orders`, obten el número de órdenes que hay por cada estado.
+7. Dentro de la tabla `orderdetails`, obten el total de cada orden.
 
-8. Dentro de la tabla `orderdetails`, obten el total de cada orden.
+8. Dentro de la tabla `orders` obten el número de órdenes por año.
 
-9. Dentro de la tabla `orders` obten el número de órdenes por año.
+9. Obten el apellido y nombre de los empleados cuya oficina está ubicada en `USA`.
 
-10. Obten el apellido y nombre de los empleados cuya oficina está ubicada en `USA`.
+10. Obten el número de cliente, número de cheque y cantidad del cliente que ha realizado el pago más alto.
 
-11. Obten el número de cliente, número de cheque y cantidad del cliente que ha realizado el pago más alto.
+11. Obten el número de cliente, número de cheque y cantidad de aquellos clientes cuyo pago es más alto que el promedio.
 
-12. Obten el número de cliente, número de cheque y cantidad de aquellos clientes cuyo pago es más alto que el promedio.
+12. Obten el nombre de aquellos clientes que no han hecho ninguna orden.
 
-13. Obten el nombre de aquellos clientes que no han hecho ninguna orden.
+13. Obten el máximo, mínimo y promedio del número de productos en las órdenes de venta.
 
-14. Obten el máximo, mínimo y promedio del número de productos en las órdenes de venta.
+14. Dentro de la tabla `orders`, obten el número de órdenes que hay por cada estado.
 
 **¡¡¡MUCHA SUERTE!!!**
 
