@@ -38,7 +38,7 @@ Usando la base de datos `cursos`, escribe consultas que permitan responder las s
    ```sql
    SELECT *
    FROM puesto
-   WHERE salario = 10000;
+   WHERE salario > 10000;
    ```
    ![imagen](imagenes/s1wr22.png)
    
@@ -48,7 +48,7 @@ Usando la base de datos `cursos`, escribe consultas que permitan responder las s
    SELECT *
    FROM articulo
    WHERE precio > 1000
-     AND iv > 100;
+     AND iva > 100;
    ```
    ![imagen](imagenes/s1wr23.png) 
    
