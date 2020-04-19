@@ -83,7 +83,7 @@
 
    ```sql
    SELECT *
-   FROM ejemplo
+   FROM empleado
    WHERE id_puesto IN (100,200);
    ```
 
