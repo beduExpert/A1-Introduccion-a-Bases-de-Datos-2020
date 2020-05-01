@@ -19,7 +19,7 @@ Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo pro
 <details><summary>Solución</summary>
 <p>
 
-- Filtramos las propeidades con `$match`
+- Filtramos las propiedades con `$match`
 
    ```json
    {
@@ -40,7 +40,7 @@ Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo pro
 
    ![imagen](imagenes/s6r12.png)
    
-- Agrupamos la suma de recamaras y del total agrupando en este caso por país. Para ello usamos `$group`.
+- Agrupamos la suma de recámaras y del total agrupando en este caso por país. Para ello usamos `$group`.
 
    ```json
    {
@@ -56,7 +56,7 @@ Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo pro
    
    ![imagen](imagenes/s6r13.png)
    
-- Agregamos el campo costo promedio para cada pas con `$addFields`, creamos un alias al `_id` para hacer más claro el valor que guarda.
+- Agregamos el campo costo promedio para cada país con `$addFields`, creamos un alias al `_id` para hacer más claro el valor que guarda.
 
    ```json
    {
