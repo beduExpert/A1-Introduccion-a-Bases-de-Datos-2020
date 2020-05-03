@@ -16,7 +16,7 @@
 
 1. La notación punto es una técnica mediante la cual los lenguajes de programación orientados a objetos permiten acceder a los atributos de un determinado objeto. Por ejemplo, en la base de datos `sample_airbnb.listingsAndReviews` se tiene un campo llamado `address` que a su vez incluye un atributo llamado `country` para indicar el país de dicha propiedad.
 
-Con esto podemos busar todas las propiedades que se encuentren en España usando el siguiente filtro.
+Con esto podemos buscar todas las propiedades que se encuentren en España usando el siguiente filtro.
 
    ```json
    {"address.country": "Spain"}
