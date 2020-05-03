@@ -13,7 +13,7 @@
 
 1. Usando como base el archivo `movies.dat`, limpiarlo e importar los datos en la tabla `movies` creada en el Reto 1.
 
-1. Usando como base el archivi `ratings.dat`, limpiarlo e importar los datos en la tabla `ratings` creada en el Reto 2.
+1. Usando como base el archivo `ratings.dat`, limpiarlo e importar los datos en la tabla `ratings` creada en el Reto 2.
 
 <details><summary>Solución</summary>
 <p>
