@@ -12,11 +12,11 @@
 
 ### 3. Desarrollo :rocket:
 
-1. Descarga la fuente de datos de los locales de Starbucks:
+1. Descarga la fuente de datos sobre la pandemia del 2009 (H1N1):
 
    <a href="datos/h1n1.csv" target="_blank">`Pandemic (H1N1) 2009.csv`</a>
 
-1. Analiza los datos, limpai los datos en caso de ser necesario.
+1. Analiza los datos, limpia los datos en caso de ser necesario.
 
 1. Elige __MySQL__ o __MongoDB__ y crea una base de datos para el conjunto de datos del reto.
 
