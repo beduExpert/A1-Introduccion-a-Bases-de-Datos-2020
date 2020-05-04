@@ -30,9 +30,9 @@ Se deberá de crear colecciones e importar los datos de los archivos `movies.csv
    Esto indica que los resultados se ordenen en base al campo `id` de forma ascendente, dar clic en el botón `FIND` o presionar la tecla `ENTER` para actualizar la lista de registros.
    ![Documentos de movies ordenados](imagenes/documentos-movies-ordenados.png)
 
-   Donde el primer documento está vació, así que se procede a eliminar este documento en blanco presionando el icono de bote de basura para el primer documento.
+   Donde el primer documento está vacío, así que se procede a eliminar este documento en blanco presionando el ícono de bote de basura para el primer documento.
 
-   Después entonces el total de documentos es 3883 como era de esperar.
+   Después el total de documentos es 3883 como era de esperar.
 
 1. Crear la colección `ratings`
    ![Colección movies](imagenes/colecciones-02.png)
@@ -53,11 +53,11 @@ Se deberá de crear colecciones e importar los datos de los archivos `movies.csv
    ```json
    {userid:1}
    ```
-   Esto indica que los resultados se ordenen en base al campo `userid` de forma ascendente, dar click en el botón `FIND` o presionar la tecla `ENTER` para actualizar la lista de registros.
+   Esto indica que los resultados se ordenan con base en el campo `userid` de forma ascendente. Dar click en el botón `FIND` o presionar la tecla `ENTER` para actualizar la lista de registros.
 
    Se observa que los primeros documentos están vacíos, así que se procede a eliminarlos.
 
    ![Documentos en ratings final](imagenes/documentos-ratings.png)
-   Después entonces el total de documentos es 1000209 como era de esperar. 
+   Después el total de documentos es 1000209 como era de esperar. 
 
 [`Anterior`](../Ejemplo-06/Readme.md) | [`Siguiente`](../Readme.md#3-proyecto-hammer)
