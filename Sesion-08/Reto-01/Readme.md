@@ -16,7 +16,7 @@
 
    <a href="datos/directory.csv" target="_blank">`directory.csv`</a>
 
-1. Analiza los datos, limpai los datos en caso de ser necesario.
+1. Analiza los datos, limpia los datos en caso de ser necesario.
 
 1. Elige __MySQL__ o __MongoDB__ y crea una base de datos para el conjunto de datos del reto.
 
