@@ -34,11 +34,13 @@
 1. Lo que sigue es iniciar una conexión al cluster de MongoDB en la nube, esto se realiza dando click en el botón __CONNECT__
 
   ![Conectando al servidor MongoDB](imagenes/conectando-a-mongodb.png)
-  MongoDB Atlas hace una validación y solicita definir que dirección IP se va a conectar a el servidor y que usuario.
 
-  Así que dá click en el botón __Add Your Current IP Address__
+  MongoDB Atlas hace una validación y solicita definir qué dirección IP se va a conectar al servidor y qué usuario.
+
+  Así que da click en el botón __Add Your Current IP Address__
 
   ![Agregando ip](imagenes/agregando-ip.png)
+
   Se sugiere etiquetar la dirección IP, para llevar un registro de a quién corresponde cada IP y más adelante poder eliminar las direcciones que ya no sean necesarias.
 
   Después usar los siguientes datos para crear el usuario de acceso:
@@ -47,9 +49,10 @@
   - Password: introabd1234
 
   ![Creando usuario](imagenes/creando-usuario.png)
+
   Y presionar en el botón __Create MongoDB User__
 
-  Y posteriormente se dá click en el botón __Choose a connection method__ donde se seleccionará __Compass__ para continuar en el siguiente ejemplo.
+  Y posteriormente se da click en el botón __Choose a connection method__ donde se seleccionará __Compass__ para continuar en el siguiente ejemplo.
 
   ![Seleccionando Compass como método de conexión](imagenes/seleccionando-compass.png)
 
@@ -61,11 +64,12 @@
 
    ![Eligiendo Compass instalado](imagenes/compass-instalado.png)
    
-   En el punto 1 la opción actual es la correcta y en el punto 2 se dá click en el botón __Copy__
+   En el punto 1 la opción actual es la correcta y en el punto 2 se da click en el botón __Copy__
 
 1. Si __MongoDB Compass__ está abierto es necesario cerrarlo y abrirlo nuevamente, al momento de iniciar, __Compass__ detecta la información copiada al portapapeles y pregunta si se desea usar la información para realizar la conexión:
 
    ![Iniciando Compass](imagenes/iniciando-compass.png)
+
    Dar click en el botón __Yes__ y __Compass__ en automático llena todos los campos de conexión, menos la clave, así que se teclea la clave y se da click en el botón __CONNECT__.
 
    ![Datos de conexión](imagenes/datos-de-conexion.png)
@@ -76,6 +80,6 @@
    __Nota:__ No usar este usuario para colocar información sensible.
 
    ![Compass conectado a MongoDB Atlas](imagenes/compass-conectado.png)
-   En este punto ya __Compass__ ya estará conectado al __Cluster0__ que como se puede ver en la columna izquierda consta de 3 instancias de MongoDB corriendo en paralelo lo que se puede escalar según las necesidades.
+   En este punto __Compass__ ya estará conectado al __Cluster0__ que como se puede ver en la columna izquierda consta de 3 instancias de MongoDB corriendo en paralelo, lo que se puede escalar según las necesidades.
 
 [`Anterior`](../Readme.md#configuración-de-mongodb-en-la-nube) | [`Siguiente`](../Readme.md#operaciones-con-bases-de-datos-1)   
