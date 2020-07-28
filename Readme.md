@@ -24,6 +24,9 @@ principal objetivo conocer los principales conceptos que ahondan las bases de da
  ### Bases de Datos  
  https://drive.google.com/open?id=18kYvknY5n087piu3vrz9mnA-4Exif0gK
 
+ ### Instalaciones
+https://bedu.org/blog/tecnologia/instalacion-base-de-datos/
+
 [`Siguiente`](Sesion-01/Readme.md)
 
 </div>
