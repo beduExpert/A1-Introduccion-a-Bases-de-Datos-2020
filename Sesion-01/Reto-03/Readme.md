@@ -23,7 +23,7 @@ Para contestar a esta pregunta, basta con ordenar las calificaciones del alumno 
 
    ```sql
    SELECT *
-   FROM tienda
+   FROM puesto
    ORDER BY salario DESC
    LIMIT 5;
    ```
