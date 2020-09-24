@@ -54,7 +54,6 @@ De la misma forma en que __SQL__ incluye distintos tipos de *join*. En __MongoDB
 ```
 
 > *Explicar la sintaxis de lookup y mostrar ejemplos. Hacer énfasis en que los resultados se guardan como arreglo y no como colección.*
-> *__Al finalizar la sesión, es importante pedirle a los alumnos que eliminen las vistas generadas, con el fin de no saturar la base de datos__*
 
 - [**`EJEMPLO 2`**](Ejemplo-02/Readme.md)
 - [**`RETO 2`**](Reto-02/Readme.md)	
@@ -67,7 +66,8 @@ En __MongoDB__ también es posible generar vistas que almacenen el resultado de 
 
 Una vez creada la vista, podemos consultarla como a cualquier otra colección.
 
-> *Explicar la pantalla de __Compass__ en la que se generan las vistas.*
+> *Explicar la pantalla de __Compass__ en la que se generan las vistas.*   
+> *__Al finalizar la sesión, es importante pedirle a los alumnos que eliminen las vistas generadas, con el fin de no saturar la base de datos__*
 
 - [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 - [**`RETO 3`**](Reto-03/Readme.md)
