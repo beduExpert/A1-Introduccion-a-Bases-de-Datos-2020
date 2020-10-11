@@ -6,7 +6,7 @@
 
 ### 1. Objetivos :dart:
 
-- Continuar con el planteamiento inicial del proyecto.
+- Encontrar la utilidad de la búsqueda de patrones y agrupamiento de los datos para tu proyecto.
 
 ### 2. Requisitos :clipboard:
 
