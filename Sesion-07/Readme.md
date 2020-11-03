@@ -7,9 +7,9 @@
 
 ### 1. Objetivos :dart: 
 
-- Repasar qué es una agregación y capa
-- Analizar las agregaciones de agrupamiento
-- Generar vistas que almacenen el resultado de una agregación
+- Instalar localmente un servidor de base de datos para MySQL.  
+- Instalar localmente un servidor de base de datos para MongoDB.  
+
 
 ### 2. Contenido :blue_book:
 
